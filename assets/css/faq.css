@@ -37,15 +37,21 @@
   transition: all ease-in-out 300ms;
 }
 .accordion .accordion-button::after {
-  background-image: url("../images/common/plus.svg");
+  background-image: url("../images/plus-black-symbol.png");
   background-position: bottom !important;
   transform: scale(3) translateY(3px);
   background-size: 100% !important;
+  width: 6px;
+    height: 6px;
+    position: relative;
+    right: 16px;
+    bottom: 12px;
 }
 .accordion .accordion-button:not(.collapsed)::after {
-  background-image: url("../images/common/minus.svg");
+  background-image: url("../images/minus.png");
   background-position: center;
   transform: scale(3);
+  width: 8px;
 }
 .accordion .accordion-button:not(.collapsed) {
   padding-bottom: 12px !important;
@@ -145,7 +151,7 @@ input:focus-visible {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  border-top: 3px solid #00a4ff;
+  border-top: 3px solid white;
 }
 .form_box {
   padding: 0px 76px 75px 76px;

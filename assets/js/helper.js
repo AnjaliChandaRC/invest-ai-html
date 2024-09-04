@@ -1,11 +1,10 @@
-// ================ REVIEW SLIDER CARD DATA
 const reviews = [
   {
     title: "Michael Chen",
     invested: 350,
     profit: 4891,
     description:
-      "The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly. My account manager was always there to support me every step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_green fw-medium'>Show More</a>",
+      "The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly. My account manager was always there to support me every step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_cyan_blue fw-medium'>Show More</a>",
     imageUrl: "./assets/images/arbitrage-winner/michael-chen-profile.webp",
   },
   {

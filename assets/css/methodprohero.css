@@ -62,13 +62,13 @@
 }
 
 .text_shadow_white {
-  text-shadow: 0px 1.33px 33.3px #ffffff;
+  text-shadow: 0px 1.33px 33.3px var(--cyan-blue);
 }
 
 .text_shadow_blue {
-  text-shadow: 0px 4px 4px #00000040, 0px 0px 20px #00bfff, 0px 0px 20px #00bfff,
-    0px 0px 0px #00bfff, 0px 0px 0px #00bfff, 0px 1px 0px #00bfff,
-    0px 1px 0px #00bfff;
+  text-shadow: 0px 4px 4px var(--cyan-blue), 0px 0px 20px var(--cyan-blue), 0px 0px 20px var(--cyan-blue),
+    0px 0px 0px var(--cyan-blue), 0px 0px 0px var(--cyan-blue), 0px 1px 0px var(--cyan-blue),
+    0px 1px 0px var(--cyan-blue);
 }
 
 .text_bottom_line {
@@ -87,12 +87,20 @@
 }
 
 .video_shadow {
-  box-shadow: 0px 4px 25px 0px var(--bluish-cyan);
+  box-shadow: 0px 4px 25px 0px var(--cyan-blue);
 }
 
 .border_white_gray {
   border: 3px solid var(--white-gray);
   border-radius: 24px;
+}
+.circle {
+  width: 20.32px;
+  height: 20px;
+  border-radius: 50px;
+  justify-content: center;
+  display: flex;
+  background-color: var(--cyan-blue);
 }
 
 .border_white {
@@ -106,7 +114,15 @@
 .access_button {
   padding: 16.5px 28px;
 }
-
+.mt-20{
+  margin-top: 20px;
+}
+.dots {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
 .access_button:hover {
   background-color: var(--bluish-cyan);
 }
