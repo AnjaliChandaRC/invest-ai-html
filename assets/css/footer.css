@@ -62,6 +62,9 @@ input::-webkit-inner-spin-button {
 .fs_footer_btn {
   font-size: 48px;
 }
+.p-bottom-24{
+  padding-bottom: 24px;
+}
 /* FOOTER CSS START HERE */
 .footer_logo {
   max-width: 281px;
@@ -111,8 +114,22 @@ input::-webkit-inner-spin-button {
   .fs_footer_btn {
     font-size: 24px;
   }
+  .mb-md-5{
+    margin-bottom: 0;
+  }
+  .padding-b-5{
+    padding-bottom: 0;
+  }
 }
+@media (max-width: 767.98px) {
 
+  .padding-b-5 {
+    padding-bottom: 0;
+  }
+            .mb-md-5{
+              margin-bottom: 0;
+            }
+}
 @media (max-width: 575.98px) {
   .footer_logo {
     max-width: 230px;

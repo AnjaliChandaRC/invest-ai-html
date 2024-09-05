@@ -3,8 +3,8 @@
   padding-top: 123px;
 }
 
-.mb_115 {
-  margin-bottom: 115px;
+.mb_123 {
+  margin-bottom: 123px;
 }
 
 .accordion {
@@ -66,7 +66,6 @@
   background-position: center;
   transform: scale(3);
   width: 8px;
-  top: 0;
 }
 
 .accordion .accordion-button:not(.collapsed) {
@@ -248,7 +247,7 @@ input:focus-visible {
 }
 
 .mb_150_lg {
-  margin-bottom: 150px;
+  margin-bottom: 123px;
 }
 
 @media (max-width: 1280px) {
@@ -352,7 +351,7 @@ input:focus-visible {
   }
 
   .pt_80 {
-    padding-top: 80px;
+    padding-top: 50px;
   }
 
   .form_input input {
@@ -365,10 +364,13 @@ input:focus-visible {
 
   .accordion .accordion-button::after {
     transform: scale(2);
+    margin-top: 17px;
+    margin-right: -15px;
   }
 
   .accordion .accordion-button:not(.collapsed)::after {
     transform: scale(2);
+    margin-right: -15px;
   }
 
   .gap_12 {
@@ -384,7 +386,7 @@ input:focus-visible {
   }
 
   .mb_100_md {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .forbes_image {
@@ -423,7 +425,7 @@ input:focus-visible {
   }
 
   .form_box {
-    padding: 32px 14px;
+    padding: 32px 12px;
   }
 
   .form_spacing {

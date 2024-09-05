@@ -6,7 +6,7 @@
   max-width: 690px;
 }
 .reviewSwiper {
-  padding: 74px 20px;
+  padding: 74px  20px 40px 20px;
 }
 
 /* slider section  */
@@ -53,6 +53,9 @@
 .px_12 {
   padding-left: 12px;
   padding-right: 12px;
+}
+.max-w-1920{
+  max-width: 1920px;
 }
 /* ============ BACK TO TOP CSS =========== */
 
@@ -107,7 +110,7 @@
 }
 @media (max-width: 575.98px) {
   .reviewSwiper {
-    padding: 40px 12px;
+    padding: 40px 12px 0px 12px;
   }
   .coutdown_digit_box {
     height: 50px;
