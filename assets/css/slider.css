@@ -6,7 +6,7 @@
   max-width: 690px;
 }
 .reviewSwiper {
-  padding: 74px  20px 40px 20px;
+  padding: 40px  20px 56px 20px;
 }
 
 /* slider section  */
@@ -132,5 +132,8 @@
   }
   .slider_box {
     min-height: 260px;
+  }
+  .sm-mt-22{
+    margin-top: -22px;
   }
 }

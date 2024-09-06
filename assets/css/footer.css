@@ -30,7 +30,7 @@ input::-webkit-inner-spin-button {
 .add_comment_input_parent {
   border: 1px solid #00000075;
   border-radius: 114px;
-  padding: 23px 34px;
+  padding: 28px 32px;
 }
 .add_comment_input:focus {
   outline: none !important;
