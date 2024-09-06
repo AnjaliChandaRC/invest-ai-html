@@ -2,153 +2,208 @@
 .transition_03 {
   transition: 0.3s ease all;
 }
+
 /* REMOVE ARROW INPUT TYPE NUMBER */
 .remove_input_number_arrow::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
 .remove_input_number_arrow[type="number"] {
   appearance: textfield;
   -moz-appearance: textfield;
 }
+
 /* COMMENT CSS START HERE */
 .comment_sort_by {
   border: 2px solid #4cc973;
   border-radius: 3px;
   padding: 8px 18px;
 }
+
 .method_pro_comment_sort_by {
   border: 2px solid var(--cyan-blue);
   border-radius: 3px;
   padding: 8px 18px;
 }
+
 .user_profile {
   max-width: 91px;
   border: 1px solid #00000052;
 }
+
 .add_comment_input_parent {
   border: 1px solid #00000075;
   border-radius: 114px;
   padding: 28px 32px;
 }
+
 .add_comment_input:focus {
   outline: none !important;
 }
+
 .add_comment_input::placeholder {
   color: #020507;
 }
+
 .send_message_arrow {
   max-width: 42px;
   pointer-events: none;
 }
+
 .replay_parent {
   border-left: 1px solid #00000026;
 }
+
 .replay_user_profile {
   max-width: 63px;
   border: 0.7px solid #00000052;
 }
+
 .show_more_comments_parent {
   padding: 10px;
   max-width: 611px;
+  border: 2px solid transparent;
+  transition: all 300ms linear;
 }
+
+.show_more_comments_parent:hover {
+  background-color: transparent;
+  border: 2px solid var(--cyan-blue);
+  box-shadow: 0px 4px 4px var(--cyan-blue), 0px 0px 20px var(--cyan-blue), 0px 0px 20px var(--cyan-blue),
+    0px 0px 0px var(--cyan-blue), 0px 0px 0px var(--cyan-blue), 0px 1px 0px var(--cyan-blue),
+    0px 1px 0px var(--cyan-blue);
+ 
+}
+.show-more:hover{
+  color: var(--rich-black) !important;
+}
+
 .comment_replay_like_buttons:hover {
   opacity: 0.7;
 }
+
 .toastify {
   max-width: 100%;
 }
+
 .fs_footer_btn {
   font-size: 48px;
 }
-.p-bottom-24{
+
+.p-bottom-24 {
   padding-bottom: 24px;
 }
+
 /* FOOTER CSS START HERE */
 .footer_logo {
   max-width: 281px;
 }
+
 .footer_border_line {
   background: white;
   height: 1px;
   width: 100%;
 }
-.footer_para{
+
+.footer_para {
   max-width: 1138px;
 }
-.method_pro_footer_logo{
+
+.method_pro_footer_logo {
   width: 82px;
   height: 82px;
 }
-.max_w_261{
+
+.max_w_261 {
   max-width: 261px;
 }
-.white_text_shadow{
+
+.white_text_shadow {
   text-shadow: 0px 1px 25px #FFFFFF;
 }
+
 @media (max-width: 991.98px) {
   .user_profile {
     max-width: 65px;
   }
+
   .add_comment_input_parent {
     padding: 15px 20px;
   }
+
   .send_message_arrow {
     max-width: 35px;
   }
+
   .fs_footer_btn {
     font-size: 32px;
   }
 }
+
 @media (max-width: 767.98px) {
   .user_profile {
     max-width: 60px;
   }
+
   .send_message_arrow {
     max-width: 30px;
   }
+
   .replay_user_profile {
     max-width: 50px;
   }
+
   .fs_footer_btn {
     font-size: 24px;
   }
-  .mb-md-5{
+
+  .mb-md-5 {
     margin-bottom: 0;
   }
-  .padding-b-5{
+
+  .padding-b-5 {
     padding-bottom: 0;
   }
 }
+
 @media (max-width: 767.98px) {
 
   .padding-b-5 {
     padding-bottom: 0;
   }
-            .mb-md-5{
-              margin-bottom: 0;
-            }
+
+  .mb-md-5 {
+    margin-bottom: 0;
+  }
 }
+
 @media (max-width: 575.98px) {
   .footer_logo {
     max-width: 230px;
   }
+
   .user_profile {
     max-width: 40px;
   }
+
   .add_comment_input_parent {
     padding: 8.5px 15px;
   }
+
   .send_message_arrow {
     max-width: 20px;
   }
+
   .replay_user_profile {
     max-width: 30px;
   }
+
   .toastify {
     margin-left: 20px;
   }
+
   .fs_footer_btn {
     font-size: 18px;
   }

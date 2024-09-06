@@ -104,6 +104,9 @@
   .counter {
     bottom: 20px;
   }
+  .mt-md-18{
+    margin-top: 18px;
+  }
 }
 @media (max-width: 575.9px) {
   .video-container {
