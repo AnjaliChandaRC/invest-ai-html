@@ -105,6 +105,9 @@
 .ps-w-5{
   padding: 5px;
 }
+.pb-50{
+  padding-bottom: 50px;
+}
 
 .border_white {
   border-right: 2px solid white;
