@@ -133,4 +133,7 @@
   .slider_box {
     min-height: 260px;
   }
+  .sm-mt-22{
+    margin-top: -22px;
+  }
 }
