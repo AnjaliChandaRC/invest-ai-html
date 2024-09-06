@@ -76,7 +76,7 @@ input::-webkit-inner-spin-button {
     0px 1px 0px var(--cyan-blue);
  
 }
-.show-more:hover{
+.show_more_comments_parent .show-more:hover{
   color: var(--rich-black) !important;
 }
 
