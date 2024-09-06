@@ -152,6 +152,7 @@
 
 .get_start_button {
   padding: 10.6px 24px;
+  margin-top: 20px;
 }
 
 .get_start_button:hover {

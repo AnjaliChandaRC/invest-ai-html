@@ -205,7 +205,6 @@ input:focus-visible {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  border-top: 3px solid white;
 }
 
 .form_box {
@@ -432,6 +431,10 @@ input:focus-visible {
   .forbes_section_padding {
     padding: 60px 0;
   }
+        .accordion .accordion-header::before {
+          top: 14px;
+          right: 14px;
+        }
 }
 
 @media (max-width: 575.58px) {
@@ -475,4 +478,8 @@ input:focus-visible {
     width: 304px;
     height: 60px;
   }
+    /* .accordion .accordion-header::before {
+      top: 14px;
+      right: 14px;
+    } */
 }
