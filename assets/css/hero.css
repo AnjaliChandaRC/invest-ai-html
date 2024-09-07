@@ -799,208 +799,36 @@ input::-webkit-inner-spin-button {
     margin-top: 4px;
   }
 
-  @media (max-width:991.98px) {
-    .mt_button_icon {
-      margin-top: -3px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .form_input {
-      padding: 20px;
-    }
-
-    .pt_80 {
-      padding-top: 80px;
-    }
-
-    .form_input input {
-      min-height: 40px;
-    }
-
-    .form_box {
-      padding: 40px;
-    }
-
-    .accordion .accordion-button::after {
-      transform: scale(2);
-      margin-top: 17px;
-      margin-right: -15px;
-    }
-
-    .accordion .accordion-button:not(.collapsed)::after {
-      transform: scale(2);
-      margin-right: -15px;
-    }
-
-    .gap_12 {
-      gap: 12px;
-    }
-
-    .only_step {
-      max-width: 109px;
-    }
-
-    .sign_up_btn {
-      margin-top: 20px;
-    }
-
-    .mb_100_md {
-      margin-bottom: 80px;
-    }
-
-    .forbes_image {
-      width: 96px;
-      height: 80px;
-    }
-
-    .nbc_image {
-      width: 84px;
-      height: 80px;
-    }
-
-    .fox_news_image {
-      width: 120px;
-      height: 80px;
-    }
-
-    .wall_street_journal_image {
-      width: 159px;
-      height: 80px;
-    }
-
-    .the_new_york_times_image {
-      width: 344px;
-      height: 80px;
-    }
-
-    .forbes_section_padding {
-      padding: 60px 0;
-    }
-
-    .accordion .accordion-header::before {
-      top: 14px;
-      right: 14px;
-    }
-
-    .padding-b-5 {
-      padding-bottom: 0;
-    }
-
-    .mb-md-5 {
-      margin-bottom: 0;
-    }
-
-    .user_profile {
-      max-width: 60px;
-    }
-
-    .send_message_arrow {
-      max-width: 30px;
-    }
-
-    .replay_user_profile {
-      max-width: 50px;
-    }
-
-    .fs_footer_btn {
-      font-size: 24px;
-    }
-
-    .mb-md-5 {
-      margin-bottom: 0;
-    }
-
-    .padding-b-5 {
-      padding-bottom: 0;
-    }
-
-    .live_position {
-      top: 10px;
-      right: 10px;
-    }
-
-    .live_position img {
-      max-width: 60px;
-      object-fit: cover;
-    }
-
-    .story_video_parent {
-      padding-bottom: 48px;
-    }
-
-    .video-container {
-      border-radius: 24px;
-    }
-
-    .counter {
-      bottom: 20px;
-    }
-
-    .mt-md-18 {
-      margin-top: 18px;
-    }
-
-    .live_dot {
-      width: 16px;
-      height: 16px;
-    }
-
-    .px-md-12 {
-      padding-left: 12px;
-      padding-right: 12px;
-    }
-
-    .back_top_top {
-      width: 35px;
-      height: 35px;
-    }
-
-    .back_top_top img {
-      width: 45px;
-    }
-
-    .sponsor_slide {
-      padding-bottom: 32px;
-    }
-  }
-
-  @media (max-width: 639.98px) {
-    .reviewSwiper {
-      padding: 50px 40px;
-    }
-  }
-
+  
   .form_input {
     padding: 20px;
   }
-
+  
   .form_spacing {
     padding-top: 32px;
   }
-
+  
   .form_content_spacing {
     padding-top: 75px;
   }
-
+  
   .goggle {
     max-width: 90px;
   }
-
+  
   .investing {
     max-width: 120px;
   }
-
+  
   .forbes {
     max-width: 96px;
   }
-
+  
   .forbes_section_padding {
     padding: 120px 0;
   }
 }
-
-@media (max-width: 1024px) {
+@media (max-width: 1024.98px) {
   .form_box {
     padding: 60px;
   }
@@ -1026,7 +854,7 @@ input::-webkit-inner-spin-button {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991.98px) {
   .faq_answers {
     padding-left: 20px;
   }
@@ -1079,9 +907,12 @@ input::-webkit-inner-spin-button {
   .fs_footer_btn {
     font-size: 32px;
   }
+     .mt_button_icon {
+       margin-top: -3px;
+     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .pt_80 {
     padding-top: 50px;
   }
@@ -1231,6 +1062,9 @@ input::-webkit-inner-spin-button {
   .sponsor_slide {
     padding-bottom: 32px;
   }
+    .form_input {
+      padding: 20px;
+    }
 }
 
 @media (max-width: 639.98px) {
@@ -1385,7 +1219,7 @@ input::-webkit-inner-spin-button {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 375.98px) {
   .flex_xsm_col {
     flex-direction: column !important;
   }
