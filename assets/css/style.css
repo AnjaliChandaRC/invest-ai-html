@@ -51,13 +51,45 @@ body {
   --light-gray: #29333a;
   --light-black: #000c03;
   --rich-black: #020507;
-  --cyan-blue: pink;
-  --bluish-cyan: #00a4ff;
+  --gradient: linear-gradient(180deg, #56CCF2 0%, #2F80ED 100%),
+    linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
+  --bluish-cyan: #36cef0;
   --green: #01d61b;
   --dark-green: #3bff00;
   --white-gray: #d4dbdf;
   --dark-blue: "#15161b";
   --light-white: "#f6f6f6";
+  --orange: #FF8F1D;
+  --text-gradient: linear-gradient(0deg, #010101, #010101),
+    linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
+  --text-shadow: linear-gradient(0deg, #010101, #010101),
+    linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
+}
+
+.root {
+  background: linear-gradient(133.83deg,
+      #00B9FF 3.77%,
+      #6F69F2 81.07%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-text {
+  background-color: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: var(--text-shadow);
+  /* Apply shadow */
+}
+
+.bg_cyan_blue {
+  background: var(--gradient);
+  background-blend-mode: overlay;
 }
 
 /* font sizes  */
@@ -142,16 +174,17 @@ body {
 }
 
 .text_bright_gray {
-  color: var(--bright-gray);
+  color: var(--gradient);
 }
 
 .bg_green {
   background: var(--green);
 }
 
+/* 
 .bg_cyan_blue {
   background-color: var(--cyan-blue);
-}
+} */
 
 .text_cyan_blue {
   color: var(--cyan-blue);
@@ -163,6 +196,10 @@ body {
 
 .bg_light_white {
   background-color: var(--light-white);
+}
+
+.text_orange {
+  color: var(--orange);
 }
 
 /* Font Weight */
