@@ -466,14 +466,13 @@
   padding: 20px !important;
   transition: all ease-in-out 300ms;
 }
-
 .accordion .accordion-button::after {
   background-image: url("../images/plus-black-symbol.png");
   background-position: bottom !important;
   transform: scale(3) translateY(3px);
   background-size: 100% !important;
-  width: 6px;
-  height: 6px;
+  width: 20px;
+  height: 20px;
   position: relative;
   right: 16px;
   bottom: 12px;
@@ -496,12 +495,11 @@
 
 
 .accordion .accordion-button:not(.collapsed)::after {
-  background-image: url("../images/minus.png");
+  background-image: url("../images/minus-img.png");
   background-position: center;
   transform: scale(3);
-  width: 8px;
+  width: 20px;
 }
-
 .accordion .accordion-button:not(.collapsed) {
   padding-bottom: 12px !important;
 }
@@ -710,7 +708,7 @@ input::-webkit-inner-spin-button {
 
 .method_pro_comment_sort_by {
   border: 2px solid var(--cyan-blue);
-  border-radius: 3px;
+  border-radius: 26px;
   padding: 8px 18px;
 }
 
@@ -722,7 +720,7 @@ input::-webkit-inner-spin-button {
 .add_comment_input_parent {
   border: 1px solid #00000075;
   border-radius: 114px;
-  padding: 28px 32px;
+  padding: 24px 28px;
 }
 
 .add_comment_input:focus {
