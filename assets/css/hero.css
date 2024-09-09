@@ -43,9 +43,11 @@
 .success_story_paragraph {
   max-width: 796px;
 }
-.border-r-20{
+
+.border-r-20 {
   border-radius: 20px;
 }
+
 .story_video {
   border-radius: 8px !important;
   aspect-ratio: 16/9;
@@ -150,6 +152,9 @@
 .modal {
   background-color: #00000080 !important;
 }
+.gap-20{
+  gap: 20px !important;
+}
 
 .mt_button_icon {
   margin-top: -6px;
@@ -171,14 +176,15 @@
 .text_shadow_white {
   text-shadow: 0px 1.33px 33.3px var(--cyan-blue);
 }
-.white_box{
+
+.white_box {
   border: 1px solid #0101011A;
   background-color: #FFFFFF;
   border-radius: 13px;
+  width: 395px;
+  min-height: 177px;
 }
-.logos{
- padding: 67px 44px;
-}
+
 .text_shadow_blue {
   text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px, rgb(0, 191, 255) 0px 0px 20px, rgb(0, 191, 255) 0px 0px 20px, rgb(0, 191, 255) 0px 0px 0px, rgb(0, 191, 255) 0px 0px 0px, rgb(0, 191, 255) 0px 1px 0px, rgb(0, 191, 255) 0px 1px 0px;
 }
@@ -370,7 +376,12 @@
 .sponsor_slide .slick-track {
   display: flex !important;
   align-items: center !important;
-}
+
+  }
+    .slick-track{
+      display: flex;
+      gap: 20px;
+    }
 
 .slider_box:hover {
   border: 1px solid transparent;
@@ -646,27 +657,32 @@ input:focus-visible {
 .forbes_image {
   width: 308px;
   height: 44px;
+  margin: 67px 44px;
   ;
 }
 
 .nbc_image {
   width: 208px;
   height: 124px;
+  margin: 27px 93px
 }
 
 .fox_news_image {
   width: 327px;
   height: 104px;
+  margin: 37px 34px;
 }
 
 .wall_street_journal_image {
   width: 255px;
   height: 93px;
+  margin: 42px 70px;
 }
 
 .the_new_york_times_image {
-  width: 414px;
-  height: 112px;
+  width: 342px;
+  height: 96px;
+  margin: 20px 27px;
 }
 
 .mb_150_lg {
@@ -793,8 +809,115 @@ input::-webkit-inner-spin-button {
 .white_text_shadow {
   text-shadow: 0px 1px 25px #FFFFFF;
 }
-.white_box_shadow{
-box-shadow: 0px 0px 25px 0px #0303031F;
+
+.white_box_shadow {
+  box-shadow: 0px 0px 25px 0px #0303031F;
+}
+/* ----------------sonu.css --------------------*/
+.pt-117 {
+  padding-top: 117px;
+}
+
+.question_mark {
+  max-width: 337px;
+  height: 414px;
+}
+
+.py-160 {
+  padding-top: 160px;
+  padding-bottom: 120px;
+}
+
+.max-w-180 {
+  max-width: 180px;
+  margin: auto;
+}
+
+.live_card {
+  position: relative;
+  width: 354px;
+  height: 240px;
+  padding: 36px 57px;
+
+}
+
+.live_card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background: linear-gradient(115.61deg, #6E5DF6 -1.55%, #00FFE1 118.95%);
+  ;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.live_card:hover::after {
+  background: #00f3b91a;
+  background: linear-gradient(103.58deg, #0078ff 6.83%, #37eebc 109.09%);
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.live_card:hover {
+  background: linear-gradient(115.61deg, #6E5DF6 -1.55%, #00FFE1 118.95%);
+  border-radius: 10px;
+
+}
+
+.live_card:hover p {
+  color: var(--white-gray);
+
+}
+
+.live_card:hover {
+  background-color: white !important;
+}
+
+.sign_up_btn {
+  color: white;
+}
+
+.sign_up_btn:hover {
+  color: black !important;
+}
+
+.live_circle {
+
+  width: 38px !important;
+  height: 38px !important;
+  border-radius: 50px;
+  justify-content: center;
+  display: flex;
+  background: linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
+
+}
+
+.live_card:hover .live_circle svg path {
+  stroke: #00BCFF;
+}
+
+.live_card:hover .live_circle {
+  background: white;
 }
 @keyframes back-to-top {
   0% {
@@ -878,7 +1001,7 @@ box-shadow: 0px 0px 25px 0px #0303031F;
   }
 
   .forbes_image {
-    width: 106px;
+    width: px;
     height: 100px;
   }
 

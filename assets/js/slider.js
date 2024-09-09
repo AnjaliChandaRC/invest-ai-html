@@ -1,7 +1,7 @@
 // REVIEW SLIDER SETTING START HERE
 var swiper = new Swiper(".reviewSwiper", {
   centeredSlides: true,
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 30,
   loop: true,
   autoplay: {
@@ -9,8 +9,12 @@ var swiper = new Swiper(".reviewSwiper", {
     disableOnInteraction: false,
   },
   breakpoints: {
-    576: {
+    360: {
       slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    576: {
+      slidesPerView: 1.3,
       spaceBetween: 20,
     },
     640: {
@@ -19,27 +23,27 @@ var swiper = new Swiper(".reviewSwiper", {
     },
     1024: {
       slidesPerView: 2,
-      spaceBetween: 30,
+      spaceBetween: 24,
     },
     1200: {
       slidesPerView: 3,
-      spaceBetween: 30,
+      spaceBetween: 24,
     },
     1440: {
-      slidesPerView: 3.2,
-      spaceBetween: 30,
+      slidesPerView: 2.2,
+      spaceBetween: 24,
     },
     1600: {
-      slidesPerView: 4,
-      spaceBetween: 30,
+      slidesPerView: 2.5,
+      spaceBetween: 24,
     },
     2200: {
-      slidesPerView: 5,
-      spaceBetween: 30,
+      slidesPerView: 1,
+      spaceBetween: 24,
     },
     2500: {
-      slidesPerView: 4,
-      spaceBetween: 30,
+      slidesPerView: 1,
+      spaceBetween: 24,
     },
   },
 });
@@ -56,27 +60,31 @@ swiper.init();
 $('.slick_slider').slick({
   dots: false,
   infinite: true,
-  speed: 200,
-  slidesToShow: 3,
+  speed: 300,
+  slidesToShow: 5,
   slidesToScroll: 1,
-  centerMode: true,
-  variableWidth: true,
-  autoplaySpeed: 1500,
   autoplay: true,
+  autoplaySpeed: 2000,
   responsive: [
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1
       }
     },
     {
       breakpoint: 768,
       settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1
       }
     },
     {
@@ -88,3 +96,4 @@ $('.slick_slider').slick({
     }
   ]
 });
+      

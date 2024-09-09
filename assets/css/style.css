@@ -64,6 +64,8 @@ body {
     linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
   --text-shadow: linear-gradient(0deg, #010101, #010101),
     linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
+    --hover-gradient: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+      linear-gradient(102.5deg, rgba(110, 93, 246, 0.2) -2.76%, rgba(0, 255, 225, 0.2) 97.18%);
 }
 
 .root {
@@ -74,7 +76,19 @@ body {
   background-clip: text;
   color: transparent;
 }
+.box_gradient {
+  background-color: var(--hover-gradient);
+}
 
+.element {
+  /* Initial background */
+  background: initial;
+}
+
+.element:hover {
+  /* Apply the gradient on hover */
+  background: var(--hover-gradient);
+}
 .gradient-text {
   background-color: var(--text-gradient);
   -webkit-background-clip: text;
