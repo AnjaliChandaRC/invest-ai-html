@@ -57,11 +57,13 @@ swiper.on("init", function () {
 swiper.init();
 
 // 
+
+      
 $('.slick_slider').slick({
   dots: false,
   infinite: true,
   speed: 300,
-  slidesToShow: 5,
+  slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
@@ -76,14 +78,14 @@ $('.slick_slider').slick({
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1
       }
     },
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1
       }
     },
@@ -96,4 +98,3 @@ $('.slick_slider').slick({
     }
   ]
 });
-      

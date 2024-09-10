@@ -41,13 +41,13 @@
     integrity="sha512-gxWow8Mo6q6pLa1XH/CcH8JyiSDEtiwJV78E+D+QP0EVasFs8wKXq16G8CLD4CJ2SnonHr4Lm/yY2fSI2+cbmw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
   <!-- ============ BOOTSTRAP LINK ============== -->
@@ -323,7 +323,7 @@
     </div>
   </section>
   <!-- ========== RANDOM COUNTDOWN ======= -->
-  <div class="counter position-fixed justify-content-center bg-white rounded-4 video_shadow">
+  <div class="counter position-fixed justify-content-center bg-white rounded-4 video_shadow ">
     <div class="d-flex flex-column align-items-center p-3 position-relative">
       <span onclick="activeUserPopup()"
         class="position-absolute active_user_cross cursor_pointer bg_cyan_blue rounded-pill d-flex justify-content-center align-items-center"><svg
@@ -437,9 +437,9 @@
   <!-- ========== LOGOS ======= -->
 <section>
   <div class="bg_cyan_blue px-12">
-    <div class="forbes_slider_container container forbes_section_padding">
-      <div class="mx-auto d-flex align-items-center justify-content-center flex-wrap sponsor_slide_img gap-20">
-        <div class=" slick_slider d-flex  overflow-hidden max-w-1920 ">
+    <div class=" container forbes_section_padding max-w-1920">
+      <div class="mx-auto d-flex align-items-center justify-content-center flex-wrap">
+        <div class=" slick_slider slider d-flex overflow-hidden gap-20">
           <div class="white_box">
             <img class="forbes_image" src="./assets/images/Marketsco_img.png" alt="forbes" />
           </div>
@@ -454,11 +454,18 @@
               alt="wall-street-journal" />
           </div>
           <div class="white_box">
-            <img class="the_new_york_times_image d-sm-block d-none" src="./assets/images/internationa_reserve.png"
+            <img class="the_new_york_times_image " src="./assets/images/internationa_reserve.png"
               alt="the-new-york-times" />
           </div>
-  
-  
+          <div class="white_box">
+            <img class="nbc_image" src="./assets/images/cgWise_img.png" alt="nbc" />
+          </div>
+  <div class="white_box">
+    <img class="wall_street_journal_image" src="./assets/images/standford_financial.png" alt="wall-street-journal" />
+  </div>
+  <div class="white_box">
+    <img class="the_new_york_times_image " src="./assets/images/internationa_reserve.png" alt="the-new-york-times" />
+  </div>
         </div>
       </div>
     </div>
@@ -554,7 +561,7 @@
     </div>
     <div class="d-flex justify-content-center">
       <a href="#thankyou-form"
-        class="hero_button get_start_live_button fw-bold ff_oxygen text-white fs_lg leading_140 mt-4 mt-lg-5 mb-xl-2 bg_cyan_blue">
+        class="hero_button get_start_button fw-bold ff_oxygen text-white fs_lg leading_140 mt-4 mt-lg-5 mb-xl-2">
         Get started here
         <span class="ps-2"><img class="" src="./assets/images/method-pro/get-start-arrow.svg" alt="arrow" /></span>
       </a>
@@ -565,7 +572,7 @@
 <div class="container custom_container bg-white">
   <div class="mb_123 mb_100_md my_160_lg">
     <p class="fw-bold ff_oxygen text-left fs_3xl  pt_80 pt_50 mb-md-5 mb-sm-4 mb-3 text-black leading_130">
-      Frequently <span class="text_cyan_blue">Asked</span> Questions
+      Frequently <span class="root">Asked</span> Questions
     </p>
     <div class="row justify-content-between">
       <div class="col-lg-8 col-12 d-flex align-items-center justify-content-between pt-2">
@@ -701,7 +708,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-12 pt-117 d-flex align-items-center justify-content-center">
+      <div class="col-lg-4 col-12 pt-117 d-flex align-items-center justify-content-center">
         <img src="assets/images/question-mark-image.png" alt="img" class="question_mark">
       </div>
 
@@ -1074,7 +1081,7 @@
       <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/james-jhonson.png"
         alt="james-jhonson" />
       <div class="ms-lg-3 ps-1">
-        <p class="text_cyan_blue fs_lg fw-semibold mb-2 leading_130">
+        <p class="text_gradient fs_lg fw-semibold mb-2 leading_130">
           James Johnson
         </p>
         <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
@@ -1083,11 +1090,11 @@
         <div class="d-flex align-items-center gap-3">
           <div class="d-flex align-items-center gap-1">
             <a href="#thankyou-form" onclick="likeToastHandler()"
-              class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+              class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
               Like.
             </a>
             <a href="#thankyou-form"
-              class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+              class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
               Reply
             </a>
           </div>
@@ -1101,7 +1108,7 @@
               src="./assets/images/comments/mia-moore.png" alt="mia-moore" />
 
             <div>
-              <p class="text_cyan_blue fs_lg fw-semibold mb-2 leading_130">
+              <p class="text_gradient fs_lg fw-semibold mb-2 leading_130">
                 Mia Moore
               </p>
               <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
@@ -1113,11 +1120,11 @@
               <div class="d-flex align-items-center gap-3">
                 <div class="d-flex align-items-center gap-1">
                   <a href="#thankyou-form" onclick="likeToastHandler()"
-                    class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+                    class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
                     Like.
                   </a>
                   <a href="#thankyou-form"
-                    class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+                    class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
                     Reply
                   </a>
                 </div>
@@ -1132,7 +1139,7 @@
               src="./assets/images/comments/david-williams.png" alt="david-williams" />
 
             <div>
-              <p class="text_cyan_blue fs_lg fw-semibold mb-2 leading_130">
+              <p class="text_gradient fs_lg fw-semibold mb-2 leading_130">
                 David Williams
               </p>
               <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
@@ -1143,11 +1150,11 @@
               <div class="d-flex align-items-center gap-3">
                 <div class="d-flex align-items-center gap-1">
                   <a href="#thankyou-form" onclick="likeToastHandler()"
-                    class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+                    class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
                     Like.
                   </a>
                   <a href="#thankyou-form"
-                    class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+                    class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
                     Reply
                   </a>
                 </div>
@@ -1164,7 +1171,7 @@
       <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/olivia-anderson.png"
         alt="olivia-anderson" />
       <div class="ms-lg-3 ps-1">
-        <p class="text_cyan_blue fs_lg fw-semibold mb-2 leading_130">
+        <p class="text_gradient fs_lg fw-semibold mb-2 leading_130">
           Olivia Anderson
         </p>
         <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
@@ -1174,11 +1181,11 @@
         <div class="d-flex align-items-center gap-3">
           <div class="d-flex align-items-center gap-1">
             <a href="#thankyou-form" onclick="likeToastHandler()"
-              class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+              class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
               Like.
             </a>
             <a href="#thankyou-form"
-              class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+              class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
               Reply
             </a>
           </div>
@@ -1192,24 +1199,24 @@
       <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/andrew-harris.png"
         alt="andrew-harris" />
       <div class="ms-lg-3 ps-1">
-        <p class="text_cyan_blue fs_lg fw-semibold mb-2 leading_130">
+        <p class="text_gradient fs_lg fw-semibold mb-2 leading_130">
           Andrew Harris
         </p>
         <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
           Now I have the opportunity to go on holiday this year :) And the
           buzz itself is that I will rest, and the system will earn day and
           night. This is just a fairy tale!
-          <a href="#thankyou-form" class="text_cyan_blue fw-semibold comment_replay_like_buttons transition_03">See
+          <a href="#thankyou-form" class="text_gradient fw-semibold comment_replay_like_buttons transition_03">See
             More</a>
         </p>
         <div class="d-flex align-items-center gap-3">
           <div class="d-flex align-items-center gap-1">
             <a href="#thankyou-form" onclick="likeToastHandler()"
-              class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+              class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
               Like.
             </a>
             <a href="#thankyou-form"
-              class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+              class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
               Reply
             </a>
           </div>
@@ -1223,7 +1230,7 @@
       <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/isabeela-harris.png"
         alt="isabeela-harris" />
       <div class="ms-lg-3 ps-1">
-        <p class="text_cyan_blue fs_lg fw-semibold mb-2 leading_130">
+        <p class="text_gradient fs_lg fw-semibold mb-2 leading_130">
           Isabella Harris
         </p>
         <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
@@ -1233,11 +1240,11 @@
         <div class="d-flex align-items-center gap-3">
           <div class="d-flex align-items-center gap-1">
             <a href="#thankyou-form" onclick="likeToastHandler()"
-              class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+              class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
               Like.
             </a>
             <a href="#thankyou-form"
-              class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+              class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
               Reply
             </a>
           </div>
@@ -1251,23 +1258,23 @@
               src="./assets/images/comments/mary-smith.png" alt="mary-smith" />
 
             <div>
-              <p class="text_cyan_blue fs_lg fw-semibold mb-2 leading_130">
+              <p class="text_gradient fs_lg fw-semibold mb-2 leading_130">
                 Mary Smith
               </p>
               <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
                 Just signed up, people, wish me good luck! ...
                 <a href="#thankyou-form"
-                  class="text_cyan_blue fw-semibold comment_replay_like_buttons transition_03">See
+                  class="text_gradient fw-semibold comment_replay_like_buttons transition_03">See
                   More</a>
               </p>
               <div class="d-flex align-items-center gap-3">
                 <div class="d-flex align-items-center gap-1">
                   <a href="#thankyou-form" onclick="likeToastHandler()"
-                    class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 comment_replay_like_buttons transition_03">
+                    class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 comment_replay_like_buttons transition_03">
                     Like.
                   </a>
                   <a href="#thankyou-form"
-                    class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 comment_replay_like_buttons transition_03">
+                    class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 comment_replay_like_buttons transition_03">
                     Reply
                   </a>
                 </div>
@@ -1282,7 +1289,7 @@
               src="./assets/images/comments/anna-brown.png" alt="anna-brown" />
 
             <div>
-              <p class="text_cyan_blue fs_lg fw-semibold mb-2 leading_130">
+              <p class="text_gradient fs_lg fw-semibold mb-2 leading_130">
                 Anna Brown
               </p>
               <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
@@ -1294,11 +1301,11 @@
               <div class="d-flex align-items-center gap-3">
                 <div class="d-flex align-items-center gap-1">
                   <a href="#thankyou-form" onclick="likeToastHandler()"
-                    class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+                    class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
                     Like.
                   </a>
                   <a href="#thankyou-form"
-                    class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+                    class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
                     Reply
                   </a>
                 </div>
@@ -1310,7 +1317,7 @@
           </div>
           <a href="#thankyou-form"
             class="bg_cyan_blue mt-3 d-inline-block w-100 mt-md-4 mt-lg-5 cursior_pointer show_more_comments_parent">
-            <p class="fs_base fw-normal leading_140 text-center  mb-0 text-white show-more">
+            <p class="fs_base fw-normal leading_140 text-center  mb-0 text_rich_black show-more">
               Show 10 more replies in this thread
             </p>
           </a>
@@ -1321,7 +1328,7 @@
       <img class="rounded-circle object-fit-cover user_profile w-100" src="./assets/images/comments/sophia-martinz.png"
         alt="sophia-martinz" />
       <div class="ms-lg-3 ps-1">
-        <p class="text_cyan_blue fs_lg fw-semibold mb-2 leading_130">
+        <p class="text_gradient fs_lg fw-semibold mb-2 leading_130">
           Sophia Martinez
         </p>
         <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1 pe-xl-4">
@@ -1336,11 +1343,11 @@
         <div class="d-flex align-items-start gap-3">
           <div class="d-flex align-items-center gap-1">
             <a href="#thankyou-form" onclick="likeToastHandler()"
-              class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+              class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
               Like.
             </a>
             <a href="#thankyou-form"
-              class="bg-transparent border-0 text_cyan_blue fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+              class="bg-transparent border-0 text_gradient fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
               Reply
             </a>
           </div>
@@ -1409,13 +1416,13 @@
   </button>
 
   <!-- ========= JQUERY MIN JS LINK =========-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+  integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- TOST JS LINK -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 

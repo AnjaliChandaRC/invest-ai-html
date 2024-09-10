@@ -164,7 +164,7 @@ const reviews = [
 function generateReviewCard(review) {
   return `
     <div class="swiper-slide">
-    <div class="slider_box bg-white box_gradient">
+    <div class="slider_box bg-white swiper_card">
         <div class="d-flex flex-row flex_xsm_col align-items-start  justify-content-between">
             <div class="d-flex align-items-center gap-2">
                 <img class="slider_profile_img rounded-pill object-fit-cover" sizes="100vw"

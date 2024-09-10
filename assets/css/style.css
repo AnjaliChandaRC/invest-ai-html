@@ -46,6 +46,7 @@ body {
   --fs-xxll: 36px;
   --fs-2xl: 40px;
   --fs-3xl: 48px;
+  --white:#FFFFFF;
   --bright-gray: #e9e9e9;
   --dark-gray: #4c697b;
   --light-gray: #29333a;
@@ -60,12 +61,14 @@ body {
   --dark-blue: "#15161b";
   --light-white: "#f6f6f6";
   --orange: #FF8F1D;
-  --text-gradient: linear-gradient(0deg, #010101, #010101),
+}
+
+.text_gradient {
+  background: linear-gradient(180deg, #56CCF2 0%, #2F80ED 100%),
     linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
-  --text-shadow: linear-gradient(0deg, #010101, #010101),
-    linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
-    --hover-gradient: linear-gradient(0deg, #FFFFFF, #FFFFFF),
-      linear-gradient(102.5deg, rgba(110, 93, 246, 0.2) -2.76%, rgba(0, 255, 225, 0.2) 97.18%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .root {
@@ -75,20 +78,8 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-}
-.box_gradient {
-  background-color: var(--hover-gradient);
-}
+} 
 
-.element {
-  /* Initial background */
-  background: initial;
-}
-
-.element:hover {
-  /* Apply the gradient on hover */
-  background: var(--hover-gradient);
-}
 .gradient-text {
   background-color: var(--text-gradient);
   -webkit-background-clip: text;
@@ -98,7 +89,6 @@ body {
   font-size: 4rem;
   font-weight: bold;
   text-shadow: var(--text-shadow);
-  /* Apply shadow */
 }
 
 .bg_cyan_blue {
@@ -186,7 +176,9 @@ body {
 .bg_bright_gray {
   background-color: var(--bright-gray);
 }
-
+.bg_white {
+  background-color: var(--white);
+}
 .text_bright_gray {
   color: var(--gradient);
 }
@@ -205,7 +197,7 @@ body {
 }
 
 .bg_bluish_cyan {
-  background-color: var(--bluish-cyan);
+  background-color: var(--bluish -cyan);
 }
 
 .bg_light_white {
