@@ -321,8 +321,8 @@
   max-width: 550px;
   height: 1px;
   opacity: 48%;
+  background: linear-gradient(102.5deg, #6e5df6 -2.76%, #00ffe1 97.18%);
 }
-
 /* ========= VIDEO SECTION ====== */
 .small_play_icon {
   top: 50%;
@@ -349,7 +349,7 @@
 }
 
 .reviewSwiper {
-  padding: 40px 20px 46px 20px;
+  padding: 40px 20px 0px 20px;
 }
 
 /* slider section  */
@@ -659,10 +659,7 @@ input:focus-visible {
   background-position: center;
 }
 
-.logo_slider_section {
-  /* background: var(--gradient);  */
-  padding: 50px 0;
-}
+
 
 .logo_section_padding {
   padding: 51px 0 50px;
@@ -944,9 +941,6 @@ input::-webkit-inner-spin-button {
 }
 
 /* ----------------sonu.css --------------------*/
-.pt-117 {
-  padding-top: 117px;
-}
 
 .question_mark {
   max-width: 337px;
