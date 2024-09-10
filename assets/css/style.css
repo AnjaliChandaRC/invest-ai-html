@@ -52,8 +52,7 @@ body {
   --light-gray: #29333a;
   --light-black: #000c03;
   --rich-black: #020507;
-  --gradient: linear-gradient(180deg, #56CCF2 0%, #2F80ED 100%),
-      linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
+  --gradient:linear-gradient(130.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
   --bluish-cyan: #36cef0;
   --green: #01d61b;
   --dark-green: #3bff00;
@@ -80,7 +79,14 @@ body {
   background-clip: text;
   color: transparent;
 } 
-
+.comment_section_text{
+  background: linear-gradient(133.83deg,
+        #00B9FF 3.77%,
+        #6F69F2 9.07%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 .gradient-text {
   background-color: var(--text-gradient);
   -webkit-background-clip: text;
