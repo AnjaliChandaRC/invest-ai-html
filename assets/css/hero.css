@@ -766,7 +766,7 @@ input::-webkit-inner-spin-button {
 }
 
 .send_message_arrow {
-  max-width: 42px;
+  max-width: 57px;
   pointer-events: none;
 }
 
@@ -949,7 +949,7 @@ input::-webkit-inner-spin-button {
 
 .py-160 {
   padding-top: 160px;
-  padding-bottom: 120px;
+  padding-bottom: 160px;
 }
 
 .max-w-180 {
