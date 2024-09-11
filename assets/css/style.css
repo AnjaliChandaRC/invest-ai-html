@@ -46,18 +46,67 @@ body {
   --fs-xxll: 36px;
   --fs-2xl: 40px;
   --fs-3xl: 48px;
+  --white: #FFFFFF;
+  
   --bright-gray: #e9e9e9;
   --dark-gray: #4c697b;
   --light-gray: #29333a;
   --light-black: #000c03;
   --rich-black: #020507;
-  --cyan-blue: pink;
-  --bluish-cyan: #00a4ff;
-  --green: #01d61b;
+  --gradient: linear-gradient(130.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
+  --bluish-cyan: #36cef0;
+  --green: #4CC973;
   --dark-green: #3bff00;
   --white-gray: #d4dbdf;
   --dark-blue: "#15161b";
   --light-white: "#f6f6f6";
+  --orange: #FF8F1D;
+  --blue: #00a4ff;
+  --yellow:#A2E33A;
+  --light-yellow:#E6FF00;
+  --purple:#160724;
+}
+
+.text_gradient {
+  background: linear-gradient(180deg, #56CCF2 0%, #2F80ED 100%),
+    linear-gradient(133.83deg, #00B9FF 3.77%, #6F69F2 81.07%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.root {
+  background: linear-gradient(133.83deg,
+      #00B9FF 3.77%,
+      #6F69F2 81.07%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.comment_section_text {
+  background: linear-gradient(133.83deg,
+      #00B9FF 3.77%,
+      #6F69F2 9.07%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-text {
+  background-color: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: var(--text-shadow);
+}
+
+.bg_cyan_blue {
+  background: var(--gradient);
+  background-blend-mode: overlay;
 }
 
 /* font sizes  */
@@ -124,7 +173,9 @@ body {
 .text_green {
   color: var(--green);
 }
-
+.bg_green {
+  background-color: var(--green);
+}
 .text_rich_black {
   color: var(--rich-black);
 }
@@ -141,30 +192,48 @@ body {
   background-color: var(--bright-gray);
 }
 
+.bg_white {
+  background-color: var(--white);
+}
+
 .text_bright_gray {
-  color: var(--bright-gray);
+  color: var(--gradient);
 }
 
 .bg_green {
   background: var(--green);
 }
+.text_purple {
+  color: var(--purple);
+}
 
+.bg_purple {
+  background: var(--purple);
+}
+
+/* 
 .bg_cyan_blue {
   background-color: var(--cyan-blue);
-}
+} */
 
 .text_cyan_blue {
   color: var(--cyan-blue);
 }
 
 .bg_bluish_cyan {
-  background-color: var(--bluish-cyan);
+  background-color: var(--bluish -cyan);
 }
 
 .bg_light_white {
   background-color: var(--light-white);
 }
 
+.text_orange {
+  color: var(--orange);
+}
+.text_yellow {
+  color: var(--light-yellow);
+}
 /* Font Weight */
 .fw_800 {
   font-weight: 800;
