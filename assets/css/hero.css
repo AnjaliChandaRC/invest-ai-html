@@ -60,13 +60,16 @@
 .border-r-20 {
   border-radius: 20px;
 }
-
+.pb_56{
+  padding-bottom: 56px !important;
+}
 .story_video {
   border-radius: 8px !important;
   aspect-ratio: 16/9;
   padding-left: 16px;
   padding-right: 16px;
-  min-height: 350px !important;;
+  min-height: 350px !important;
+  ;
   padding-top: 16px;
 }
 
@@ -234,10 +237,12 @@
   border: 3px solid var(--white-gray);
   border-radius: 24px;
 }
+
 .become_section_margin {
   margin-left: 234px !important;
   margin-right: 234px !important;
 }
+
 .circle {
   width: 20.32px !important;
   height: 20px !important;
@@ -246,16 +251,20 @@
   display: flex;
   background-color: var(--cyan-blue);
 }
-.custom_container{
+
+.custom_container {
   max-width: 1452px !important;
 }
+
 .ps-w-5 {
   padding: 5px;
 }
-.logo_slider_section{
-background: linear-gradient(102.5deg, #6e5df6 -2.76%, #00ffe1 97.18%);
-  padding:50px 0;
+
+.logo_slider_section {
+  background: linear-gradient(102.5deg, #6e5df6 -2.76%, #00ffe1 97.18%);
+  padding: 50px 0;
 }
+
 .pb-50 {
   padding-bottom: 50px;
 }
@@ -378,12 +387,13 @@ background: linear-gradient(102.5deg, #6e5df6 -2.76%, #00ffe1 97.18%);
 }
 
 .slider_profile_img {
-  width: 44px;
-  height: 44px;
+  width: 184px;
+  height: 191px;
 }
 
 .slider_box {
-  min-height: 325px;
+  max-width: 891px;
+  height: 325px;
   border-radius: 20px;
   padding: 21px 14px;
   transition: all 0.3s ease-in-out;
@@ -459,19 +469,24 @@ background: linear-gradient(102.5deg, #6e5df6 -2.76%, #00ffe1 97.18%);
   max-width: 1000px;
   margin: 0 auto;
 }
-.pt_134{
+
+.pt_134 {
   padding-top: 134px;
 }
+
 .faq_questionmark_img {
   max-width: 405px;
 }
-.pb-27{
+
+.pb-27 {
   padding-bottom: 27px;
 }
-.pt-60{
+
+.pt-60 {
   padding-top: 60px;
 }
-.pb-53{
+
+.pb-53 {
   padding-bottom: 53px;
 }
 
@@ -830,6 +845,14 @@ input::-webkit-inner-spin-button {
   opacity: 0.7;
 }
 
+.pt-40 {
+  padding-top: 40px !important;
+}
+
+.pl-40 {
+  padding-left: 40px !important;
+}
+
 .toastify {
   max-width: 100%;
 }
@@ -1098,6 +1121,10 @@ input::-webkit-inner-spin-button {
   padding: 6px 14px;
 }
 
+.max_w {
+  max-width: 309px !important;
+}
+
 .time_box::before {
   content: "";
   position: absolute;
@@ -1188,6 +1215,24 @@ input::-webkit-inner-spin-button {
   .forbes_section_padding {
     padding: 100px 0;
   }
+
+  .slider_box {
+    height: 365px;
+  }
+
+  .slider_col {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .slider_profile_img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .max_w {
+    max-width: 309px !important;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -1199,33 +1244,19 @@ input::-webkit-inner-spin-button {
     padding: 48px;
   }
 
-  /* 
-  .forbes_image {
-  width: 308px;
-    height: 44px;
-    margin: 67px 44px;
-    ;
+  .slider_box {
+    height: 365px;
   }
 
-  .nbc_image {
-    width: 94px;
-    height: 100px;
+  .slider_col {
+    flex-direction: column;
+    display: flex;
   }
 
-  .fox_news_image {
-    width: 100px;
-    height: 100px;
+  .slider_profile_img {
+    width: 150px;
+    height: 150px;
   }
-
-  .wall_street_journal_image {
-    width: 169px;
-    height: 80px;
-  }
-
-  .the_new_york_times_image {
-    width: 300px;
-    height: 100px;
-  } */
 
   .forbes_section_padding {
     padding: 80px 0;
@@ -1252,7 +1283,7 @@ input::-webkit-inner-spin-button {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .pt_80 {
     padding-top: 50px;
   }
@@ -1292,32 +1323,19 @@ input::-webkit-inner-spin-button {
     margin-bottom: 50px;
   }
 
-  /* .forbes_image {
-    width: 308px;
-      height: 44px;
-      margin: 67px 44px;
-      ;
+  .slider_box {
+    height: 365px;
   }
 
-  .nbc_image {
-    width: 84px;
-    height: 80px;
+  .slider_col {
+    flex-direction: column;
+    display: flex;
   }
 
-  .fox_news_image {
-    width: 120px;
-    height: 80px;
+  .slider_profile_img {
+    width: 150px;
+    height: 150px;
   }
-
-  .wall_street_journal_image {
-    width: 159px;
-    height: 80px;
-  }
-
-  .the_new_york_times_image {
-    width: 344px;
-    height: 80px;
-  } */
 
   .forbes_section_padding {
     padding: 48px 0;
@@ -1551,8 +1569,18 @@ input::-webkit-inner-spin-button {
     margin-top: 8px;
   }
 
+  .slider_col {
+    flex-direction: column;
+    display: flex;
+  }
+
   .slider_box {
-    min-height: 260px;
+    height: 365px;
+  }
+
+  .slider_profile_img {
+    width: 115px;
+    height: 110px;
   }
 
   .sm-mt-22 {
