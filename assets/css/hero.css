@@ -1235,6 +1235,10 @@ input::-webkit-inner-spin-button {
 }
 
 @media (max-width: 991.98px) {
+  .py-lg-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
   .faq_answers {
     padding-left: 20px;
   }

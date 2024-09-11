@@ -16,14 +16,14 @@ const reviews = [
              "AI Arbitrage has made my trading experience so much better. The support from my account manager was exceptional. Great profits in no time!",
          imageUrl: "./assets/images/arbitrage-winner/christopher.webp",
      },
-    // {
-    //     title: "Jennifer Wilson",
-    //     invested: 2000,
-    //     profit: 1368.23,
-    //     description:
-    //         "This method is a game-changer! I’ve seen amazing returns on my investments.",
-    //     imageUrl: "./assets/images/arbitrage-winner/jenifer.webp",
-    // },
+  {
+    title: "Jennifer Wilson",
+        invested: 2000,
+        profit: 1368.23,
+        description:
+         "This method is a game-changer! I’ve seen amazing returns on my investments.",
+        imageUrl: "./assets/images/arbitrage-winner/jenifer.webp",
+ },
     {
         title: "Robert Thompson ",
         invested: 30000,
