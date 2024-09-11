@@ -1,0 +1,21 @@
+.text_shadow_purple {
+    text-shadow: 0px 1.33px 33.3px #EEFF00;
+}
+
+.mix_text_shadow {
+    text-shadow:
+        0px 4px 4px #00000030,
+        0px 0px 20px #EEFF00,
+        0px 0px 20px #FF00B773,
+        0px 0px 0px #0090FF,
+        0px 0px 0px #37FF00,
+        0px 1px 0px #62FF00DE,
+        0px 1px 0px #FF9900;
+}
+
+.unlimited_access_btn {
+    border: 4px solid #FFFFFF;
+    border-radius: 32px;
+    transition: all 300ms linear;
+    background: #36CEF0;
+}
