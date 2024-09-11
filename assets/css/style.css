@@ -61,9 +61,9 @@ body {
   --light-white: "#f6f6f6";
   --orange: #FF8F1D;
   --blue: #00a4ff;
-  --yellow:#A2E33A;
-  --light-yellow:#E6FF00;
-  --purple:#160724;
+  --yellow: #A2E33A;
+  --light-yellow: #E6FF00;
+  --purple: #160724;
 }
 
 .text_gradient {
@@ -172,9 +172,11 @@ body {
 .text_green {
   color: var(--green);
 }
+
 .bg_green {
   background-color: var(--green);
 }
+
 .text_rich_black {
   color: var(--rich-black);
 }
@@ -202,6 +204,7 @@ body {
 .bg_green {
   background: var(--green);
 }
+
 .text_purple {
   color: var(--purple);
 }
@@ -230,9 +233,11 @@ body {
 .text_orange {
   color: var(--orange);
 }
+
 .text_yellow {
   color: var(--light-yellow);
 }
+
 /* Font Weight */
 .fw_800 {
   font-weight: 800;

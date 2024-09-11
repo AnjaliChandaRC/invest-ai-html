@@ -4,7 +4,7 @@ const reviews = [
     invested: 350,
     profit: 4891,
     description:
-      "The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly. My account manager was always there to support me every step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_cyan_blue fw-medium'>Show More</a>",
+      "The AI Arbitrage method is incredible!. My account manager was always there to support me every step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_cyan_blue fw-medium'>Show More</a>",
     imageUrl: "./assets/images/arbitrage-winner/michael-chen-profile.webp",
   },
   // {
@@ -166,23 +166,28 @@ function generateReviewCard(review) {
     <div class="swiper-slide">
     <div class="slider_box bg-white swiper_card">
         <div class="d-flex flex-row flex_xsm_col align-items-start justify-content-between slider_col pt-40">
-            <div class="d-flex align-items-center gap-2 slider_col">
-                <img class="slider_profile_img rounded-pill object-fit-cover" sizes="100vw"
+ <div class="profile_img">
+ <img class="slider_profile_img rounded-pill object-fit-cover" sizes="100vw"
                     src="${review.imageUrl}" alt="${review.title}">
-                <div class="ms-1">
-                    <h2 class="text-black fw-semibold fs_base leading_130 mb-0">${
-                      review.title
-                    }</h2>
-                    <p class="leading_150 fs_base text-black opacity_07 mt-sm-1 mt-3 mb-0"><span class="fw-bold max_w">Review</span> ${
-                      review.description
-                    }</p>
-                    <img src="./assets/images/arbitrage-winner/review-star.svg" alt="review-star">
-                </div>
-            </div>
-                    <div class="mt-sm-0 review_slider_parent">
+                    </div>
+<div class="slider_padding">
+<div class="d-flex justify-content-between">
+<h2 class="text-black fw-semibold fs_base leading_130 mb-0">${review.title
+    }</h2>
+      <div class="mt-sm-0 review_slider_parent">
                         <p class="mb-0 opacity_07 leading_150 fw-bold fs_base text-nowrap text-black">Invested <span class="text-black text-nowrap fw_800">${review.invested.toLocaleString()} CAD</span></p>
                         <p class="mb-0 opacity_07 leading_150 fw-bold fs_base text-nowrap text-black">Profit: <span class="text-black text-nowrap fw_800">${review.profit.toLocaleString()} CAD</span></p>
                     </div>
+                    </div>
+                    <div>
+                    <p class="leading_150 fs_base text-black opacity_07 pt-sm-4 slider_text_padding mb-0"><span class="fw-bold max_w">Review</span> ${review.description
+    }</p>
+                    <img src="./assets/images/arbitrage-winner/review-star.svg" alt="review-star">
+                    </div>
+                </div>
+
+
+                    
            </div>
         </div>
     </div>
