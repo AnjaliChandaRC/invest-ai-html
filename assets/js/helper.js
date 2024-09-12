@@ -165,7 +165,7 @@ function generateReviewCard(review) {
   return `
     <div class="swiper-slide">
     <div class="slider_box bg-white swiper_card">
-        <div class="d-flex flex-row flex_xsm_col align-items-start justify-content-between slider_col pt-40">
+        <div class="d-flex flex-row flex_xsm_col align-items-start justify-content-between slider_col mt-35">
             <div class="d-flex align-items-center gap-2 slider_col">
                 <img class="slider_profile_img rounded-pill object-fit-cover" sizes="100vw"
                     src="${review.imageUrl}" alt="${review.title}">
