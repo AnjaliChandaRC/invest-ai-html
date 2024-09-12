@@ -179,7 +179,8 @@ function generateReviewCard(review) {
                 <img class="slider_profile_img rounded-pill object-fit-cover" sizes="100vw"
                     src="${review.imageUrl}" alt="${review.title}">
                 <div class="ms-1">
-                    <h2 class="text-white fw-semibold fs_base leading_130 mb-0">${review.title
+                    <h2 class="text-wh
+                     fw-semibold fs_base leading_130 mb-0">${review.title
         }</h2>
                     <img src="./assets/images/arbitrage-winner/review-star.svg" alt="review-star">
                 </div>
