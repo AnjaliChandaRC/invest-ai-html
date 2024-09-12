@@ -65,12 +65,20 @@
   padding-bottom: 56px !important;
 }
 
+.max_w_468 {
+  max-width: 468px !important;
+}
+
+.video_box_height {
+  height: 399px !important;
+}
+
 .story_video {
   border-radius: 8px !important;
   aspect-ratio: 16/9;
   padding-left: 16px;
   padding-right: 16px;
-  min-height: 350px !important;
+  min-height: 320px !important;
   padding-top: 16px;
 }
 
@@ -200,7 +208,7 @@
   background-color: #FFFFFF;
   border-radius: 13px;
   max-width: 395px !important;
-  min-height: 177px;
+  height: 177px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,6 +299,11 @@
   width: 7px;
   border-radius: 50%;
   margin-bottom: 5px;
+   
+}
+.mx-33{
+  margin-left: 33px;
+  margin-right: 33px;
 }
 
 .access_button:hover {
@@ -383,7 +396,7 @@
 }
 
 .reviewSwiper {
-  padding: 40px 20px 0px 20px;
+  padding: 69px 20px 0px 20px;
 }
 
 /* slider section  */
@@ -1020,10 +1033,12 @@ input::-webkit-inner-spin-button {
   padding: 36px 57px;
 
 }
-.video_radius{
-border-radius: 15px !important;
+
+.video_radius {
+  border-radius: 15px !important;
 }
-.swiper-slide{
+
+.swiper-slide {
   width: 821px !important;
 }
 
@@ -1133,7 +1148,7 @@ border-radius: 15px !important;
 .time_box {
   position: relative;
   border-radius: 3px;
-  padding: 6px 14px;
+  padding: 6px 12px;
 }
 
 .max_w {
@@ -1235,6 +1250,16 @@ border-radius: 15px !important;
     height: 365px;
   }
 
+  .question_mark {
+    max-width: 307px !important;
+    height: 377px !important;
+    margin-right: 69px;
+  }
+
+  .faq_box {
+    max-width: 700px !important;
+  }
+
   /* .slider_col {
     flex-direction: column;
     display: flex;
@@ -1254,6 +1279,10 @@ border-radius: 15px !important;
   .py-lg-80 {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+
+  .pt-lg-80 {
+    padding-top: 80px !important;
   }
 
   .faq_answers {
@@ -1308,14 +1337,33 @@ border-radius: 15px !important;
     padding-top: 50px;
   }
 
+  .swiper-slide {
+    width: 500px !important;
+  }
+
   .form_input input {
     min-height: 40px;
+  }
+.live_sec_py_123 {
+  padding-top: 123px;
+  padding-bottom: 0px !important;
+}
+  .question_mark {
+    margin-right: 0 !important;
+  }
+
+  .white_box {
+    max-width: 355px !important;
+    max-height: 140px;
   }
 
   .form_box {
     padding: 40px;
   }
 
+  /* .reviewSwiper {
+  padding: 40px 20px 0px 20px !important;
+} */
   .accordion .accordion-button::after {
     transform: scale(2);
     margin-top: 17px;
@@ -1331,6 +1379,10 @@ border-radius: 15px !important;
     gap: 12px;
   }
 
+  .faq_box {
+    max-width: 766px !important;
+  }
+
   .only_step {
     max-width: 109px;
   }
@@ -1339,9 +1391,9 @@ border-radius: 15px !important;
     margin-top: 20px;
   }
 
-  .mb_100_md {
+  /* .mb_100_md {
     margin-bottom: 50px;
-  }
+  } */
 
   .slider_box {
     height: 365px;
@@ -1403,17 +1455,18 @@ border-radius: 15px !important;
     right: 10px;
   }
 
-.slider_padding {
-  padding-left: 35px;
-}
+  .slider_padding {
+    padding-left: 35px;
+  }
+
   .live_position img {
     max-width: 60px;
     object-fit: cover;
   }
 
-  .story_video_parent {
+  /* .story_video_parent {
     padding-bottom: 48px;
-  }
+  } */
 
   .video-container {
     border-radius: 24px;
@@ -1475,6 +1528,10 @@ border-radius: 15px !important;
 }
 
 @media (max-width: 575.98px) {
+  .sm-mx-16{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
   .get_start_button {
     margin-top: 0px;
   }
@@ -1633,7 +1690,7 @@ border-radius: 15px !important;
 
   .white_box {
     max-width: 325px !important;
-    min-height: 150px;
+    max-height: 125px;
   }
 
   .forbes_image {
@@ -1664,5 +1721,21 @@ border-radius: 15px !important;
     width: 250px;
     height: 60px;
     margin: 45px 35px;
+  }
+
+  .question_mark {
+    margin-right: 0 !important;
+  }
+
+  .video_box_height {
+    height: 280px !important;
+  }
+
+  .story_video {
+    min-height: 234px !important;
+  }
+
+  .swiper-slide {
+    width: 349px !important;
   }
 }

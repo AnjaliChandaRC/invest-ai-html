@@ -64,6 +64,8 @@ body {
   --yellow: #A2E33A;
   --light-yellow: #E6FF00;
   --purple: #160724;
+  --dark-yellow: #FFD900;
+  --dark-orange: #FF9900;
 }
 
 .text_gradient {
@@ -213,6 +215,13 @@ body {
   background: var(--purple);
 }
 
+.text_dark_yellow {
+  color: var(--dark-yellow);
+}
+.bg_dark_yellow {
+  background: var(--dark-yellow);
+}
+
 /* 
 .bg_cyan_blue {
   background-color: var(--cyan-blue);
@@ -234,7 +243,15 @@ body {
   color: var(--orange);
 }
 
+.text_dark_orange {
+  color: var(--dark-orange);
+}
+
 .text_yellow {
+  color: var(--light-yellow);
+}
+
+.bg_yellow {
   color: var(--light-yellow);
 }
 

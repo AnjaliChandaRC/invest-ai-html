@@ -43,7 +43,7 @@ var swiper = new Swiper(".reviewSwiper", {
             spaceBetween: 30,
         },
         2500: {
-            slidesPerView: 6,
+            slidesPerView: 4,
             spaceBetween: 30,
         },
     },

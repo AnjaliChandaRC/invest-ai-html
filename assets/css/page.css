@@ -47,6 +47,18 @@
     margin-top: 69px !important;
 }
 
+.pt-21 {
+    padding-top: 21px !important;
+}
+
+.pt-12 {
+    padding-top: 12px !important;
+}
+
+.mb_53 {
+    margin-bottom: 53px !important;
+}
+
 .slider_card {
     position: relative;
 }
@@ -105,10 +117,12 @@
     box-shadow: 0px 4px 4px 0px #00000030;
     box-shadow: 0px 0px 20px 0px #A2E33A;
 }
+
 .hero_btn {
     border: 2px solid #45B568;
     background-color: #ffffff !important;
 }
+
 .slider_green_box {
     min-height: 240px;
     border-radius: 20px;
@@ -139,6 +153,7 @@
     margin: 0 30px;
     transition: transform 0.3s ease;
 }
+
 /* 
 .logo-container img:hover {
     transform: scale(1.1);
@@ -152,7 +167,8 @@
 .logo-container {
     padding: 15px;
 }
-.pb_58{
+
+.pb_58 {
     padding-bottom: 58px;
 }
 
@@ -178,6 +194,7 @@
     width: 44px;
     height: 44px;
 }
+
 /* 
 .slider_box {
     min-height: 240px;
@@ -251,11 +268,13 @@
 .web_shadow {
     box-shadow: 0px 4px 25px 0px #A2E33A;
 }
+
 .sec_5_backimage {
     background-image: url(../images/bg_img.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .live_card_border {
     border: 1px solid #65B57F;
     width: 123px;
@@ -277,6 +296,7 @@
 .ml-40 {
     margin-left: 40px;
 }
+
 /* ============ BACK TO TOP CSS =========== */
 .back_to_top {
     background: var(--yellow);
@@ -1347,6 +1367,76 @@ input::-webkit-inner-spin-button {
 .sign_up_btn:hover {
     color: black !important;
 }
+.slider_card:hover::after {
+    background: #4CC9731A;
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.slider_card:hover {
+    border: 1px solid #4CC973;
+    border-radius: 10px;
+    /* box-shadow: 0px 25px 39px -9px #00000017; */
+    background: #4CC9731A !important;
+}
+
+.pt-64 {
+    padding-top: 64px;
+}
+
+.hero_btn {
+    border-radius: 32px;
+    transition: all 300ms linear;
+    border: 1px solid #45B568;
+    box-shadow: 0px 1.33px 33.3px 0px #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000030;
+    box-shadow: 0px 0px 20px 0px #A2E33A;
+}
+
+.hero_btn {
+    border: 2px solid #45B568;
+    background-color: #ffffff !important;
+}
+
+.slider_green_box {
+    min-height: 240px;
+    border-radius: 20px;
+    padding: 21px 14px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid white;
+    box-shadow: 0px 25px 39px -9px #00000017;
+    margin-bottom: 48px;
+}
+
+.get_btn {
+    padding: 12px 24px 12px 17px;
+    margin-top: 20px;
+    border: 1px solid #45B568;
+    background-color: white;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-top: 50px; */
+    /* background-color: white;
+} */
+}
+
+.logo-container img {
+    margin: 0 30px;
+    transition: transform 0.3s ease;
+}
 
 .live_circle {
 
@@ -1387,8 +1477,7 @@ input::-webkit-inner-spin-button {
 .pb-34 {
     padding-bottom: 34px;
 }
-
-.time_box {.white_box_shadow {
+    .white_box_shadow {
         box-shadow: 0px 0px 25px 0px #0303031F;
         background-color: var(--green);
     }
@@ -1461,76 +1550,6 @@ input::-webkit-inner-spin-button {
         mask-composite: exclude;
     }
 
-    .slider_card:hover::after {
-        background: #4CC9731A;
-        content: "";
-        position: absolute;
-        inset: 0;
-        border-radius: 10px;
-        padding-top: 2px;
-        padding-left: 2px;
-        padding-right: 2px;
-        padding-bottom: 2px;
-        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-    }
-
-    .slider_card:hover {
-        border: 1px solid #4CC973;
-        border-radius: 10px;
-        /* box-shadow: 0px 25px 39px -9px #00000017; */
-        background: #4CC9731A !important;
-    }
-
-    .pt-64 {
-        padding-top: 64px;
-    }
-
-    .hero_btn {
-        border-radius: 32px;
-        transition: all 300ms linear;
-        border: 1px solid #45B568;
-        box-shadow: 0px 1.33px 33.3px 0px #FFFFFF;
-        box-shadow: 0px 4px 4px 0px #00000030;
-        box-shadow: 0px 0px 20px 0px #A2E33A;
-    }
-
-    .hero_btn {
-        border: 2px solid #45B568;
-        background-color: #ffffff !important;
-    }
-
-    .slider_green_box {
-        min-height: 240px;
-        border-radius: 20px;
-        padding: 21px 14px;
-        transition: all 0.3s ease-in-out;
-        border: 1px solid white;
-        box-shadow: 0px 25px 39px -9px #00000017;
-        margin-bottom: 48px;
-    }
-
-    .get_btn {
-        padding: 12px 24px 12px 17px;
-        margin-top: 20px;
-        border: 1px solid #45B568;
-        background-color: white;
-    }
-
-    .logo-container {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        /* padding-top: 50px; */
-        /* background-color: white;
-} */
-    }
-
-    .logo-container img {
-        margin: 0 30px;
-        transition: transform 0.3s ease;
-    }
 
     /* 
 .logo-container img:hover {
@@ -1616,7 +1635,10 @@ input::-webkit-inner-spin-button {
         padding-left: 12px;
         padding-right: 12px;
     }
-
+    /* .p-5{
+        padding: 10px;
+    } */
+/* 
     .swiper-pagination-bullet {
         width: 10px;
         height: 10px;
@@ -1631,7 +1653,7 @@ input::-webkit-inner-spin-button {
         background: #7fc184;
         width: 25px;
         border-radius: 10px;
-    }
+    } */
 
     .highlight {
         border: 2px solid transparent;
@@ -3406,10 +3428,11 @@ input::-webkit-inner-spin-button {
             margin-top: 69px !important;
         }
     }
-    position: relative;
+
+    /* position: relative;
     border-radius: 3px;
     padding: 6px 14px;
-}
+} */
 
 .max_w {
     max-width: 309px !important;
@@ -3873,11 +3896,6 @@ input::-webkit-inner-spin-button {
         height: 365px;
     }
 
-    .slider_profile_img {
-        width: 115px;
-        height: 110px;
-    }
-
     .sm-mt-22 {
         margin-top: -22px;
     }
@@ -3988,6 +4006,11 @@ input::-webkit-inner-spin-button {
 
     .review_slider_parent {
         margin-top: 8px;
+    }
+
+    .slider_profile_img {
+        width: 115px;
+        height: 110px;
     }
 
     .slider_box {

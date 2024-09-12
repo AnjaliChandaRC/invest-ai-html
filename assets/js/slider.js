@@ -5,7 +5,7 @@ var swiper = new Swiper(".reviewSwiper", {
   spaceBetween: 30,
   loop: true,
   autoplay: {
-    delay: 250000,
+    delay: 2500,
     disableOnInteraction: false,
   },
   breakpoints: {
@@ -42,7 +42,7 @@ var swiper = new Swiper(".reviewSwiper", {
       spaceBetween: 24,
     },
     2500: {
-      slidesPerView: 2.5,
+      slidesPerView: 3,
       spaceBetween: 24,
     },
   },
@@ -56,4 +56,4 @@ swiper.on("init", function () {
 // INITIALIZE SWIPER
 swiper.init();
 
-// 
+//

@@ -5,7 +5,7 @@ const reviews = [
         invested: 350,
         profit: 4891,
         description:
-            "The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly. My account manager was always there to support me every step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_green fw-medium'>Show More</a>",
+            "The AI Arbitrage method is incredible!. My account manager was always every step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_dark_yellow fw-medium'>Show More</a>",
         imageUrl: "./assets/images/arbitrage-winner/michael-chen-profile.webp",
     },
     {
@@ -16,30 +16,30 @@ const reviews = [
              "AI Arbitrage has made my trading experience so much better. The support from my account manager was exceptional. Great profits in no time!",
          imageUrl: "./assets/images/arbitrage-winner/christopher.webp",
      },
-  {
-    title: "Jennifer Wilson",
-        invested: 2000,
-        profit: 1368.23,
-        description:
-         "This method is a game-changer! I’ve seen amazing returns on my investments.",
-        imageUrl: "./assets/images/arbitrage-winner/jenifer.webp",
- },
+//   {
+//     title: "Jennifer Wilson",
+//         invested: 2000,
+//         profit: 1368.23,
+//         description:
+//          "This method is a game-changer! I’ve seen amazing returns on my investments.",
+//         imageUrl: "./assets/images/arbitrage-winner/jenifer.webp",
+//  },
     {
         title: "Robert Thompson ",
         invested: 30000,
         profit: 8126,
         description:
-            "AI Arbitrage made trading so simple and profitable. My account manager was always ready to help and provide valuable insights. Highly recommend it!",
+            "AI Arbitrage made trading so simple and profitable. My account manager  always ready to help and provide valuable insights. Highly recommend it!",
         imageUrl: "./assets/images/arbitrage-winner/robert.webp",
     },
-    {
-        title: "Elizabeth Brown",
-        invested: 350,
-        profit: 5236.73,
-        description:
-            "This method is a game-changer! I’ve seen amazing returns on my investments.",
-        imageUrl: "./assets/images/arbitrage-winner/elixabeth.webp",
-    },
+    // {
+    //     title: "Elizabeth Brown",
+    //     invested: 350,
+    //     profit: 5236.73,
+    //     description:
+    //         "This method is a game-changer! I’ve seen amazing returns on my investments.",
+    //     imageUrl: "./assets/images/arbitrage-winner/elixabeth.webp",
+    // },
     {
         title: "David Clark",
         invested: 5000,
@@ -152,29 +152,29 @@ const reviews = [
     //         "Profits have been rolling in thanks to AI Arbitrage. The help from my account manager was crucial in making the most out of my trades. It’s a brilliant method.",
     //     imageUrl: "./assets/images/arbitrage-winner/sophia.webp",
     // },
-    // {
-    //     title: "Paul Moore",
-    //     invested: 350,
-    //     profit: 8327,
-    //     description:
-    //         "This method is superb. It’s easy to use and delivers consistent profits.",
-    //     imageUrl: "./assets/images/arbitrage-winner/paul.webp",
-    // },
-    // {
-    //     title: "Lisa Campbell",
-    //     invested: 6000,
-    //     profit: 3846,
-    //     description:
-    //         "AI Arbitrage has revolutionized my trading strategy. The support from my account manager was exceptional. Highly recommend it.",
-    //     imageUrl: "./assets/images/arbitrage-winner/lisa.webp",
-    // },
+    {
+        title: "Paul Moore",
+        invested: 350,
+        profit: 8327,
+        description:
+            "This method is superb. It’s easy to use and delivers consistent profits.",
+        imageUrl: "./assets/images/arbitrage-winner/paul.webp",
+    },
+    {
+        title: "Lisa Campbell",
+        invested: 6000,
+        profit: 3846,
+        description:
+            "AI Arbitrage has revolutionized my trading strategy. The support from my account manager was exceptional. Highly recommend it.",
+        imageUrl: "./assets/images/arbitrage-winner/lisa.webp",
+    },
 ];
 // Function to generate a review card
 function generateReviewCard(review) {
     return `
     <div class="swiper-slide">
     <div class="slider_green_box bg-white slider_card">
-        <div class="d-flex flex-row flex_xsm_col align-items-start  justify-content-between">
+        <div class="d-flex flex-row flex_xsm_col align-items-start justify-content-between mt-23">
             <div class="d-flex align-items-center gap-2">
                 <img class="slider_profile_img rounded-pill object-fit-cover" sizes="100vw"
                     src="${review.imageUrl}" alt="${review.title}">
