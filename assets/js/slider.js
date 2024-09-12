@@ -38,11 +38,11 @@ var swiper = new Swiper(".reviewSwiper", {
       spaceBetween: 24,
     },
     2200: {
-      slidesPerView: 1,
+      slidesPerView: 3,
       spaceBetween: 24,
     },
     2500: {
-      slidesPerView: 1,
+      slidesPerView: 3,
       spaceBetween: 24,
     },
   },

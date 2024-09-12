@@ -21,7 +21,7 @@ const reviews = [
     profit: 8126,
     description:
       "AI Arbitrage made trading so simple and profitable. My account manager was always ready to help and provide valuable insights. Highly recommend it!",
-    imageUrl: "./assets/images/arbitrage-winner/robert.webp",
+    imageUrl: "./assets/images/businessman-his-office.png",
   },
   {
     title: "Elizabeth Brown",
