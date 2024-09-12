@@ -72,7 +72,6 @@
     border-radius: 8px;
 }
 
-
 .story_video {
     border-radius: 14px !important;
     aspect-ratio: 16/9;
@@ -204,8 +203,6 @@
 
 .text_shadow_white {
     text-shadow: 0px 0px 20px #FFFFFF;
-
-
 }
 
 .white_box {
@@ -222,8 +219,6 @@
 .text_shadow_red {
     text-shadow: 0px 0px 20px #d80621;
 }
-
-
 
 .text_bottom_line {
     max-width: 880px;
@@ -270,8 +265,12 @@
 .pb-50 {
     padding-bottom: 50px;
 }
-.pb-160{
+
+.pb_160 {
     padding-bottom: 160px;
+}
+.pb-30{
+    padding-bottom: 30px;
 }
 
 .border_white {
@@ -307,7 +306,6 @@
     border-radius: 32px;
     transition: all 300ms linear;
     box-shadow: 0px 0px 20px #FFFFFF;
-
 }
 
 .max_w_heading {
@@ -344,14 +342,6 @@
     box-shadow: 0px 4px 25px 0px var(--yellow);
 }
 
-/* .get_start_live_button:hover {
-  background-color: transparent;
-  border: 2px solid var(--cyan-blue);
-  box-shadow: 0px 4px 4px var(--cyan-blue), 0px 0px 20px var(--cyan-blue), 0px 0px 20px var(--cyan-blue),
-    0px 0px 0px var(--cyan-blue), 0px 0px 0px var(--cyan-blue), 0px 1px 0px var(--cyan-blue),
-    0px 1px 0px var(--cyan-blue);
-} */
-
 .live_result_line {
     max-width: 550px;
     height: 1px;
@@ -377,7 +367,8 @@
 /* --------------------slider css---------------- */
 /* Become a profitable AI Arbitrage Winner! */
 .arbitrage_winner_heading {
-    max-width: 500px;
+    max-width: 651px;
+    padding-top: 160px;
 }
 
 .arbitrage_winner_paragraph {
@@ -385,7 +376,7 @@
 }
 
 .reviewSwiper {
-    padding: 40px 20px 0px 20px;
+    padding: 40px 20px 52px 20px;
 }
 
 /* slider section  */
@@ -422,7 +413,6 @@
 .sponsor_slide .slick-track {
     display: flex !important;
     align-items: center !important;
-
 }
 
 .slick-track {
@@ -435,12 +425,10 @@
     max-width: 394px;
 }
 
-
 .sec_5_bg {
     background-image: url("../images/page3bg.png");
     background-size: cover;
     background-position: center;
-
 }
 
 .review_slider_spacing {
@@ -650,27 +638,17 @@ input:focus-visible {
 .pt-60 {
     padding-top: 60px;
 }
-
-.pb-52 {
-    padding-bottom: 52px;
-}
-
 .sign_up_btn {
     background: var(--red);
     padding: 10px;
     margin-top: 35px;
     border: none;
     color: white !important;
-    /* transition: all ease-in-out 300ms; */
 }
 
 .get_btn {
     line-height: 115%;
 }
-
-/* .sign_up_btn:hover {
-    color: var(--rich-black);
-} */
 
 #first-counter {
     max-width: 340px;
@@ -734,8 +712,6 @@ input:focus-visible {
     background-position: center;
 }
 
-
-
 .logo_section_padding {
     padding: 51px 0 50px;
 }
@@ -744,7 +720,6 @@ input:focus-visible {
     width: 308px;
     height: 44px;
     margin: 67px 44px;
-    ;
 }
 
 .nbc_image {
@@ -803,12 +778,14 @@ input::-webkit-inner-spin-button {
 .pb-83 {
     padding-bottom: 83px;
 }
-
+.custom_container{
+    max-width: 1452px !important;
+}
 .show_more_comments_parent {
     padding: 10px;
     max-width: 611px;
     transition: all 300ms linear;
-    background: red;
+    background: #D80621;
 }
 
 .method_pro_comment_sort_by::before {
@@ -922,7 +899,6 @@ input::-webkit-inner-spin-button {
     background: #D80621;
 }
 
-
 .logo_slider {
     gap: 20px;
     width: auto;
@@ -967,12 +943,14 @@ input::-webkit-inner-spin-button {
         transform: translateX(calc((0px - var(--slider-inner-width)) - 0%));
     }
 }
-.swiper-pagination{
+
+.swiper-pagination {
     position: relative;
 }
 
 .swiper-pagination-bullet {
-    width: 12px;  
+    width: 12px;
+    position: absolute;
     height: 12px;
     background: #01010129;
     opacity: 1;
@@ -985,15 +963,15 @@ input::-webkit-inner-spin-button {
     background: #D80621;
     width: 24px;
     border-radius: 10px;
-    
 }
 
 .swiper_card:hover {
     border: 1px solid #D80621;
     background: #D806211A !important;
-
 }
-
+.pb-160{
+padding-bottom: 160px;
+}
 .pt-21 {
     padding-top: 21px;
 }
@@ -1060,12 +1038,9 @@ input::-webkit-inner-spin-button {
     height: 57.12px;
 }
 
-/* ----------------sonu.css --------------------*/
-
 .question_mark {
     max-width: 337px;
     height: 414px;
-
 }
 
 .py-160 {
@@ -1085,7 +1060,6 @@ input::-webkit-inner-spin-button {
     border: 1px solid #FFFFFF52;
     border-radius: 20px;
     background: #FFFFFF33;
-
 }
 
 .pt-14 {
@@ -1103,7 +1077,6 @@ input::-webkit-inner-spin-button {
     padding: 24px 24px;
     border: 1px solid #FFFFFF !important;
     border-radius: 20px;
-
 }
 
 .live_card_2 {
@@ -1113,86 +1086,16 @@ input::-webkit-inner-spin-button {
     padding: 24px 22px;
     border: 1px solid #FFFFFF !important;
     border-radius: 20px;
-
 }
-
-/* .live_card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-     background: linear-gradient(115.61deg, #6E5DF6 -1.55%, #00FFE1 118.95%); 
-    -webkit-mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-} 
-
- .live_card:hover::after {
-     background: #00f3b91a; 
-     background: linear-gradient(103.58deg, #0078ff 6.83%, #37eebc 109.09%); 
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 10px;
-    padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-bottom: 2px;
-    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-}
-
-.live_card:hover {
-     background: linear-gradient(115.61deg, #6E5DF6 -1.55%, #00FFE1 118.95%); */
-/* border-radius: 20px; */
-
-
-
-/* .live_card:hover p {
-    color: var(--white-gray);
-
-}
-
-.live_card:hover {
-    background-color: white !important;
-} */
-
-/* .sign_up_btn {
-    color: white;
-}
-
-.sign_up_btn:hover {
-    color: black !important;
-} */
 
 .live_circle {
-
     width: 38px !important;
     height: 38px !important;
     border-radius: 50px;
     justify-content: center;
     display: flex;
     background: white;
-
 }
-
-/* .live_card:hover .live_circle svg path {
-    stroke: #00BCFF;
-} */
-
-/* .live_card:hover .live_circle {
-    background: white;
-} */
 
 .live_sec_py_150 {
     padding-top: 150px;
@@ -1264,7 +1167,6 @@ input::-webkit-inner-spin-button {
     .tick_space {
         margin-top: 4px;
     }
-
 
     .form_input {
         padding: 20px;
@@ -1365,13 +1267,18 @@ input::-webkit-inner-spin-button {
 }
 
 @media (max-width: 767.98px) {
+    .pb-67{
+        padding-bottom: 34px;
+    }
     .gap-80 {
-            gap: 60px;
-        }
+        gap: 40px;
+    }
+
     .marketsco_img {
-            width: 202.75px;
-            height: 40.18px;
-        }
+        width: 202.75px;
+        height: 40.18px;
+    }
+
     .pt_80 {
         padding-top: 50px;
     }
@@ -1410,7 +1317,6 @@ input::-webkit-inner-spin-button {
     .mb_100_md {
         margin-bottom: 50px;
     }
-
 
     .forbes_section_padding {
         padding: 48px 0;
@@ -1510,37 +1416,45 @@ input::-webkit-inner-spin-button {
 }
 
 @media (max-width: 575.98px) {
-    .pt-sm-48{
+    .pb-61{
+        padding-bottom: 0;
+    }
+    .pb-52{
+        padding-bottom: 12px;
+    }
+    .pt-sm-48 {
         padding-top: 48px;
     }
-    .pb-sm-0{
+
+    .pb-sm-0 {
         padding-bottom: 0;
-        
     }
+
     .marketsco_img {
-            width: 182.75px;
-            height: 40.18px;
-        }
-    
-        .cg_wise_img {
-            width: 154.29px;
-            height: 74.07px;
-        }
-    
-        .fargo_investor_img {
-            width: 201.71px;
-            height: 75px;
-        }
-    
-        .financial_img {
-            width: 155.87px;
-            height: 57.12px;
-        }
-    
-        .reserve_img {
-            width: 202.47px;
-            height: 57.12px;
-        }
+        width: 182.75px;
+        height: 40.18px;
+    }
+
+    .cg_wise_img {
+        width: 154.29px;
+        height: 74.07px;
+    }
+
+    .fargo_investor_img {
+        width: 201.71px;
+        height: 75px;
+    }
+
+    .financial_img {
+        width: 155.87px;
+        height: 57.12px;
+    }
+
+    .reserve_img {
+        width: 202.47px;
+        height: 57.12px;
+    }
+
     .mx-sm-16 {
         margin-left: 16px;
         margin-right: 16px;
@@ -1668,7 +1582,6 @@ input::-webkit-inner-spin-button {
     .fs_footer_btn {
         font-size: 18px;
     }
-
 }
 
 @media (max-width: 375.98px) {
@@ -1693,7 +1606,7 @@ input::-webkit-inner-spin-button {
         min-height: 150px;
     }
 
-    .forbes_image {
+    /* .forbes_image {
         width: 250px;
         height: 60px;
         margin: 67px 40px;
@@ -1721,5 +1634,5 @@ input::-webkit-inner-spin-button {
         width: 250px;
         height: 60px;
         margin: 45px 35px;
-    }
+    } */
 }

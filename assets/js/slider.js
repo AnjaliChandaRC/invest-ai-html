@@ -1,7 +1,7 @@
 // REVIEW SLIDER SETTING START HERE
 var swiper = new Swiper(".reviewSwiper", {
   centeredSlides: true,
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
   autoplay: {
@@ -9,12 +9,8 @@ var swiper = new Swiper(".reviewSwiper", {
     disableOnInteraction: false,
   },
   breakpoints: {
-    360: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
     576: {
-      slidesPerView: 1.3,
+      slidesPerView: 1,
       spaceBetween: 20,
     },
     640: {
@@ -23,27 +19,27 @@ var swiper = new Swiper(".reviewSwiper", {
     },
     1024: {
       slidesPerView: 2,
-      spaceBetween: 24,
+      spaceBetween: 30,
     },
     1200: {
       slidesPerView: 3,
-      spaceBetween: 24,
+      spaceBetween: 30,
     },
     1440: {
-      slidesPerView: 2.2,
-      spaceBetween: 24,
+      slidesPerView: 3.2,
+      spaceBetween: 30,
     },
     1600: {
-      slidesPerView: 2.5,
-      spaceBetween: 24,
+      slidesPerView: 4,
+      spaceBetween: 30,
     },
     2200: {
-      slidesPerView: 3,
-      spaceBetween: 24,
+      slidesPerView: 5,
+      spaceBetween: 30,
     },
     2500: {
-      slidesPerView: 3,
-      spaceBetween: 24,
+      slidesPerView: 4,
+      spaceBetween: 30,
     },
   },
 });
@@ -55,46 +51,3 @@ swiper.on("init", function () {
 
 // INITIALIZE SWIPER
 swiper.init();
-
-// 
-
-      
-$('.slick_slider').slick({
-  dots: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 320,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-});
