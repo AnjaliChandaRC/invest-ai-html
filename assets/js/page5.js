@@ -16,14 +16,16 @@ const reviews = [
             "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”",
         imageUrl: "./assets/images/arbitrage-winner/christopher.webp",
     },
-    //   {
-    //     title: "Jennifer Wilson",
-    //         invested: 2000,
-    //         profit: 1368.23,
-    //         description:
-    //          "This method is a game-changer! I’ve seen amazing returns on my investments.",
-    //         imageUrl: "./assets/images/arbitrage-winner/jenifer.webp",
-    //  },
+    {
+        title: "Christopher Harris",
+        invested: 350,
+        profit: 5207,
+        description:
+            "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”",
+        imageUrl: "./assets/images/arbitrage-winner/christopher.webp",
+    },
+    
+    
     {
         title: "Robert Thompson ",
         invested: 30000,
