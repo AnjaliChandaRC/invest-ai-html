@@ -3,6 +3,11 @@ var swiper = new Swiper(".reviewSwiper", {
   centeredSlides: true,
   slidesPerView: 1,
   spaceBetween: 30,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+
+  },
   loop: true,
   autoplay: {
     delay: 2500,
@@ -11,14 +16,18 @@ var swiper = new Swiper(".reviewSwiper", {
   breakpoints: {
     576: {
       slidesPerView: 1,
-      spaceBetween: 20,
+      spaceBetween: 8,
     },
     640: {
       slidesPerView: 1.5,
       spaceBetween: 20,
     },
+    768: {
+      slidesPerView: 1.5,
+      spaceBetween: 15,
+    },
     1024: {
-      slidesPerView: 2,
+      slidesPerView: 2.5,
       spaceBetween: 30,
     },
     1200: {
