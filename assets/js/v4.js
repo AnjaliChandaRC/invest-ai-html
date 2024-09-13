@@ -5,23 +5,23 @@ const reviews = [
         invested: 350,
         profit: 4891,
         description:
-            "The AI Arbitrage method is incredible!. My account manager was always every step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_green fw-medium'>Show More</a>",
+            "The AI Arbitrage method is incredible!. My account manager was always every step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_dark_yellow fw-medium'>Show More</a>",
         imageUrl: "./assets/images/arbitrage-winner/michael-chen-profile.webp",
     },
     {
-         title: "Christopher Harris",
-         invested: 350,
-         profit: 5207,
-         description:
-             "AI Arbitrage has made my trading experience so much better. The support from my account manager was exceptional. Great profits in no time!",
-         imageUrl: "./assets/images/arbitrage-winner/christopher.webp",
-     },
+        title: "Christopher Harris",
+        invested: 350,
+        profit: 5207,
+        description:
+            "AI Arbitrage has made my trading experience so much better. The support account manager was exceptional. Great profits in no time!",
+        imageUrl: "./assets/images/arbitrage-winner/christopher.webp",
+    },
     {
         title: "Robert Thompson ",
         invested: 30000,
         profit: 8126,
         description:
-            "AI Arbitrage made trading so simple and profitable. My account manager  always ready to help and provide valuable insights. Highly recommend it!",
+            "AI Arbitrage made trading so simple and profitable. My account manager to help and provide valuable insights. Highly recommend it!",
         imageUrl: "./assets/images/arbitrage-winner/robert.webp",
     },
     {

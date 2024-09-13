@@ -62,7 +62,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <!--=========== CUSTOM CSS =========== -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/page.css">
+    <link rel="stylesheet" href="./assets/css/v4.css">
 </head>
 
 <body>
@@ -111,37 +111,45 @@
     <?php } ?>
 
     <!-- =========== HERO SECTION ========= -->
-    <section class="bg_green position-relative z-1 pt-21 hero_sec_spacing py-sm-48">
+    <section class="bg-black position-relative z-1 hero_sec_spacing">
+        <!-- <img src="assets/images/gradient1-img.png" alt="gradient1-img"
+            class="position-absolute z-3 gradient-size top-0 end-0 d-md-block d-none">
+        <img src="assets/images/gradient2-img.png" alt="gradient2-img"
+            class="position-absolute z-3 gradient-size top-30 left_-4 d-md-block d-none">
+        <img src="assets/images/gradient3-img.png" alt="gradient3-img"
+            class="position-absolute z-3 gradient-size top-78 end-0 d-md-block d-none"> -->
+
         <video playsinline muted loop autoplay
             class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none">
             <source src="./assets/video/background-particle.webm" />
             Your browser does not support the video tag.
         </video>
         <div
-            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg_green opacity z-1 pointer_event_none">
+            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center  opacity_05 z-1 pointer_event_none">
         </div>
-        <div class="container  mx-auto  position-relative z-2">
+        <div class="container custom_container mx-auto  position-relative z-2">
             <div class="max_w_hero mx-auto">
-                <div class="d-flex justify-content-center">
-                    <img class="arrow_size" src="./assets/images/top_img.png" alt="arrow" />
+                <div class="d-flex justify-content-center ">
+                    <img class="arrow_size" src="./assets/images/yellow_symbol_img.png" alt="arrow" />
                 </div>
                 <h2
-                    class="pt-12 text-uppercase fs_xxll text-white ff_oxanium text-center text_shadow_yellow fw-semibold leading_124 ">
-                    AI Arbitrage Method Pro
+                    class="mt-2 pt-1 text-uppercase fs_xxll text-white ff_oxanium text-center text_shadow_yellow fw-semibold leading_124 ">
+                    AI Arbitrage Platinum
                 </h2>
-                <span class="text_bottom_line d-block mx-auto bg-white mb_53"></span>
-                <h2 class="text_shadow_yellow text-center text-white ff_oxygen fw-bold fs_xxll leading_124 mb-0">
-                    AI POWERED Arbitrage Method Pro
+                <span class="text_bottom_line d-block mx-auto bg-white mb-lg-5 mb-md-4 mb-3"></span>
+                <h2
+                    class="text_shadow_orange text-center text-white ff_oxygen fw-bold fs_xxll leading_124 text-uppercase mb-0">
+                    Ultimate AI Arbitrage Strategy
                 </h2>
-                <p class="mt-3 pt-1 text-center text-white ff_roboto fw-bold text_shadow_yellow fs_xl leading_114">
+                <p class="mt-3 pt-1 text-center text-white ff_roboto fw-bold text_shadow_orange fs_xl leading_114">
                     Tap into AI for Wealth Building With The World's #1 AI Method
                 </p>
                 <p class="mt-3 text-center text-white ff_roboto fw-normal fs_3lg mb-0 leading_120 px-xl-5">
-                    Watch Your Investment Skyrocket Effortlessly with a Simple AI System
-                    that Capitalizes on Price Differences! Investors Have Seen a
-                    Remarkable
-                    <span class="text_yellow fw-normal">36.5%+</span> Gains in
-                    Less Than 24 Hours! Watch the Video Below to Discover How
+                    Transform Your Investment Portfolio with Ease Using an AI-Powered Approach that Profits from
+                    Price Differences!
+                    Investors Have Recorded a
+                    <span class="text_yellow fw-semibold ">36.5%+</span> Growth in Less Than 24 Hours!Watch the
+                    Video Below for a Step-by-Step Guide!
                 </p>
                 <div class="d-flex justify-content-center mt-3 pt-1 mb-4 pb-2">
                     <div class="border_blue radius_xl video_shadow">
@@ -176,10 +184,11 @@
                 <!-- ========= FORM MODAL ======= -->
                 <div class="mx-auto d-flex justify-content-center position-relative z-3">
                     <button data-bs-toggle="modal" data-bs-target="#registerModal"
-                        class="fw-normal hero_btn fs_md ff_roboto text_green d-flex flex-column justify-content-center align-items-center mx-auto leading_140 ">
+                        class="access_button fw-normal hero_btn  fs_md ff_roboto text_black d-flex flex-column justify-content-center align-items-center mx-auto leading_140 ">
                         <span class="d-flex align-items-center gap-2">
-                            <img class="access_arrow" src="./assets/images/green_arrow.png" alt="arrow" />
-                            <span class="ff_oxygen fw-bold fs_xl fs_hero_button leading_140 text_green">Unlimited
+                            <img class="access_arrow" src="./assets/images/access_arrow.png" alt="arrow"
+                                style="width: 28px;" />
+                            <span class="ff_oxygen fw-bold fs_xl fs_hero_button leading_140 text_black">Unlimited
                                 Access
                                 For Free!</span>
                         </span>
@@ -200,8 +209,8 @@
                                         </svg>
                                     </span>
                                     <div
-                                        class="bg_bluish_cyan w-100 d-flex align-items-center justify-content-between px-4 py-3">
-                                        <p class="fw-bold fs_lg text-white form_heading mb-0 pe-3">
+                                        class="bg-gradient-color z-3 w-100 d-flex align-items-center justify-content-between px-4 py-3">
+                                        <p class="fw-bold fs_lg text-white form_heading mb-0 pe-3 z-3">
                                             Let AI Secure Profits with Prime
                                             Arbitrage Opportunities for You!
                                         </p>
@@ -225,7 +234,8 @@
                                                 </div>
                                                 <div class="w-100 pe-0 pt-sm-0 pt_10 mt-sm-0 mt-1">
                                                     <label for="lastname3"
-                                                        class="text-black fw-normal fs_base mt-sm-0">Last Name</label>
+                                                        class="text-black fw-normal fs_base mt-sm-0">Last
+                                                        Name</label>
                                                     <input required aria-label="last_name"
                                                         class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base"
                                                         type="text" name="last_name" id="last_name" />
@@ -278,59 +288,58 @@
 
                 <p
                     class="ff_roboto text-white font-normal text-center pt-lg-5 pt-4 mb-lg-5 mb-4 pb-xl-1 fs_lg leading_140">
-                    Just apply this simple AI Method, and you'll instantly see where to
-                    buy, sell, and take profit within seconds. With up to <span class="text_yellow">93.2%</span> daily
-                    accuracy, our AI system simplifies your decisions and helps you
-                    achieve consistent gains with minimal effort. Start today and
-                    experience how effortless and profitable your account will grow
-                    using AI-Arbitrage.
+                    Apply this user-friendly AI method and instantly identify the best opportunities to buy, sell, and
+                    take profit in
+                    seconds. Our AI system, with up to <span class="text_yellow">93.2%</span>
+                    daily accuracy, simplifies your trading choices and supports consistent gains
+                    with minimal effort. Get started today and see your account grow effortlessly and profitably with
+                    AI-Arbitrage.
                 </p>
                 <h2
-                    class="max_w_heading fs_xxll text_shadow_yellow text-center text-white ff_roboto fw-bold mx-auto mb-4 leading_140 text-capitalize">
-                    The <span class="text_yellow">world's</span> must trusted AI method,
-                    proved by Experts all over the world.
+                    class="max_w_heading fs_xxll text_shadow_orange text-center text-white ff_roboto fw-bold mx-auto mb-4 leading_140 text-capitalize">
+                    The <span class="text_orange">most trusted</span> AI method globally, proven effective by experts
+                    around the world.
                 </h2>
                 <div class="d-flex justify-content-center mb-md-2 mb-4">
                     <ul class="p-0 m-0">
                         <li
                             class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
                             <span><img class="blue_tick" src="./assets/images/tick_img.png" alt="blue-tick" /></span>
-                            Extremely Easy Setup: Get started in just (1 minute).
+                            Fast and Simple Setup: Start in just 60 seconds.
                         </li>
                         <li
                             class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
                             <span><img class="blue_tick" src="./assets/images/tick_img.png"
                                     alt="blue-tick" /></span></span>
-                            Highly accuracy.: AI Arbitrage achieves up to 93.2% daily
-                            accuracy.
+                            Top-Tier Accuracy: AI Arbitrage provides up to 93.2% daily accuracy.
                         </li>
                         <li
                             class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
                             <span><img class="blue_tick" src="./assets/images/tick_img.png"
                                     alt="blue-tick" /></span></span>
-                            Real-Time: Receive live AI alerts.
+                            Real-Time Notifications: Get live AI alerts instantly.
                         </li>
                         <li
                             class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
                             <span><img class="blue_tick" src="./assets/images/tick_img.png"
                                     alt="blue-tick" /></span></span>
-                            Beginner-Friendly: Perfect for those with zero experience.
+                            Great for Beginners: Designed for those with no prior experience.
                         </li>
                         <li
-                            class="ff_roboto text-white font-normal fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
+                            class="ff_roboto text-white font-normal mb-sm-3 mb-2 fs_2lg d-flex align-items-start gap-sm-3 gap-2 leading_145">
                             <span><img class="blue_tick" src="./assets/images/tick_img.png"
                                     alt="blue-tick" /></span></span>
-                            Comprehensive Support: Includes 1-on-1 calls with your account
-                            manager.
+                            Complete Support: Access 1-on-1 consultations with your account manager.
                         </li>
                     </ul>
                 </div>
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center mb-3">
                     <a href="#thankyou-form"
-                        class=" get_btn fw-bold mx-auto d-flex align-items-center ff_lato text_green fs_3lg leading_140">
+                        class="hero_btn get_btn fw-bold mx-auto d-flex align-items-center ff_lato text_black fs_3lg leading_140  "
+                        style="color: black;">
                         Get Started!
-                        <span class="ms-3 ps-lg-1 mt_button_icon"><img class="play_icon"
-                                src="./assets/images/green_icon.png" alt="play-icon-button" /></span>
+                        <span class="ms-3 ps-lg-1 mt_button_icon"><img class="play_icon" style="width: 24px;"
+                                src="./assets/images/black_arrow.png" alt="play-icon-button" /></span>
                     </a>
                 </div>
             </div>
@@ -354,88 +363,91 @@
         </div>
     </div>
     <!--=========== REAL SUCCESS STORIES ============= -->
-    <div class="container custom_container mx-auto success_story_sec_spacing">
-        <h2 class="pb-3 text-center text-black fs_3xl fw-bold leading_130 mb-0 ff_oxygen text_shadow_yellow">
-            Real <span class="text_green">Success Stories</span>
-        </h2>
-        <p
-            class="text-center fs_lg text_rich_black opacity_08 leading_150 pb-4 mb-2 success_story_paragraph mx-auto fw-medium mb-0 ff_roboto">
-            These testimonials highlight how AI Automated Arbitrage can lead to
-            significant positive changes in the lives of many canadian families.
-        </p>
-        <div class="row story_video_parent justify-content-center">
-            <div class="col-lg-4 col-sm-6">
-                <div class="white_box_shadow border-r-20 overflow-hidden position-relative">
-                    <video id="video1" class="w-100 green_story_video d-block object-fit-cover" autoplay loop muted
-                        playsinline controls src="./assets/video/melani.mp4"></video>
-                    <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
-                        MELANI FROM TORONTO
-                    </p>
-                    </span>
+    <section class="bg-black">
+        <div class="container custom_container mx-auto py-sm-48 pt-160 ">
+            <h2 class="pb-3 text-center text-white fs_3xl fw-bold leading_130 mb-0 ff_oxygen text_shadow_orange">
+                True Stories of Success
+            </h2>
+            <p style="color: rgba(250, 250, 250, 1); opacity: 80%;"
+                class="text-center fs_lg text_white opacity_08 leading_150 pb-4 mb-2 success_story_paragraph mx-auto fw-normal mb-0 ff_roboto">
+                These testimonials illustrate the impactful and positive changes AI Automated Arbitrage has made in the
+                lives of
+                Canadian families.
+            </p>
+            <div class="row story_video_parent justify-content-center">
+                <div class="col-lg-4 col-sm-6 video_card">
+                    <div class="white_box_shadow border-r-20 overflow-hidden position-relative  py-3">
+                        <video id="video1" class="w-100 green_story_video d-block object-fit-cover" autoplay loop muted
+                            playsinline controls src="./assets/video/melani.mp4"></video>
+                        <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
+                            MELANI FROM TORONTO
+                        </p>
+                        </span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="white_box_shadow border-r-20 overflow-hidden position-relative">
-                    <video id="video2" class="w-100 green_story_video d-block object-fit-cover" autoplay loop muted
-                        playsinline controls src="./assets/video/alex.mp4"></video>
-                    <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
-                        ALEX FROM HAMILTON
-                    </p>
+                <div class="col-lg-4 col-sm-6 video_card">
+                    <div class="white_box_shadow border-r-20 overflow-hidden position-relative py-3">
+                        <video id="video2" class="w-100 green_story_video d-block object-fit-cover" autoplay loop muted
+                            playsinline controls src="./assets/video/alex.mp4"></video>
+                        <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
+                            ALEX FROM HAMILTON
+                        </p>
 
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="white_box_shadow border-r-20 overflow-hidden position-relative">
-                    <video id="video3" class="w-100 green_story_video d-block object-fit-cover" autoplay loop muted
-                        playsinline controls src="./assets/video/lilly.mp4"></video>
-                    <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
-                        LILLY FROM MONTREAL
-                    </p>
+                <div class="col-lg-4 col-sm-6 video_card">
+                    <div class="white_box_shadow border-r-20 overflow-hidden position-relative py-3">
+                        <video id="video3" class="w-100 green_story_video d-block object-fit-cover" autoplay loop muted
+                            playsinline controls src="./assets/video/lilly.mp4"></video>
+                        <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
+                            LILLY FROM MONTREAL
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="white_box_shadow border-r-20 overflow-hidden position-relative">
-                    <video id="video5" class="w-100 green_story_video d-block object-fit-cover" autoplay loop muted
-                        playsinline controls src="./assets/video/hana-video.webm"></video>
-                    <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
-                        hana FROM toronto
-                    </p>
+                <div class="col-lg-4 col-sm-6 video_card">
+                    <div class="white_box_shadow border-r-20 overflow-hidden position-relative py-3">
+                        <video id="video5" class="w-100 green_story_video d-block object-fit-cover" autoplay loop muted
+                            playsinline controls src="./assets/video/hana-video.webm"></video>
+                        <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
+                            hana FROM toronto
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="white_box_shadow border-r-20 overflow-hidden position-relative">
-                    <video id="video6" class="w-100 green_story_video d-block object-fit-cover" autoplay loop muted
-                        playsinline controls src="./assets/video/alex-video.webm"></video>
-                    <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
-                        Alex FROM brampton
-                    </p>
+                <div class="col-lg-4 col-sm-6 video_card">
+                    <div class="white_box_shadow border-r-20 overflow-hidden position-relative py-3">
+                        <video id="video6" class="w-100 green_story_video d-block object-fit-cover" autoplay loop muted
+                            playsinline controls src="./assets/video/alex-video.webm"></video>
+                        <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
+                            Alex FROM brampton
+                        </p>
 
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="white_box_shadow border-r-20 overflow-hidden position-relative">
-                    <video id="video7" class="w-100 green_story_video d-block object-fit-cover" autoplay loop muted
-                        playsinline controls src="./assets/video/sam-video.webm"></video>
-                    <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
-                        Sam FROM markham
-                    </p>
+                <div class="col-lg-4 col-sm-6 video_card">
+                    <div class="white_box_shadow border-r-20 overflow-hidden position-relative py-3">
+                        <video id="video7" class="w-100 green_story_video d-block object-fit-cover" autoplay loop muted
+                            playsinline controls src="./assets/video/sam-video.webm"></video>
+                        <p class="text-center py-3 text-white ff_roboto mt-1 mb-0 fw-semibold fs_base text-uppercase">
+                            Sam FROM markham
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+    </section>
+
     <!--===========  BECOME A PROFITABLE AI ARBITRAGE WINNER ! ===========-->
-    <section class="position-relative z-3 slider_spacing">
+    <section class="bg-black pb-md-3 position-relative z-3 pt-160">
         <div
-            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg_white  pointer_event_none">
+            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg_black  pointer_event_none">
         </div>
-        <div class="container  position-relative z-3">
+        <div class="pt-2 container custom_container position-relative z-3">
             <h2
-                class="fs_3xl leading_130 fw-bold text_rich_black arbitrage_winner_heading ff_oxygen mx-auto text-center mb-3 text_shadow_yellow">
-                Become a <span class="text_green">Profitable AI</span>Winner!
+                class="fs_3xl leading_130 fw-bold text-white arbitrage_winner_heading ff_oxygen mx-auto text-center mb-3 text_shadow_orange">
+                Become an AI <br> Success Story!
             </h2>
             <p
-                class="fw-medium fs_lg leading_150 text_rich_black text-center mx-auto ff_roboto arbitrage_winner_paragraph mb-0">
+                class="fw-medium fs_lg leading_150 text-white text-center mx-auto ff_roboto arbitrage_winner_paragraph mb-0">
                 People with different professions, were able to boost their income in
                 the first day using the AI-Method
             </p>
@@ -445,84 +457,165 @@
         </div>
         <div class="swiper-pagination"></div>
     </section>
+
     <!-- ========== LOGOS ======= -->
-    <section class=" overflow-hidden max_w_1920 mx-auto logo_spacing">
-        <div class="logo-container p-0">
-            <div class="row text-center">
-                <div class="d-flex flex-wrap justify-content-center">
-                    <img src="./assets/images/logo_section_img1.png" alt="image" class="marketsco_img">
-                    <img src="./assets/images/logo_section_img2.png" alt="image" class="cg_wise_img">
-                    <img src="./assets/images/logo_section_img3.png" alt="image" class="fargo_investor_img">
-                    <img src="./assets/images/logo_section_img4.png" alt="image" class="financial_img">
-                    <img src="./assets/images/logo_section_img5.png" alt="image" class="reserve_img">
+    <section class=" overflow-hidden max_w_1920 mx-auto py-50 py-5 bg-black">
+        <div class=" px-12">
+            <div class=" d-flex overflow-hidden gap-20">
+                <div class="white_box">
+                    <img class="forbes_image" src="./assets/images/dark_img.png" alt="forbes" />
+                </div>
+                <div class="white_box">
+                    <img class="nbc_image" src="./assets/images/dark_img1.png" alt="nbc" />
+                </div>
+                <div class="white_box">
+                    <img class="fox_news_image" src="./assets/images/dark_img3.png" alt="fox-news" />
+                </div>
+                <div class="white_box">
+                    <img class="wall_street_journal_image" src="./assets/images/dark_img4.png"
+                        alt="wall-street-journal" />
+                </div>
+                <div class="white_box">
+                    <img class="the_new_york_times_image " src="./assets/images/dark_img5.png"
+                        alt="the-new-york-times" />
+                </div>
+
+                <div class="white_box">
+                    <img class="forbes_image" src="./assets/images/dark_img.png" alt="forbes" />
+                </div>
+                <div class="white_box">
+                    <img class="nbc_image" src="./assets/images/dark_img1.png" alt="nbc" />
+                </div>
+                <div class="white_box">
+                    <img class="fox_news_image" src="./assets/images/dark_img3.png" alt="fox-news" />
+                </div>
+                <div class="white_box">
+                    <img class="wall_street_journal_image" src="./assets/images/dark_img4.png"
+                        alt="wall-street-journal" />
+                </div>
+                <div class="white_box">
+                    <img class="the_new_york_times_image " src="./assets/images/dark_img5.png"
+                        alt="the-new-york-times" />
                 </div>
             </div>
         </div>
         </div>
+        </div>
     </section>
     <!-- ========== LIVE RESULT ======= -->
-    <section class=" position-relative z-3 live_sec_spacing sec_5_backimage">
+    <section class="position-relative z-3 live_sec_py_150  py-sm-48 bg-black">
         <div
-            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center  opacity_05 z-1 pointer_event_none">
+            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center  opacity_05 z-1 pointer_event_none sec_5_bg">
         </div>
         <div class="container custom_container  position-relative z-3">
-            <img class=" mx-auto d-flex group_people_icon mt-xl-2" src="./assets/images/symbol-img.png"
+            <img class=" mx-auto d-flex group_people_icon  mb-80" src="./assets/images/symbol-img.png"
                 alt="people-group" />
             <h2
-                class=" text-center leading_174 text-white ff_oxygen fw-bold fs_xxll d-flex align-items-center gap-2 justify-content-center mt-3  text_shadow_yellow mb-0">
-                <span class="live_dot d-block rounded-pill " style="background-color: yellow;"></span> Live Results :
+                class=" text-center leading_174 text-white ff_oxygen fw-bold fs_xxll d-flex align-items-center gap-2 justify-content-center mt-md-4 pt-lg-2 mix_text_shadow">
+                <span class="live_dot d-block rounded-pill border-bottom" style="background-color: yellow;"></span> Live
+                Results :
             </h2>
             <span class="live_result_line_1 d-block mx-auto bg-white "></span>
-            <div class=" pt-34">
+            <div class=" pt-43 pb-67">
                 <ul
-                    class="p-0 m-0 d-flex align-items-start justify-content-center flex-wrap  text-right ">
-                    <li class="   position-relative ">
-                        <p class="text-white fs_2xl ff_oxygen  " style="font-weight: 700; margin-bottom: 14px; ">93.2% </p>
-                        <p class="ff_oxygen text-white live_text font-normal fs_3lg mb-0 leading_140 ">
-                            VIP Arbitrage<br> Winning Rate:</p>
-                        <span class="live_card_border position-absolute ml-20 d-sm-block d-none"></span>
-                    </li>
-                    <li class="  position-relative ms-5">
-                        <p class="text-white fs_2xl ff_roboto ps-40 ms-40" style="font-weight: 700;margin-bottom: 14px;">6041 </p>
-                        <p class="ff_roboto text-white font-normal fs_3lg mb-0 leading_140   ps-40 ms-40">
-                            Number of<br> opportunities taken</p>
-                        <span class="live_card_border position-absolute  ml-40 d-sm-block d-none"></span>
+                    class="p-0 m-0 d-flex align-items-start justify-content-center flex-wrap gap-md-4 gap-3 text-center">
+                    <li class="  gap-sm-2 gap-1 live_card">
+                        <!-- <div class=" d-flex align-items-center justify-content-center"> -->
+                        <div class="live_circle d-flex align-items-center justify-content-center mx-auto">
+                            <svg width="25" height="25" viewBox="0 0 10 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 3.5L3.64706 6L9 1" stroke="#000" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <!-- </div> -->
+                        <p class="ff_roboto text-white live_text font-normal fs_lg mb-0 leading_140  pt-4 "
+                            style="white-space: nowrap;">
+                            VIP Arbitrage Winning Rate:</p>
+                        <p class="text-white fs_xxl pt-2 mb-0" style="font-weight: 700;">93.2% </p>
 
                     </li>
-                    <li class="   ms-5 ">
-                        <p class="text-white fs_2xl ff_roboto  ms-40" style="font-weight: 700;margin-bottom: 14px;">6063 </p>
-                        <p class="ff_roboto text-white fs_3lg mb-0 leading_140   ms-40">
-                            Active AI Arbitrage<br> Opportunities</p>
+                    <li class="  gap-sm-2 gap-1   live_card">
+                        <div class=" d-flex align-items-center justify-content-center">
+                            <div class="live_circle d-flex align-items-center justify-content-center">
+                                <svg width="25" height="25" viewBox="0 0 10 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 3.5L3.64706 6L9 1" stroke="#000" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
 
+                        </div>
+                        <p class="ff_roboto text-white font-normal fs_lg mb-0 leading_140  pt-4"
+                            style="white-space: nowrap;">
+                            Number of opportunities taken</p>
+                        <p class="text-white fs_xxl pt-2 mb-0 " style="font-weight: 700;">6041 </p>
                     </li>
-                </ul>
-                <ul
-                    class="p-0  d-flex align-items-start justify-content-center flex-wrap  text-center pt-40 mt-0 ">
-                    <li class="  position-relative ">
+                    <li class="  gap-sm-2 gap-1   live_card">
+                        <div class=" d-flex align-items-center justify-content-center">
+                            <div class="live_circle d-flex align-items-center justify-content-center">
+                                <svg width="25" height="25" viewBox="0 0 10 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 3.5L3.64706 6L9 1" stroke="#000" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
 
-                        <p class=" fs_2xl ff_roboto text-white ps-40 ms-40" style="font-weight: 700;margin-bottom: 14px;">3665 </p>
-                        <p class="ff_roboto text-white font-normal fs_3lg mb-0 leading_140  ps-40 ms-40">
+                        </div>
+                        <p class="ff_roboto text-white font-normal fs_lg mb-0 leading_140  pt-4 text-center"
+                            style="white-space: nowrap;">
+                            Active AI Arbitrage Opportunities</p>
+                        <p class="text-white fs_xxl pt-2 " style="font-weight: 700;">6063 </p>
+                    </li>
+                    <li class=" gap-sm-2 gap-1   live_card">
+                        <div class=" d-flex align-items-center justify-content-center">
+                            <div class="live_circle d-flex align-items-center justify-content-center">
+                                <svg width="25" height="25" viewBox="0 0 10 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 3.5L3.64706 6L9 1" stroke="#000" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+
+                        </div>
+                        <p class="ff_roboto text-white font-normal fs_lg mb-0 leading_140  pt-4">
                             Active payouts</p>
-                        <span class="live_card_border position-absolute ms-4 d-sm-block d-none"></span>
-
+                        <p class=" fs_xxl pt-2 text-white" style="font-weight: 700;">3665 </p>
                     </li>
-                    <li class="    ">
-                        <p class="text-white fs_2xl ff_roboto ps-40 ms-40" style="font-weight: 700;margin-bottom: 14px;">$862/ Day </p>
-                        <p class="ff_roboto text-white fs_3lg mb-0 leading_140 ps-40 ms-40">
-                            Average Member Profit</p>
+                    <li class="  gap-sm-2 gap-1   live_card">
+                        <div class=" d-flex align-items-center justify-content-center">
+                            <div class="live_circle d-flex align-items-center justify-content-center">
+                                <svg width="25" height="25" viewBox="0 0 10 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 3.5L3.64706 6L9 1" stroke="#000" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
 
+                        </div>
+                        <p class="ff_roboto text-white font-normal fs_lg mb-0 leading_140  pt-4">
+                            Average Member Profit</p>
+                        <p class="text-white fs_xxl pt-2" style="font-weight: 700;">$862/ Day </p>
                     </li>
                 </ul>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+                <a href="#thankyou-form"
+                    class="hero_button get_start_live_button fw-bold ff_oxygen text-black fs_3lg leading_140  mb-xl-2 bg_cyan_blue">
+                    Get started here
+                    <span class="ps-2"><img class="black_arrow" src="./assets/images/black_double_arrow.png"
+                            alt="arrow" /></span>
+                </a>
             </div>
         </div>
     </section>
     <!-- ============= FREQUENTLY ASKED QUESTIONS ============ -->
-    <section class="max_w_1440">
-        <div class="container custom_container bg-white py-sm-48 faq_spacing max_w_1440">
-            <div class=" ">
+    <section class="max_w_1440 bg-black">
+        <div class="container custom_container bg-black py-sm-48 pt-160 max_w_1440">
+            <div class="mb_123 mb_100_md ">
                 <p
-                    class="fw-bold ff_oxygen  text_shadow_yellow text-center fs_3xl  mb-md-5 mb-sm-4 mb-3 text-black leading_130">
-                    Frequently <span class="text_green">Asked Questions</span>
+                    class="fw-bold ff_oxygen  text-center fs_3xl  pt_80 pt_50 mb-md-5 mb-sm-4 mb-3 text-white text_shadow_orange leading_130">
+                    Frequently Asked Questions
                 </p>
                 <div class="  flex-lg-row flex-column-reverse">
                     <div class=" d-flex align-items-center  pt-2">
@@ -531,11 +624,12 @@
                                 <div data-id="1" class="accordion-item active_question accordion_shadow">
                                     <h2 class="accordion-header position-relative ">
                                         <button
-                                            class="accordion-button fw-bold ff_oxygen fs_lg text_light_black align-items-start margin-t-17 box-shadow"
+                                            class="accordion-button fw-bold ff_oxygen fs_lg text-white bg-black align-items-start margin-t-17 box-shadow"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                             aria-expanded="true" aria-controls="collapseOne">
-                                            <span class="clr_darkgray">1. </span>&ensp;
-                                            <span class="fw-bold ff_oxygen fs_lg text_light_black">How to get started?
+                                            <span class="text-white">1. </span>&ensp;
+                                            <span class="fw-bold ff_oxygen fs_lg text-white">How to get
+                                                started?
                                             </span>
                                         </button>
                                     </h2>
@@ -543,7 +637,7 @@
                                         data-bs-parent="#faqAccordian">
                                         <div class="accordion-body">
                                             <p
-                                                class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
+                                                class="faq_answers fw-normal mb-0 fs_base text-white bg-black opacity_07 ff_roboto">
                                                 To get started, simply sign up in the form below. Within a
                                                 few minutes, you'll receive a call from your dedicated
                                                 account manager who will guide you through setting up the
@@ -559,13 +653,13 @@
                                 <div data-id="2" class="accordion-item mt-4 accordion_border">
                                     <h2 class="accordion-header position-relative ">
                                         <button
-                                            class="accordion-button collapsed fw-bold ff_oxygen fs_lg text_light_black align-items-center margin-t-17"
+                                            class="accordion-button collapsed fw-bold ff_oxygen fs_lg text-white bg-black align-items-center margin-t-17"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                             aria-expanded="false" aria-controls="collapseTwo">
-                                            <span class="fw-bold ff_oxygen fs_lg text_light_black">2.
+                                            <span class="fw-bold ff_oxygen fs_lg text-white bg-black">2.
                                             </span>
                                             &ensp;
-                                            <span class="fw-bold ff_oxygen fs_lg text_light_black">Is Arbitrage
+                                            <span class="fw-bold ff_oxygen fs_lg text-white bg-black">Is Arbitrage
                                                 Legal?</span>
                                         </button>
                                     </h2>
@@ -573,7 +667,7 @@
                                         data-bs-parent="#faqAccordian">
                                         <div class="accordion-body">
                                             <p
-                                                class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
+                                                class="faq_answers fw-normal mb-0 fs_base text-white bg-black opacity_07 ff_roboto">
                                                 Yes, arbitrage is legal in Canada, Europe, and the U.S.
                                                 Many investors favor this type of trading because it
                                                 provides liquidity and encourages market efficiency by
@@ -586,11 +680,11 @@
                                 <div data-id="3" class="accordion-item mt-4 accordion_border">
                                     <h2 class="accordion-header position-relative">
                                         <button
-                                            class="accordion-button collapsed fw-bold ff_oxygen fs_lg text_light_black align-items-center"
+                                            class="accordion-button collapsed fw-bold ff_oxygen fs_lg text-white bg-black align-items-center"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                             aria-expanded="false" aria-controls="collapseThree">
-                                            <span class="clr_darkgray">3. </span> &ensp;
-                                            <span class="fw-bold ff_oxygen fs_lg text_light_black  w-155">Do I need
+                                            <span class="text-white">3. </span> &ensp;
+                                            <span class="fw-bold ff_oxygen fs_lg text-white bg-black  w-155">Do I need
                                                 trading
                                                 experience?</span>
                                         </button>
@@ -599,7 +693,7 @@
                                         data-bs-parent="#faqAccordian">
                                         <div class="accordion-body">
                                             <p
-                                                class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
+                                                class="faq_answers fw-normal mb-0 fs_base text-white bg-black opacity_07 ff_roboto">
                                                 Not at all! AI Arbitrage is designed to be an easy and
                                                 simple process, even for beginners. Our support agents are
                                                 available to help you with the setup within minutes. All
@@ -614,11 +708,12 @@
                                 <div data-id="4" class="accordion-item mt-4 accordion_border">
                                     <h2 class="accordion-header position-relative">
                                         <button
-                                            class="accordion-button collapsed fw-bold ff_oxygen fs_lg text_light_black align-items-center"
+                                            class="accordion-button collapsed fw-bold ff_oxygen fs_lg text-white bg-black align-items-center"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                             aria-expanded="false" aria-controls="collapseFour">
-                                            <span class="clr_darkgray">4. </span>&ensp;
-                                            <span class="fw-bold ff_oxygen fs_lg text_light_black">Can You Lose Money in
+                                            <span class="text-white">4. </span>&ensp;
+                                            <span class="fw-bold ff_oxygen fs_lg text-white bg-black">Can You Lose
+                                                Money in
                                                 Arbitrage?</span>
                                         </button>
                                     </h2>
@@ -626,7 +721,7 @@
                                         data-bs-parent="#faqAccordian">
                                         <div class="accordion-body">
                                             <p
-                                                class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
+                                                class="faq_answers fw-normal mb-0 fs_base text-white bg-black opacity_07 ff_roboto">
                                                 While AI Arbitrage is considered no-risk and the price
                                                 differences are typically very small, traders have
                                                 experienced small losses of 0.2% to 0.5% on their
@@ -640,11 +735,11 @@
                                 <div data-id="5" class="accordion-item mt-4 accordion_border">
                                     <h2 class="accordion-header position-relative">
                                         <button
-                                            class="accordion-button collapsed fw-bold ff_oxygen fs_lg text_light_black align-items-center "
+                                            class="accordion-button collapsed fw-bold ff_oxygen fs_lg text-white bg-black align-items-center "
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                             aria-expanded="false" aria-controls="collapseFive">
-                                            <span class="clr_darkgray">5. </span>&ensp;
-                                            <span class="fw-bold ff_oxygen fs_lg text_light_black w-175">What Makes
+                                            <span class="text-white">5. </span>&ensp;
+                                            <span class="fw-bold ff_oxygen fs_lg text-white bg-black w-175">What Makes
                                                 Arbitrage
                                                 Low-Risk?</span>
                                         </button>
@@ -653,7 +748,7 @@
                                         data-bs-parent="#faqAccordian">
                                         <div class="accordion-body">
                                             <p
-                                                class="faq_answers fw-normal mb-0 fs_base text-black opacity_07 ff_roboto">
+                                                class="faq_answers fw-normal mb-0 fs_base text-white opacity_07 ff_roboto">
                                                 Pure, "textbook" arbitrage is considered low- (or no-)
                                                 risk because it involves buying in one market and selling
                                                 in another without needing additional capital. The price
@@ -681,45 +776,41 @@
         </div>
     </section>
     <!--============= THANKS YOU SECTION ==============-->
-    <section class="bg_form position-relative z-3 py-sm-48 thank-you_sec_spacing">
-        <video playsinline muted loop autoplay
-            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none">
-            <source src="./assets/video/background-particle.webm" />
-            Your browser does not support the video tag.
-        </video>
-        <div style="background: #4CC973;
-" class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg_cyan_blue opacity_84 pointer_event_none">
+    <section class="bg-black position-relative z-3   pb-83 py-sm-48">
+
+        <div
+            class="w-100 d-block bg-black position-absolute top-0 start-0 h-100 object-fit-cover bg-center bg_cyan_blue opacity_05 pointer_event_none">
         </div>
-        <div class="form_container container  px_12 position-relative z-3  ">
-            <div class="">
-                <p class=" text-white text-center ff_oxygen fw-bold fs_xxll text_shadow_yellow mb-0 leading_124">
-                    Ready To Get 24/7 Access To The
+        <div class="form_container container  px_12 position-relative z-3 pt-5 ">
+            <div class="mt-lg-2 pb-sm-2 pb-4">
+                <p class="pt-lg-5 text-white text-center ff_oxygen fw-bold fs_xxll text_shadow_orange mb-4 leading_124">
+                    Get 24/7 Access to the World's <br> Leading Profit Strategy!
                 </p>
-                <p class="text-white text-center ff_oxygen fw-bold fs_xxll text_shadow_yellow mb-0 leading_124 ">
-                    World's Most Profitable Strategy?
+
+                <p class=" text-center text-white fs_3lg ff_roboto fw-normal leading_144 mb-3 pb-2">
+                    For Canadians in 2024, AI Arbitrage is the ultimate smart choice.
                 </p>
-                <p class="pt-sm-4 pt-3 text-center text-white fs_3lg ff_roboto fw-normal leading_144 mb-0">
-                    AI Arbitrage is the smart choice for canadians in 2024
-                </p>
-                <p class="dotted_line  pb-md-24"></p>
             </div>
-            <div class="row bg-white form_box justify-content-between  mx-sm-0">
+            <div class="row bg-black form_box justify-content-between  mx-sm-0">
                 <div class="col-lg-6 col-12 form_content_spacing px-0">
-                    <p class="fw-bold text-black fs_2xl leading_135 ff_oxygen thanks_ai_arbitrage_text">
+                    <p class="fw-bold text-white fs_2xl leading_135 ff_oxygen thanks_ai_arbitrage_text">
                         Thanks to AI Arbitrage, more than 120,000 Canadians have already
                         been able to afford:
                     </p>
                     <ul class="ps-0 mb-sm-5 mb-4 pb-xl-5 d-flex flex-column gap-2">
-                        <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-center gap-1">
-                            <svg width="22" height="23" viewBox="0 0 22 23" fill="none"
+                        <li class="fw-normal ff_oxygen text-white fs_lg d-flex align-items-center gap-1">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_d_7314_4167)">
+                                <g filter="url(#filter0_d_7332_7220)">
                                     <path
-                                        d="M19.8469 10.5C19.8469 15.8516 15.4719 20.1875 10.1594 20.1875C4.80781 20.1875 0.471875 15.8516 0.471875 10.5C0.471875 5.1875 4.80781 0.8125 10.1594 0.8125C15.4719 0.8125 19.8469 5.1875 19.8469 10.5ZM9.02656 15.6562L16.2141 8.46875C16.4484 8.23438 16.4484 7.80469 16.2141 7.57031L15.3156 6.71094C15.0813 6.4375 14.6906 6.4375 14.4563 6.71094L8.59688 12.5703L5.82344 9.83594C5.58906 9.5625 5.19844 9.5625 4.96406 9.83594L4.06563 10.6953C3.83125 10.9297 3.83125 11.3594 4.06563 11.5938L8.12813 15.6562C8.3625 15.8906 8.79219 15.8906 9.02656 15.6562Z"
-                                        fill="#4CC973" />
+                                        d="M19.8469 9.87012C19.8469 15.2217 15.4719 19.5576 10.1594 19.5576C4.80781 19.5576 0.471875 15.2217 0.471875 9.87012C0.471875 4.55762 4.80781 0.182617 10.1594 0.182617C15.4719 0.182617 19.8469 4.55762 19.8469 9.87012ZM9.02656 15.0264L16.2141 7.83887C16.4484 7.60449 16.4484 7.1748 16.2141 6.94043L15.3156 6.08105C15.0813 5.80762 14.6906 5.80762 14.4563 6.08105L8.59688 11.9404L5.82344 9.20605C5.58906 8.93262 5.19844 8.93262 4.96406 9.20605L4.06563 10.0654C3.83125 10.2998 3.83125 10.7295 4.06563 10.9639L8.12813 15.0264C8.3625 15.2607 8.79219 15.2607 9.02656 15.0264Z"
+                                        fill="#010101" />
+                                    <path
+                                        d="M19.8469 9.87012C19.8469 15.2217 15.4719 19.5576 10.1594 19.5576C4.80781 19.5576 0.471875 15.2217 0.471875 9.87012C0.471875 4.55762 4.80781 0.182617 10.1594 0.182617C15.4719 0.182617 19.8469 4.55762 19.8469 9.87012ZM9.02656 15.0264L16.2141 7.83887C16.4484 7.60449 16.4484 7.1748 16.2141 6.94043L15.3156 6.08105C15.0813 5.80762 14.6906 5.80762 14.4563 6.08105L8.59688 11.9404L5.82344 9.20605C5.58906 8.93262 5.19844 8.93262 4.96406 9.20605L4.06563 10.0654C3.83125 10.2998 3.83125 10.7295 4.06563 10.9639L8.12813 15.0264C8.3625 15.2607 8.79219 15.2607 9.02656 15.0264Z"
+                                        fill="url(#paint0_linear_7332_7220)" />
                                 </g>
                                 <defs>
-                                    <filter id="filter0_d_7314_4167" x="0.472656" y="0.8125" width="21.375"
+                                    <filter id="filter0_d_7332_7220" x="0.46875" y="0.182617" width="21.375"
                                         height="21.375" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                         <feFlood flood-opacity="0" result="BackgroundImageFix" />
                                         <feColorMatrix in="SourceAlpha" type="matrix"
@@ -730,26 +821,35 @@
                                         <feColorMatrix type="matrix"
                                             values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
                                         <feBlend mode="normal" in2="BackgroundImageFix"
-                                            result="effect1_dropShadow_7314_4167" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_4167"
+                                            result="effect1_dropShadow_7332_7220" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7332_7220"
                                             result="shape" />
                                     </filter>
+                                    <linearGradient id="paint0_linear_7332_7220" x1="10.1594" y1="-8.33822"
+                                        x2="-0.950256" y2="17.6204" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#39CFD9" />
+                                        <stop offset="1" stop-color="#EFC525" />
+                                    </linearGradient>
                                 </defs>
                             </svg>
+
 
 
                             <span>Pay off their mortgage</span>
                         </li>
-                        <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-center gap-1">
-                            <svg width="22" height="23" viewBox="0 0 22 23" fill="none"
+                        <li class="fw-normal ff_oxygen text-white fs_lg d-flex align-items-center gap-1">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_d_7314_4167)">
+                                <g filter="url(#filter0_d_7332_7220)">
                                     <path
-                                        d="M19.8469 10.5C19.8469 15.8516 15.4719 20.1875 10.1594 20.1875C4.80781 20.1875 0.471875 15.8516 0.471875 10.5C0.471875 5.1875 4.80781 0.8125 10.1594 0.8125C15.4719 0.8125 19.8469 5.1875 19.8469 10.5ZM9.02656 15.6562L16.2141 8.46875C16.4484 8.23438 16.4484 7.80469 16.2141 7.57031L15.3156 6.71094C15.0813 6.4375 14.6906 6.4375 14.4563 6.71094L8.59688 12.5703L5.82344 9.83594C5.58906 9.5625 5.19844 9.5625 4.96406 9.83594L4.06563 10.6953C3.83125 10.9297 3.83125 11.3594 4.06563 11.5938L8.12813 15.6562C8.3625 15.8906 8.79219 15.8906 9.02656 15.6562Z"
-                                        fill="#4CC973" />
+                                        d="M19.8469 9.87012C19.8469 15.2217 15.4719 19.5576 10.1594 19.5576C4.80781 19.5576 0.471875 15.2217 0.471875 9.87012C0.471875 4.55762 4.80781 0.182617 10.1594 0.182617C15.4719 0.182617 19.8469 4.55762 19.8469 9.87012ZM9.02656 15.0264L16.2141 7.83887C16.4484 7.60449 16.4484 7.1748 16.2141 6.94043L15.3156 6.08105C15.0813 5.80762 14.6906 5.80762 14.4563 6.08105L8.59688 11.9404L5.82344 9.20605C5.58906 8.93262 5.19844 8.93262 4.96406 9.20605L4.06563 10.0654C3.83125 10.2998 3.83125 10.7295 4.06563 10.9639L8.12813 15.0264C8.3625 15.2607 8.79219 15.2607 9.02656 15.0264Z"
+                                        fill="#010101" />
+                                    <path
+                                        d="M19.8469 9.87012C19.8469 15.2217 15.4719 19.5576 10.1594 19.5576C4.80781 19.5576 0.471875 15.2217 0.471875 9.87012C0.471875 4.55762 4.80781 0.182617 10.1594 0.182617C15.4719 0.182617 19.8469 4.55762 19.8469 9.87012ZM9.02656 15.0264L16.2141 7.83887C16.4484 7.60449 16.4484 7.1748 16.2141 6.94043L15.3156 6.08105C15.0813 5.80762 14.6906 5.80762 14.4563 6.08105L8.59688 11.9404L5.82344 9.20605C5.58906 8.93262 5.19844 8.93262 4.96406 9.20605L4.06563 10.0654C3.83125 10.2998 3.83125 10.7295 4.06563 10.9639L8.12813 15.0264C8.3625 15.2607 8.79219 15.2607 9.02656 15.0264Z"
+                                        fill="url(#paint0_linear_7332_7220)" />
                                 </g>
                                 <defs>
-                                    <filter id="filter0_d_7314_4167" x="0.472656" y="0.8125" width="21.375"
+                                    <filter id="filter0_d_7332_7220" x="0.46875" y="0.182617" width="21.375"
                                         height="21.375" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                         <feFlood flood-opacity="0" result="BackgroundImageFix" />
                                         <feColorMatrix in="SourceAlpha" type="matrix"
@@ -760,26 +860,35 @@
                                         <feColorMatrix type="matrix"
                                             values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
                                         <feBlend mode="normal" in2="BackgroundImageFix"
-                                            result="effect1_dropShadow_7314_4167" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_4167"
+                                            result="effect1_dropShadow_7332_7220" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7332_7220"
                                             result="shape" />
                                     </filter>
+                                    <linearGradient id="paint0_linear_7332_7220" x1="10.1594" y1="-8.33822"
+                                        x2="-0.950256" y2="17.6204" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#39CFD9" />
+                                        <stop offset="1" stop-color="#EFC525" />
+                                    </linearGradient>
                                 </defs>
                             </svg>
+
 
 
                             <span class="mb-0">Purchase modern cars</span>
                         </li>
-                        <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-center gap-1">
-                            <svg width="22" height="23" viewBox="0 0 22 23" fill="none"
+                        <li class="fw-normal ff_oxygen text-white fs_lg d-flex align-items-center gap-1">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_d_7314_4167)">
+                                <g filter="url(#filter0_d_7332_7220)">
                                     <path
-                                        d="M19.8469 10.5C19.8469 15.8516 15.4719 20.1875 10.1594 20.1875C4.80781 20.1875 0.471875 15.8516 0.471875 10.5C0.471875 5.1875 4.80781 0.8125 10.1594 0.8125C15.4719 0.8125 19.8469 5.1875 19.8469 10.5ZM9.02656 15.6562L16.2141 8.46875C16.4484 8.23438 16.4484 7.80469 16.2141 7.57031L15.3156 6.71094C15.0813 6.4375 14.6906 6.4375 14.4563 6.71094L8.59688 12.5703L5.82344 9.83594C5.58906 9.5625 5.19844 9.5625 4.96406 9.83594L4.06563 10.6953C3.83125 10.9297 3.83125 11.3594 4.06563 11.5938L8.12813 15.6562C8.3625 15.8906 8.79219 15.8906 9.02656 15.6562Z"
-                                        fill="#4CC973" />
+                                        d="M19.8469 9.87012C19.8469 15.2217 15.4719 19.5576 10.1594 19.5576C4.80781 19.5576 0.471875 15.2217 0.471875 9.87012C0.471875 4.55762 4.80781 0.182617 10.1594 0.182617C15.4719 0.182617 19.8469 4.55762 19.8469 9.87012ZM9.02656 15.0264L16.2141 7.83887C16.4484 7.60449 16.4484 7.1748 16.2141 6.94043L15.3156 6.08105C15.0813 5.80762 14.6906 5.80762 14.4563 6.08105L8.59688 11.9404L5.82344 9.20605C5.58906 8.93262 5.19844 8.93262 4.96406 9.20605L4.06563 10.0654C3.83125 10.2998 3.83125 10.7295 4.06563 10.9639L8.12813 15.0264C8.3625 15.2607 8.79219 15.2607 9.02656 15.0264Z"
+                                        fill="#010101" />
+                                    <path
+                                        d="M19.8469 9.87012C19.8469 15.2217 15.4719 19.5576 10.1594 19.5576C4.80781 19.5576 0.471875 15.2217 0.471875 9.87012C0.471875 4.55762 4.80781 0.182617 10.1594 0.182617C15.4719 0.182617 19.8469 4.55762 19.8469 9.87012ZM9.02656 15.0264L16.2141 7.83887C16.4484 7.60449 16.4484 7.1748 16.2141 6.94043L15.3156 6.08105C15.0813 5.80762 14.6906 5.80762 14.4563 6.08105L8.59688 11.9404L5.82344 9.20605C5.58906 8.93262 5.19844 8.93262 4.96406 9.20605L4.06563 10.0654C3.83125 10.2998 3.83125 10.7295 4.06563 10.9639L8.12813 15.0264C8.3625 15.2607 8.79219 15.2607 9.02656 15.0264Z"
+                                        fill="url(#paint0_linear_7332_7220)" />
                                 </g>
                                 <defs>
-                                    <filter id="filter0_d_7314_4167" x="0.472656" y="0.8125" width="21.375"
+                                    <filter id="filter0_d_7332_7220" x="0.46875" y="0.182617" width="21.375"
                                         height="21.375" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                         <feFlood flood-opacity="0" result="BackgroundImageFix" />
                                         <feColorMatrix in="SourceAlpha" type="matrix"
@@ -790,26 +899,35 @@
                                         <feColorMatrix type="matrix"
                                             values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
                                         <feBlend mode="normal" in2="BackgroundImageFix"
-                                            result="effect1_dropShadow_7314_4167" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_4167"
+                                            result="effect1_dropShadow_7332_7220" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7332_7220"
                                             result="shape" />
                                     </filter>
+                                    <linearGradient id="paint0_linear_7332_7220" x1="10.1594" y1="-8.33822"
+                                        x2="-0.950256" y2="17.6204" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#39CFD9" />
+                                        <stop offset="1" stop-color="#EFC525" />
+                                    </linearGradient>
                                 </defs>
                             </svg>
 
 
+
                             <span class="mb-0">To finance their children's education</span>
                         </li>
-                        <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-center gap-1">
-                            <svg width="22" height="23" viewBox="0 0 22 23" fill="none"
+                        <li class="fw-normal ff_oxygen text-white fs_lg d-flex align-items-center gap-1">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_d_7314_4167)">
+                                <g filter="url(#filter0_d_7332_7220)">
                                     <path
-                                        d="M19.8469 10.5C19.8469 15.8516 15.4719 20.1875 10.1594 20.1875C4.80781 20.1875 0.471875 15.8516 0.471875 10.5C0.471875 5.1875 4.80781 0.8125 10.1594 0.8125C15.4719 0.8125 19.8469 5.1875 19.8469 10.5ZM9.02656 15.6562L16.2141 8.46875C16.4484 8.23438 16.4484 7.80469 16.2141 7.57031L15.3156 6.71094C15.0813 6.4375 14.6906 6.4375 14.4563 6.71094L8.59688 12.5703L5.82344 9.83594C5.58906 9.5625 5.19844 9.5625 4.96406 9.83594L4.06563 10.6953C3.83125 10.9297 3.83125 11.3594 4.06563 11.5938L8.12813 15.6562C8.3625 15.8906 8.79219 15.8906 9.02656 15.6562Z"
-                                        fill="#4CC973" />
+                                        d="M19.8469 9.87012C19.8469 15.2217 15.4719 19.5576 10.1594 19.5576C4.80781 19.5576 0.471875 15.2217 0.471875 9.87012C0.471875 4.55762 4.80781 0.182617 10.1594 0.182617C15.4719 0.182617 19.8469 4.55762 19.8469 9.87012ZM9.02656 15.0264L16.2141 7.83887C16.4484 7.60449 16.4484 7.1748 16.2141 6.94043L15.3156 6.08105C15.0813 5.80762 14.6906 5.80762 14.4563 6.08105L8.59688 11.9404L5.82344 9.20605C5.58906 8.93262 5.19844 8.93262 4.96406 9.20605L4.06563 10.0654C3.83125 10.2998 3.83125 10.7295 4.06563 10.9639L8.12813 15.0264C8.3625 15.2607 8.79219 15.2607 9.02656 15.0264Z"
+                                        fill="#010101" />
+                                    <path
+                                        d="M19.8469 9.87012C19.8469 15.2217 15.4719 19.5576 10.1594 19.5576C4.80781 19.5576 0.471875 15.2217 0.471875 9.87012C0.471875 4.55762 4.80781 0.182617 10.1594 0.182617C15.4719 0.182617 19.8469 4.55762 19.8469 9.87012ZM9.02656 15.0264L16.2141 7.83887C16.4484 7.60449 16.4484 7.1748 16.2141 6.94043L15.3156 6.08105C15.0813 5.80762 14.6906 5.80762 14.4563 6.08105L8.59688 11.9404L5.82344 9.20605C5.58906 8.93262 5.19844 8.93262 4.96406 9.20605L4.06563 10.0654C3.83125 10.2998 3.83125 10.7295 4.06563 10.9639L8.12813 15.0264C8.3625 15.2607 8.79219 15.2607 9.02656 15.0264Z"
+                                        fill="url(#paint0_linear_7332_7220)" />
                                 </g>
                                 <defs>
-                                    <filter id="filter0_d_7314_4167" x="0.472656" y="0.8125" width="21.375"
+                                    <filter id="filter0_d_7332_7220" x="0.46875" y="0.182617" width="21.375"
                                         height="21.375" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                         <feFlood flood-opacity="0" result="BackgroundImageFix" />
                                         <feColorMatrix in="SourceAlpha" type="matrix"
@@ -820,26 +938,34 @@
                                         <feColorMatrix type="matrix"
                                             values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
                                         <feBlend mode="normal" in2="BackgroundImageFix"
-                                            result="effect1_dropShadow_7314_4167" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_4167"
+                                            result="effect1_dropShadow_7332_7220" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7332_7220"
                                             result="shape" />
                                     </filter>
+                                    <linearGradient id="paint0_linear_7332_7220" x1="10.1594" y1="-8.33822"
+                                        x2="-0.950256" y2="17.6204" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#39CFD9" />
+                                        <stop offset="1" stop-color="#EFC525" />
+                                    </linearGradient>
                                 </defs>
                             </svg>
 
 
                             <span class="mb-0">Quit a demanding job</span>
                         </li>
-                        <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-center gap-1">
-                            <svg width="22" height="23" viewBox="0 0 22 23" fill="none"
+                        <li class="fw-normal ff_oxygen text-white fs_lg d-flex align-items-center gap-1">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_d_7314_4167)">
+                                <g filter="url(#filter0_d_7332_7220)">
                                     <path
-                                        d="M19.8469 10.5C19.8469 15.8516 15.4719 20.1875 10.1594 20.1875C4.80781 20.1875 0.471875 15.8516 0.471875 10.5C0.471875 5.1875 4.80781 0.8125 10.1594 0.8125C15.4719 0.8125 19.8469 5.1875 19.8469 10.5ZM9.02656 15.6562L16.2141 8.46875C16.4484 8.23438 16.4484 7.80469 16.2141 7.57031L15.3156 6.71094C15.0813 6.4375 14.6906 6.4375 14.4563 6.71094L8.59688 12.5703L5.82344 9.83594C5.58906 9.5625 5.19844 9.5625 4.96406 9.83594L4.06563 10.6953C3.83125 10.9297 3.83125 11.3594 4.06563 11.5938L8.12813 15.6562C8.3625 15.8906 8.79219 15.8906 9.02656 15.6562Z"
-                                        fill="#4CC973" />
+                                        d="M19.8469 9.87012C19.8469 15.2217 15.4719 19.5576 10.1594 19.5576C4.80781 19.5576 0.471875 15.2217 0.471875 9.87012C0.471875 4.55762 4.80781 0.182617 10.1594 0.182617C15.4719 0.182617 19.8469 4.55762 19.8469 9.87012ZM9.02656 15.0264L16.2141 7.83887C16.4484 7.60449 16.4484 7.1748 16.2141 6.94043L15.3156 6.08105C15.0813 5.80762 14.6906 5.80762 14.4563 6.08105L8.59688 11.9404L5.82344 9.20605C5.58906 8.93262 5.19844 8.93262 4.96406 9.20605L4.06563 10.0654C3.83125 10.2998 3.83125 10.7295 4.06563 10.9639L8.12813 15.0264C8.3625 15.2607 8.79219 15.2607 9.02656 15.0264Z"
+                                        fill="#010101" />
+                                    <path
+                                        d="M19.8469 9.87012C19.8469 15.2217 15.4719 19.5576 10.1594 19.5576C4.80781 19.5576 0.471875 15.2217 0.471875 9.87012C0.471875 4.55762 4.80781 0.182617 10.1594 0.182617C15.4719 0.182617 19.8469 4.55762 19.8469 9.87012ZM9.02656 15.0264L16.2141 7.83887C16.4484 7.60449 16.4484 7.1748 16.2141 6.94043L15.3156 6.08105C15.0813 5.80762 14.6906 5.80762 14.4563 6.08105L8.59688 11.9404L5.82344 9.20605C5.58906 8.93262 5.19844 8.93262 4.96406 9.20605L4.06563 10.0654C3.83125 10.2998 3.83125 10.7295 4.06563 10.9639L8.12813 15.0264C8.3625 15.2607 8.79219 15.2607 9.02656 15.0264Z"
+                                        fill="url(#paint0_linear_7332_7220)" />
                                 </g>
                                 <defs>
-                                    <filter id="filter0_d_7314_4167" x="0.472656" y="0.8125" width="21.375"
+                                    <filter id="filter0_d_7332_7220" x="0.46875" y="0.182617" width="21.375"
                                         height="21.375" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                         <feFlood flood-opacity="0" result="BackgroundImageFix" />
                                         <feColorMatrix in="SourceAlpha" type="matrix"
@@ -850,12 +976,18 @@
                                         <feColorMatrix type="matrix"
                                             values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
                                         <feBlend mode="normal" in2="BackgroundImageFix"
-                                            result="effect1_dropShadow_7314_4167" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7314_4167"
+                                            result="effect1_dropShadow_7332_7220" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7332_7220"
                                             result="shape" />
                                     </filter>
+                                    <linearGradient id="paint0_linear_7332_7220" x1="10.1594" y1="-8.33822"
+                                        x2="-0.950256" y2="17.6204" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#39CFD9" />
+                                        <stop offset="1" stop-color="#EFC525" />
+                                    </linearGradient>
                                 </defs>
                             </svg>
+
 
 
                             <span class="mb-0 ">
@@ -863,12 +995,14 @@
                             </span>
                         </li>
                     </ul>
+                    <img src="assets/images/gradient4-img.png" alt="gradient4-img"
+                        class="position-absolute gradient-size_card">
                     <div
                         class="d-flex align-items-center justify-content-lg-start justify-content-center gap_sm_30 gap_12 flex-wrap px-12">
-                        <img src="./assets/images/thanks/investing.webp" alt="investing"
+                        <img src="./assets/images/thanks/investor_img.png" alt="investing"
                             class="investing w-xl-75 w-50" />
                         <img src="./assets/images/thanks/goggle.webp" alt="goggle" class="goggle w-xl-75 w-50" />
-                        <img src="./assets/images/thanks/forbes.webp" alt="forbes" class="forbes w-xl-75 w-50" />
+                        <img src="./assets/images/thanks/forbes.webp" alt="forbes" class="forbes w-xl-75 w-50 z-3" />
                     </div>
                 </div>
                 <div id="thankyou-form"
@@ -884,53 +1018,56 @@
                         </div>
                         <form onsubmit="handleFormSubmit(event, 'thanksForm','')"
                             class="thanks_form invest_form overflow-hidden mb-4" id="thanksForm">
-                            <div class=" w-100 px-4 py-3">
-                                <p class="fw-bold fs_lg text-black ff_oxygen form_heading py-1 pe-xl-3 mb-2">
+                            <div class=" w-100 px-4 py-3 bg-gradient-color">
+                                <p class="fw-bold fs_lg text-black ff_oxygen form_heading py-1 pe-xl-3 mb-2 ">
                                     Let AI Secure Profits with Prime Arbitrage Opportunities for
                                     You!
                                 </p>
                             </div>
-                            <div class="form_input bg-white">
+                            <div class="form_input bg-">
+                                <blockquote></blockquote>
                                 <div class="d-flex flex-sm-row flex-column mb-2">
                                     <div class="w-100 pe-1">
-                                        <label for="firstName3" class="text-black fw-normal fs_base ff_roboto">First
+                                        <label for="firstName3" class="text-white fw-normal fs_base ff_roboto">First
                                             Name</label>
                                         <input required
-                                            class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base ff_roboto"
+                                            class="rounded-pill bg-transparent w-100 px-3 text-black fw-normal fs_base ff_roboto card_name_border"
                                             type="text" name="first_name" id="first_name" />
                                         <p class="mb-0 error bg-white text-danger fw-normal fs_xs"
                                             id="tradingFirstNameError"></p>
                                     </div>
                                     <div class="w-100 pe-0 ps-1 pt-sm-0 pt_10 mt-sm-0 mt-1">
-                                        <label for="lastname3" class="text-black fw-normal fs_base ff_roboto">Last
+                                        <label for="lastname3" class="text-white fw-normal fs_base ff_roboto">Last
                                             Name</label>
                                         <input required
-                                            class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base ff_roboto"
+                                            class="rounded-pill bg-transparent w-100 px-3 text-black fw-normal fs_base ff_roboto card_name_border"
                                             type="text" name="last_name" id="last_name" />
                                         <p class="mb-0 error bg-white text-danger fw-normal fs_xs"
                                             id="tradingLastNameError"></p>
                                     </div>
                                 </div>
                                 <label for="email3"
-                                    class="text-black fw-normal fs_base ff_roboto pt_10 mt-1">Email</label>
+                                    class="text-white fw-normal fs_base ff_roboto pt_10 mt-1">Email</label>
                                 <div class="rounded-pill mb-2">
-                                    <input required
-                                        class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base ff_roboto"
+                                    <input
+                                        class="rounded-pill bg-transparent w-100 px-3 text-white fw-normal fs_base ff_roboto card_name_border z-3"
                                         type="email" name="email" id="email" />
                                 </div>
-                                <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingEmailError"></p>
-                                <label for="Number3" class="text-black fw-normal fs_base ff_roboto pt_10 mt-1">Phone
+                                <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingEmailError">
+                                </p>
+                                <label for="Number3" class="text-white fw-normal fs_base ff_roboto pt_10 mt-1">Phone
                                     Number</label>
                                 <input required
-                                    class="rounded-pill bg-white max_h_37 trading_input w-100 pe-3 fs_sm ff_roboto"
+                                    class="rounded-pill bg-transparent max_h_37 trading_input w-100 pe-3 fs_sm ff_roboto card_name_border"
                                     type="number" name="number" id="Number3" />
-                                <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingNumberError"></p>
+                                <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingNumberError">
+                                </p>
                                 <button type="submit"
-                                    class="text-white sign_up_btn bg_green ff_roboto rounded-pill fw-bold fs_base w-100 ">
+                                    class="text-black sign_up_btn ff_roboto rounded-pill fw-bold fs_base w-100 ">
                                     Sign Up
                                 </button>
                             </div>
-                            <p class="pb-3 mb-1 text-center fw-semibold ff_oxygen fs_lg text_rich_black">
+                            <p class="pb-3 mb-1 text-center fw-semibold ff_oxygen fs_lg text-white">
                                 <span class="spots_left">4</span> Spots Left
                             </p>
                             <div class="help-block help-block-error">
@@ -948,7 +1085,7 @@
                             <ul class="px-3 mx-auto d-flex justify-content-center justify-content-between mb-0">
                                 <li class="d-flex flex-column text_light_black text-center ff_roboto ">
                                     <span
-                                        class="d-flex justify-content-center align-items-center fw-bold fs_xxl text-black coutdown_digit_box ff_oxanium time_box"
+                                        class="d-flex justify-content-center align-items-center fw-bold fs_xxl text-white coutdown_digit_box ff_oxanium time_box"
                                         id="first-hours"></span>Hours
                                 </li>
                                 <ul class=" p-0 mt-20">
@@ -959,7 +1096,7 @@
                                 </ul>
                                 <li class="d-flex flex-column text_light_black text-center ff_roboto">
                                     <span
-                                        class="d-flex justify-content-center align-items-center fw-bold fs_xxl text-black coutdown_digit_box ff_oxanium time_box"
+                                        class="d-flex justify-content-center align-items-center fw-bold fs_xxl text-white coutdown_digit_box ff_oxanium time_box"
                                         id="first-minutes"></span>Minutes
                                 </li>
                                 <ul class=" p-0 mt-20">
@@ -970,7 +1107,7 @@
                                 </ul>
                                 <li class="d-flex flex-column text_light_black text-center ff_roboto">
                                     <span
-                                        class="d-flex justify-content-center align-items-center fw-bold fs_xxl text-black coutdown_digit_box ff_oxanium  time_box"
+                                        class="d-flex justify-content-center align-items-center fw-bold fs_xxl text-white coutdown_digit_box ff_oxanium  time_box"
                                         id="first-seconds"></span>Seconds
                                 </li>
                             </ul>
@@ -978,25 +1115,22 @@
                     </div>
                 </div>
             </div>
-            <p
-                class="  mb-md-0  mt-lg-5 pt-4 text-white text-center ff_oxygen fw-bold fs_3xl text_shadow_yellow d-sm-block d-none">
-                Get Access For Free!
-            </p>
+
         </div>
     </section>
     <!-- =========== COMMENT SECTION  -->
-    <section class="comment_sec_spacing">
-        <div class="comment_container container px-md-12">
+    <section class="py-160  py-sm-48 bg-black">
+        <div class="custom_container container     px-md-12">
             <div class="d-flex align-items-center justify-content-between pb-4 pb-md-5 mb-lg-3">
-                <p class="fs_lg fw-semibold text_rich_black mb-0">619 comments</p>
+                <p class="fs_lg fw-semibold text-white mb-0">619 comments</p>
                 <div class="d-flex align-items-center gap-2 gap-sm-3">
-                    <p class="fw-semibold fs_lg text_rich_black mb-0">Sort by:</p>
-                    <p class="fs_lg text_rich_black fw-semibold method_pro_comment_sort_by mb-0">
+                    <p class="fw-semibold fs_lg text-white mb-0">Sort by:</p>
+                    <p class="fs_lg color_gradient_username fw-semibold method_pro_comment_sort_by mb-0">
                         Top
                     </p>
                 </div>
             </div>
-            <div class="d-flex align-items-center pt-3 gap-3 gap-sm-4 pb-md-3 mb-lg-1">
+            <div class="d-flex align-items-center pt-1 gap-3 gap-sm-4 pb-md-3 mb-lg-1">
                 <img class="rounded-circle object-fit-cover user_profile border-0 w-100"
                     src="./assets/images/comments/dummy-user.svg" alt="user-profile" />
                 <div class="ms-lg-3 ps-1 w-100">
@@ -1006,12 +1140,28 @@
                             type="text" placeholder="Add a comment.." />
                         <button id="submitButton" type="submit" class="bg-transparent border-0 p-0" disabled>
 
-                            <svg class="send_message_arrow" width="57" height="57" viewBox="0 0 57 57" fill="none"
+                            <svg width="57" height="58" viewBox="0 0 57 58" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M48.0532 13.5049C49.0792 10.6668 46.3289 7.91652 43.4908 8.94489L8.80391 21.4896C5.95628 22.5204 5.61191 26.4059 8.23153 27.9235L19.3038 34.3336L29.1909 24.4465C29.6388 24.0139 30.2388 23.7745 30.8615 23.7799C31.4842 23.7853 32.0799 24.0351 32.5202 24.4754C32.9606 24.9158 33.2103 25.5115 33.2158 26.1342C33.2212 26.7569 32.9818 27.3568 32.5492 27.8048L22.662 37.6919L29.0745 48.7641C30.5898 51.3838 34.4753 51.037 35.506 48.1918L48.0532 13.5049Z"
-                                    fill="#4CC973" />
+                                <g clip-path="url(#clip0_7332_6831)">
+                                    <path
+                                        d="M48.0532 14.0049C49.0792 11.1668 46.3289 8.41652 43.4908 9.44489L8.80391 21.9896C5.95628 23.0204 5.61191 26.9059 8.23153 28.4235L19.3038 34.8336L29.1909 24.9465C29.6388 24.5139 30.2388 24.2745 30.8615 24.2799C31.4842 24.2853 32.0799 24.5351 32.5202 24.9754C32.9606 25.4158 33.2103 26.0115 33.2158 26.6342C33.2212 27.2569 32.9818 27.8568 32.5492 28.3048L22.662 38.1919L29.0745 49.2641C30.5898 51.8838 34.4753 51.537 35.506 48.6918L48.0532 14.0049Z"
+                                        fill="#FFD900" />
+                                    <path
+                                        d="M48.0532 14.0049C49.0792 11.1668 46.3289 8.41652 43.4908 9.44489L8.80391 21.9896C5.95628 23.0204 5.61191 26.9059 8.23153 28.4235L19.3038 34.8336L29.1909 24.9465C29.6388 24.5139 30.2388 24.2745 30.8615 24.2799C31.4842 24.2853 32.0799 24.5351 32.5202 24.9754C32.9606 25.4158 33.2103 26.0115 33.2158 26.6342C33.2212 27.2569 32.9818 27.8568 32.5492 28.3048L22.662 38.1919L29.0745 49.2641C30.5898 51.8838 34.4753 51.537 35.506 48.6918L48.0532 14.0049Z"
+                                        fill="url(#paint0_linear_7332_6831)" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="paint0_linear_7332_6831" x1="27.3628" y1="-6.89241" x2="3.88166"
+                                        y2="47.1157" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#39CFD9" />
+                                        <stop offset="1" stop-color="#EFC525" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_7332_6831">
+                                        <rect width="57" height="57" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
                             </svg>
+
 
                         </button>
                     </form>
@@ -1021,37 +1171,37 @@
                 <img class="rounded-circle object-fit-cover user_profile w-100"
                     src="./assets/images/comments/james-jhonson.png" alt="james-jhonson" />
                 <div class="ms-lg-3 ps-1">
-                    <p class="text_green fs_lg fw-semibold mb-2 leading_130">
+                    <p class="color_gradient_username fs_lg fw-semibold mb-2 leading_130 ">
                         James Johnson
                     </p>
-                    <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
+                    <p class="fw-normal fs_base leading_145 text-white opacity-75 pb-2 mb-1">
                         Does this really work? How can I get started?
                     </p>
                     <div class="d-flex align-items-center gap-3">
                         <div class="d-flex align-items-center gap-1">
                             <a href="#thankyou-form" onclick="likeToastHandler()"
-                                class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 text_green">
+                                class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 color_gradient_username">
                                 Like.
                             </a>
                             <a href="#thankyou-form"
-                                class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 text_green">
+                                class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 color_gradient_username">
                                 Reply
                             </a>
                         </div>
-                        <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
+                        <p class=" text-white opacity-75 fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
                             98k · 23 hrs
                         </p>
                     </div>
-                    <div class="replay_parent ps-2 mt-35">
+                    <div class="replay_parent ps-2 mt-4">
                         <div class="d-flex align-items-start ps-1 pt-2 gap-3">
                             <img class="rounded-circle object-fit-cover replay_user_profile w-100"
                                 src="./assets/images/comments/mia-moore.png" alt="mia-moore" />
 
-                            <div class="mb-38">
-                                <p class="root fs_lg fw-semibold mb-2 leading_130 text_green">
+                            <div>
+                                <p class="root fs_lg fw-semibold mb-2 leading_130 color_gradient_username">
                                     Mia Moore
                                 </p>
-                                <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
+                                <p class="fw-normal fs_base leading_145  text-white opacity-75 pb-2 mb-1">
                                     Yes, it actually worked for me. Only 2 weeks and I have just
                                     withdrawn my earned funds. I left my info in the
                                     registration form and after 10 minutes, I received a call
@@ -1060,29 +1210,30 @@
                                 <div class="d-flex align-items-center gap-3">
                                     <div class="d-flex align-items-center gap-1">
                                         <a href="#thankyou-form" onclick="likeToastHandler()"
-                                            class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 text_green">
+                                            class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 color_gradient_username">
                                             Like.
                                         </a>
                                         <a href="#thankyou-form"
-                                            class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 text_green">
+                                            class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 color_gradient_username">
                                             Reply
                                         </a>
                                     </div>
-                                    <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
+                                    <p
+                                        class=" text-white opacity-75 fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
                                         252 · 1 min
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="d-flex align-items-start ps-1 mb-35 gap-3">
+                        <div class="d-flex align-items-start ps-1 pt-4 mt-2 gap-3">
                             <img class="rounded-circle object-fit-cover replay_user_profile w-100"
                                 src="./assets/images/comments/david-williams.png" alt="david-williams" />
 
                             <div>
-                                <p class="root fs_lg fw-semibold mb-2 leading_130 text_green">
+                                <p class="root fs_lg fw-semibold mb-2 leading_130 color_gradient_username">
                                     David Williams
                                 </p>
-                                <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
+                                <p class="fw-normal fs_base leading_145  text-white opacity-75 pb-2 mb-1">
                                     Yup, same here. I signed up, and they called me after 7
                                     minutes. Excellent service from Eric, the support guy, and a
                                     quick 5-minute setup.
@@ -1090,15 +1241,16 @@
                                 <div class="d-flex align-items-center gap-3">
                                     <div class="d-flex align-items-center gap-1">
                                         <a href="#thankyou-form" onclick="likeToastHandler()"
-                                            class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 text_green">
+                                            class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 color_gradient_username">
                                             Like.
                                         </a>
                                         <a href="#thankyou-form"
-                                            class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 text_green">
+                                            class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 color_gradient_username">
                                             Reply
                                         </a>
                                     </div>
-                                    <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
+                                    <p
+                                        class=" text-white opacity-75 fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
                                         122 · 2 min
                                     </p>
                                 </div>
@@ -1107,42 +1259,42 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex align-items-start mt-35 gap-3 gap-sm-4">
+            <div class="d-flex align-items-start pt-4 mt-sm-2 gap-3 gap-sm-4">
                 <img class="rounded-circle object-fit-cover user_profile w-100"
                     src="./assets/images/comments/olivia-anderson.png" alt="olivia-anderson" />
                 <div class="ms-lg-3 ps-1">
-                    <p class="root fs_lg fw-semibold mb-2 leading_130 text_green">
+                    <p class="root fs_lg fw-semibold mb-2 leading_130 color_gradient_username">
                         Olivia Anderson
                     </p>
-                    <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
+                    <p class="fw-normal fs_base leading_145  text-white opacity-75 pb-2 mb-1">
                         I was finally able to buy a new car. Not life but a dream ... But
                         dreams come true)))
                     </p>
                     <div class="d-flex align-items-center gap-3">
                         <div class="d-flex align-items-center gap-1">
                             <a href="#thankyou-form" onclick="likeToastHandler()"
-                                class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 text_green">
+                                class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 color_gradient_username">
                                 Like.
                             </a>
                             <a href="#thankyou-form"
-                                class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 text_green">
+                                class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 color_gradient_username">
                                 Reply
                             </a>
                         </div>
-                        <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
+                        <p class=" text-white opacity-75 fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
                             387 · 3 hrs
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="d-flex align-items-start mt-35 gap-3 gap-sm-4">
+            <div class="d-flex align-items-start pt-4 mt-sm-2 gap-3 gap-sm-4">
                 <img class="rounded-circle object-fit-cover user_profile w-100"
                     src="./assets/images/comments/andrew-harris.png" alt="andrew-harris" />
                 <div class="ms-lg-3 ps-1">
-                    <p class="root fs_lg fw-semibold mb-2 leading_130 text_green">
+                    <p class="root fs_lg fw-semibold mb-2 leading_130 color_gradient_username">
                         Andrew Harris
                     </p>
-                    <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
+                    <p class="fw-normal fs_base leading_145  text-white opacity-75 pb-2 mb-1">
                         Now I have the opportunity to go on holiday this year :) And the
                         buzz itself is that I will rest, and the system will earn day and
                         night. This is just a fairy tale!
@@ -1153,25 +1305,25 @@
                     <div class="d-flex align-items-center gap-3">
                         <div class="d-flex align-items-center gap-1">
                             <a href="#thankyou-form" onclick="likeToastHandler()"
-                                class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 text_green">
+                                class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 color_gradient_username">
                                 Like.
                             </a>
                             <a href="#thankyou-form"
-                                class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 text_green">
+                                class="bg-transparent border-0 root fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 color_gradient_username">
                                 Reply
                             </a>
                         </div>
-                        <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
+                        <p class=" text-white opacity-75 fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
                             2497 · 2 hrs
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="d-flex align-items-start mt-35 gap-3 gap-sm-4">
+            <div class="d-flex align-items-start pt-4 mt-sm-2 gap-3 gap-sm-4">
                 <img class="rounded-circle object-fit-cover user_profile w-100"
                     src="./assets/images/comments/isabeela-harris.png" alt="isabeela-harris" />
                 <div class="ms-lg-3 ps-1">
-                    <p class="root fs_lg fw-semibold mb-2 leading_130 text_green">
+                    <p class="root fs_lg fw-semibold mb-2 leading_130 color_gradient_username">
                         Isabella Harris
                     </p>
                     <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
@@ -1181,28 +1333,28 @@
                     <div class="d-flex align-items-center gap-3">
                         <div class="d-flex align-items-center gap-1">
                             <a href="#thankyou-form" onclick="likeToastHandler()"
-                                class="bg-transparent border-0  fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 text_green">
+                                class="bg-transparent border-0  fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 color_gradient_username">
                                 Like.
                             </a>
                             <a href="#thankyou-form"
-                                class="bg-transparent border-0  fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 text_green">
+                                class="bg-transparent border-0  fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 color_gradient_username">
                                 Reply
                             </a>
                         </div>
-                        <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
+                        <p class=" text-white opacity-75 fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
                             430 · 4 hrs
                         </p>
                     </div>
-                    <div class="replay_parent ps-2 mt-42">
+                    <div class="replay_parent ps-2 mt-4">
                         <div class="d-flex align-items-start ps-1 pt-2 gap-3">
                             <img class="rounded-circle object-fit-cover replay_user_profile w-100"
                                 src="./assets/images/comments/mary-smith.png" alt="mary-smith" />
 
                             <div>
-                                <p class=" fs_lg fw-semibold mb-2 leading_130 text_green">
+                                <p class=" fs_lg fw-semibold mb-2 leading_130 color_gradient_username">
                                     Mary Smith
                                 </p>
-                                <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
+                                <p class="fw-normal fs_base leading_145  text-white opacity-75 pb-2 mb-1">
                                     Just signed up, people, wish me good luck! ...
                                     <a href="#thankyou-form"
                                         class=" fw-semibold comment_replay_like_buttons transition_03 text_green">See
@@ -1211,29 +1363,30 @@
                                 <div class="d-flex align-items-center gap-3">
                                     <div class="d-flex align-items-center gap-1">
                                         <a href="#thankyou-form" onclick="likeToastHandler()"
-                                            class="bg-transparent border-0 text_green fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 comment_replay_like_buttons transition_03">
+                                            class="bg-transparent border-0 color_gradient_username fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 comment_replay_like_buttons transition_03">
                                             Like.
                                         </a>
                                         <a href="#thankyou-form"
-                                            class="bg-transparent border-0 text_green fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 comment_replay_like_buttons transition_03">
+                                            class="bg-transparent border-0 color_gradient_username fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03 comment_replay_like_buttons transition_03">
                                             Reply
                                         </a>
                                     </div>
-                                    <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
+                                    <p
+                                        class=" text-white opacity-75 fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
                                         99 · 27 min
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="d-flex align-items-start ps-1 mt-38 gap-3">
+                        <div class="d-flex align-items-start ps-1 pt-4 mt-2 gap-3">
                             <img class="rounded-circle object-fit-cover replay_user_profile w-100"
                                 src="./assets/images/comments/anna-brown.png" alt="anna-brown" />
 
                             <div>
-                                <p class="text_green fs_lg fw-semibold mb-2 leading_130">
+                                <p class="color_gradient_username fs_lg fw-semibold mb-2 leading_130">
                                     Anna Brown
                                 </p>
-                                <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1">
+                                <p class="fw-normal fs_base leading_145  text-white opacity-75 pb-2 mb-1">
                                     I registered two days ago, the balance is already CAD$7,500,
                                     so I’m thinking of asking for a withdrawal, or is it too
                                     early? In fact, I did nothing, somehow I have earned it
@@ -1242,23 +1395,24 @@
                                 <div class="d-flex align-items-center gap-3">
                                     <div class="d-flex align-items-center gap-1">
                                         <a href="#thankyou-form" onclick="likeToastHandler()"
-                                            class="bg-transparent border-0 text_green fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+                                            class="bg-transparent border-0 color_gradient_username fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
                                             Like.
                                         </a>
                                         <a href="#thankyou-form"
-                                            class="bg-transparent border-0 text_green fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+                                            class="bg-transparent border-0 color_gradient_username fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
                                             Reply
                                         </a>
                                     </div>
-                                    <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
+                                    <p
+                                        class=" text-white opacity-75 fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base">
                                         64 · 30 min
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <a href="#thankyou-form"
-                            class=" mt-5 d-inline-block w-100  cursior_pointer show_more_comments_parent bg_green">
-                            <p class="fs_base fw-normal leading_140 text-center  mb-0 text-white show-more">
+                            class=" mt-3 d-inline-block w-100 mt-md-4 mt-lg-5 cursior_pointer show_more_comments_parent ">
+                            <p class="fs_base fw-normal leading_140 text-center  mb-0 text-black show-more">
                                 Show 10 more replies in this thread
                             </p>
                         </a>
@@ -1269,10 +1423,10 @@
                 <img class="rounded-circle object-fit-cover user_profile w-100"
                     src="./assets/images/comments/sophia-martinz.png" alt="sophia-martinz" />
                 <div class="ms-lg-3 ps-1">
-                    <p class="text_green fs_lg fw-semibold mb-2 leading_130">
+                    <p class="color_gradient_username fs_lg fw-semibold mb-2 leading_130">
                         Sophia Martinez
                     </p>
-                    <p class="fw-normal fs_base leading_145 text_rich_black pb-2 mb-1 pe-xl-4">
+                    <p class="fw-normal fs_base leading_145  text-white opacity-75 pb-2 mb-1 pe-xl-4">
                         I am in shock and my friends too! At first I thought that there
                         was some kind of scam, it was not clear what and how it worked.
                         But then the manager contacted me and explained everything in
@@ -1284,15 +1438,15 @@
                     <div class="d-flex align-items-start gap-3">
                         <div class="d-flex align-items-center gap-1">
                             <a href="#thankyou-form" onclick="likeToastHandler()"
-                                class="bg-transparent border-0 text_green fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+                                class="bg-transparent border-0 color_gradient_username fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
                                 Like.
                             </a>
                             <a href="#thankyou-form"
-                                class="bg-transparent border-0 text_green fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
+                                class="bg-transparent border-0 color_gradient_username fw-semibold leading_130 p-0 fs_base comment_replay_like_buttons transition_03">
                                 Reply
                             </a>
                         </div>
-                        <p class="text_rich_black fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base mb-0">
+                        <p class=" text-white opacity-75 fw-semibold leading_130 p-0 mb-0 opacity_07 fs_base mb-0">
                             1584 · 5 hrs
                         </p>
                     </div>
@@ -1301,19 +1455,19 @@
     </section>
     <!-- ============= FOOTER ============== -->
     <footer>
-        <div style="background-color: #4CC973;">
-            <div class="container">
-                <div class=" row pt-60 pb-22 justify-content-between">
+        <div class="bg-black">
+            <div class="custom_container container">
+                <div class=" row pt-5 pb-4 pb-lg-5 justify-content-between">
                     <div class=" col-lg-3 col-12  pb-3 pb-md-4 pb-lg-4">
-                        <a href="/" class="">
-                            <img class="method_pro_footer_logo" src="./assets/images/method-pro/footer-logo.png"
-                                alt="footer-logo" /></a>
+                        <a href="/" class="d-flex justify-content-center">
+                            <img class="method_pro_footer_logo text_shadow_orange"
+                                src="./assets/images/method-pro/footer-logo.png" alt="footer-logo" /></a>
                         <p
-                            class="mx-auto text-left text-white ff_oxanium fs_2lg fw-semibold mb-0 mt-1 pt-2 white_text_shadow">
+                            class="mx-auto text-center text-white ff_oxanium fs_2lg fw-semibold mb-0 mt-1 pt-2 text_shadow_orange">
                             AI Arbitrage Method Pro
                         </p>
                         <p
-                            class="pt-2 mt-1 text-white text-left ff_inter fs_base mb-0 leading_160 opacity_08 ff_oxygen">
+                            class="pt-2 mt-1 text-white text-center ff_inter fs_base mb-0 leading_160 opacity_08 ff_oxygen max_w_261 mx-auto">
                             Empowering Your Financial Future with Intelligent Investments
                         </p>
                     </div>
@@ -1338,7 +1492,8 @@
                     </div>
                 </div>
                 <div class="footer_border_line"></div>
-                <div class="d-flex justify-content-between align-items-center py-27 flex-column flex-sm-row">
+                <div
+                    class="d-flex justify-content-between align-items-center pt-lg-3 pt-2 pb-1 flex-column flex-sm-row">
                     <div class="fs_base text-white fw-normal mb-1 d-flex align-items-center gap-1 ps-1 ps-sm-0">
                         <a href="#privacy-policy" class="text-white">Privacy Policy</a>
                         |
