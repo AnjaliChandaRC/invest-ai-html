@@ -5,7 +5,7 @@ const reviews = [
         invested: 350,
         profit: 4891,
         description:
-            "The AI Arbitrage method is incredible!. My account manager was always every step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_red fw-medium'>Show More</a>",
+            "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”",
         imageUrl: "./assets/images/arbitrage-winner/michael-chen-profile.webp",
     },
     {
@@ -13,7 +13,7 @@ const reviews = [
         invested: 350,
         profit: 5207,
         description:
-            "The AI Arbitrage method is incredible!. My account manager was always every step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_red fw-medium'></a>",
+            "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”",
         imageUrl: "./assets/images/arbitrage-winner/christopher.webp",
     },
     //   {
@@ -29,7 +29,7 @@ const reviews = [
         invested: 30000,
         profit: 8126,
         description:
-            "AI Arbitrage made trading so simple and profitable. My account manager  always ready to help and provide valuable insights. Highly recommend it!",
+            "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”",
         imageUrl: "./assets/images/arbitrage-winner/robert.webp",
     },
     // {
@@ -45,7 +45,7 @@ const reviews = [
         invested: 5000,
         profit: 3274.5,
         description:
-            "The AI Arbitrage method is incredible!. My account manager was always every step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_red fw-medium'>Show More</a>",
+            "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”",
         imageUrl: "./assets/images/arbitrage-winner/devon-lane-profile.webp",
     },
     // {
@@ -157,7 +157,7 @@ const reviews = [
         invested: 350,
         profit: 8327,
         description:
-            "The AI Arbitrage method is incredible!. My  step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_red fw-medium'></a>",
+            "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”</a>",
         imageUrl: "./assets/images/arbitrage-winner/paul.webp",
     },
     {
@@ -165,7 +165,7 @@ const reviews = [
         invested: 6000,
         profit: 3846,
         description:
-            "AI Arbitrage has revolutionized my trading strategy. The  account exceptional. Highly recommend it.",
+            "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly..... ",
         imageUrl: "./assets/images/arbitrage-winner/lisa.webp",
     },
 ];
@@ -174,7 +174,7 @@ function generateReviewCard(review) {
     return `
     <div class="swiper-slide">
     <div class="slider_green_box bg-white slider_card">
-        <div class="d-flex flex-row flex_xsm_col align-items-start justify-content-between mt-23">
+        <div class="d-flex flex-row flex_xsm_col align-items-start justify-content-between mt-23 mb-24">
             <div class="d-flex align-items-center gap-2">
                 <img class="slider_profile_img rounded-pill object-fit-cover" sizes="100vw"
                     src="${review.imageUrl}" alt="${review.title}">
@@ -186,9 +186,10 @@ function generateReviewCard(review) {
             </div>
                     
            </div>
-        <p class="leading_150 fs_base text-black opacity_07 pt-sm-4 mt-sm-1 mt-3 mb-0"><span class="fw-bold">Review</span> ${review.description
+           <span class="fw-bold ">Review</span>
+        <p class="leading_150 fs_base text-black opacity_07 pt-sm-3 fw-normal  mb-0"> ${review.description
         }</p>
-        <div class="mt-sm-0 review_slider_parent pt-3">
+        <div class="mt-sm-0 review_slider_parent pt-4 ">
                         <p class="mb-0 opacity_07 leading_150 fw-bold fs_base text-nowrap text_red">Invested <span class="text-black text-nowrap fw_800">${review.invested.toLocaleString()} CAD</span></p>
                         <p class="mb-0 opacity_07 leading_150 fw-bold fs_base text-nowrap text_red">Profit: <span class="text-black text-nowrap fw_800">${review.profit.toLocaleString()} CAD</span></p>
                     </div></div>
