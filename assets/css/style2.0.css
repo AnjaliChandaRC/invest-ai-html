@@ -111,11 +111,10 @@ body {
 .text_light_green {
     color: var(--light-green);
 }
-
-.form_gradiant {
+ .form_gradiant {
     background-color: rgba(250, 250, 250, 0.13);
     backdrop-filter: blur(10.8px);
-}
+} 
 
 .bg_light_gradient {
     background: var(--light-green);

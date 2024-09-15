@@ -66,6 +66,15 @@ body {
   --purple: #160724;
   --dark-yellow: #FFD900;
   --dark-orange: #FF9900;
+  --light-black: #000c03;
+  --light-black2: #010101;
+  --light-white: #fafafa;
+  --footer-black: rgba(1, 1, 1, 0.41);
+}
+
+.form_gradiant {
+  background-color: rgba(250, 250, 250, 0.13);
+  backdrop-filter: blur(10.8px);
 }
 
 .text_gradient {
@@ -74,6 +83,26 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.text_light_black {
+  color: var(--light-black);
+}
+
+.text_light_black2 {
+  color: var(--light-black2);
+}
+
+.bg_light_black2 {
+  background-color: var(--light-black2);
+}
+
+.bg_light_white {
+  background-color: var(--light-white);
+}
+
+.text_light_white {
+  color: var(--light-white);
 }
 
 .root {
@@ -218,6 +247,7 @@ body {
 .text_dark_yellow {
   color: var(--dark-yellow);
 }
+
 .bg_dark_yellow {
   background: var(--dark-yellow);
 }

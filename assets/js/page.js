@@ -9,13 +9,13 @@ const reviews = [
         imageUrl: "./assets/images/arbitrage-winner/michael-chen-profile.webp",
     },
     {
-         title: "Christopher Harris",
-         invested: 350,
-         profit: 5207,
-         description:
-             "AI Arbitrage has made my trading experience so much better. The support from my account manager was exceptional. Great profits in no time!",
-         imageUrl: "./assets/images/arbitrage-winner/christopher.webp",
-     },
+        title: "Christopher Harris",
+        invested: 350,
+        profit: 5207,
+        description:
+            "AI Arbitrage has made my trading experience so much better. The support from my account manager was exceptional. Great profits in no time!",
+        imageUrl: "./assets/images/arbitrage-winner/christopher.webp",
+    },
     {
         title: "Robert Thompson ",
         invested: 30000,
