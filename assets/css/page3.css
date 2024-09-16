@@ -1228,7 +1228,9 @@ input::-webkit-inner-spin-button {
     border: 1px solid #FFFFFF !important;
     border-radius: 20px;
 }
-
+.add_comment_input_spacing{
+    padding-bottom: 68px !important;
+}
 .success_story_sec_spacing {
     padding-bottom: 160px;
     padding-top: 160px;
@@ -1713,7 +1715,9 @@ input::-webkit-inner-spin-button {
     .add_comment_input_parent {
         padding: 8.5px 15px;
     }
-
+ .add_comment_input_parent {
+     height: 60px;
+ }
     .send_message_arrow {
         max-width: 20px;
     }

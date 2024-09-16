@@ -282,13 +282,16 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.m-40{
+
+.m-40 {
     margin-left: 40px;
     margin-right: 40px;
 }
-.ml-22{
+
+.ml-22 {
     margin-left: 22px;
 }
+
 .live_card_border {
     border: 1px solid #65B57F;
     width: 123px;
@@ -1993,10 +1996,11 @@ input::-webkit-inner-spin-button {
     .add_comment_input_parent {
         padding: 8.5px 15px;
     }
-.add_comment_input_parent {
-   
-    height: 60px;
-}
+
+    .add_comment_input_parent {
+        height: 60px;
+    }
+
     .send_message_arrow {
         max-width: 20px;
     }
@@ -2053,9 +2057,11 @@ input::-webkit-inner-spin-button {
     .review_slider_parent {
         margin-top: 8px;
     }
-.ml-22{
-    margin-left: 0;
-}
+
+    .ml-22 {
+        margin-left: 0;
+    }
+
     .logo_spacing {
         margin-bottom: 50px !important;
     }
