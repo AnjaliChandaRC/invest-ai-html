@@ -5,7 +5,7 @@ const reviews = [
         invested: 350,
         profit: 4891,
         description:
-            "The AI Arbitrage method is incredible!. My account manager was always every step of the wayThe AI Arbitrage method... <a href='#thanksForm' class='text_green fw-medium'>Show More</a>",
+            "The AI Arbitrage method is incredible!. My account manager was always every step of the wayThe AI Arbitrage method.",
         imageUrl: "./assets/images/arbitrage-winner/michael-chen-profile.webp",
     },
     {
