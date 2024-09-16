@@ -82,7 +82,7 @@
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 12px;
-    max-width: 444px !important;
+    /* max-width: 444px !important; */
     height: 321px;
     margin: auto;
     border-radius: 8px;
@@ -1338,6 +1338,15 @@ input::-webkit-inner-spin-button {
 }
 
 @media (max-width: 1024.98px) {
+    .video-box {
+            max-width: 468px;
+            height: 350px;
+            margin: auto;
+    
+        }
+    .story_video {     
+            height: 272px;    
+        }
     .dotted_line {
             padding-bottom: 41px;
         }
@@ -1377,7 +1386,7 @@ input::-webkit-inner-spin-button {
     }
 
     .form_spacing {
-        padding-top: 48px;
+        padding-top: 0px;
     }
 
     .form_content_spacing {
