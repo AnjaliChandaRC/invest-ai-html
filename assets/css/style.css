@@ -209,11 +209,6 @@ body {
   background: var(--green);
 }
 
-/* 
-.bg_cyan_blue {
-  background-color: var(--cyan-blue);
-} */
-
 .text_cyan_blue {
   color: var(--cyan-blue);
 }
@@ -305,7 +300,7 @@ form .iti__selected-flag {
   }
 
   .form_container {
-    max-width: 1348px !important;
+    max-width: 1316px !important;
     padding-left: 16px !important;
     padding-right: 16px !important;
   }

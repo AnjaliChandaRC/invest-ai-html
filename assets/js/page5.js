@@ -23,9 +23,7 @@ const reviews = [
         description:
             "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”",
         imageUrl: "./assets/images/arbitrage-winner/christopher.webp",
-    },
-    
-    
+    }, 
     {
         title: "Robert Thompson ",
         invested: 30000,
@@ -34,14 +32,6 @@ const reviews = [
             "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”",
         imageUrl: "./assets/images/arbitrage-winner/robert.webp",
     },
-    // {
-    //     title: "Elizabeth Brown",
-    //     invested: 350,
-    //     profit: 5236.73,
-    //     description:
-    //         "This method is a game-changer! I’ve seen amazing returns on my investments.",
-    //     imageUrl: "./assets/images/arbitrage-winner/elixabeth.webp",
-    // },
     {
         title: "David Clark",
         invested: 5000,
@@ -50,110 +40,6 @@ const reviews = [
             "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”",
         imageUrl: "./assets/images/arbitrage-winner/devon-lane-profile.webp",
     },
-    // {
-    //     title: "Michelle Wright",
-    //     invested: 50000,
-    //     profit: 18156,
-    //     description:
-    //         "I love the AI Arbitrage method! My account manager provided excellent support, making the process smooth and profitable. It’s reliable, efficient, and highly profitable",
-    //     imageUrl: "./assets/images/arbitrage-winner/michelle.webp",
-    // },
-    // {
-    //     title: "Christopher Harris",
-    //     invested: 350,
-    //     profit: 5207,
-    //     description:
-    //         "AI Arbitrage has made my trading experience so much better. The support from my account manager was exceptional. Great profits in no time!",
-    //     imageUrl: "./assets/images/arbitrage-winner/christopher.webp",
-    // },
-    // {
-    //     title: "Sarah Martin",
-    //     invested: 3500,
-    //     profit: 2275,
-    //     description:
-    //         "This method is outstanding. It’s easy to use and delivers consistent profits.",
-    //     imageUrl: "./assets/images/arbitrage-winner/sarah.webp",
-    // },
-    // {
-    //     title: "Daniel Taylor",
-    //     invested: 60000,
-    //     profit: 23451,
-    //     description:
-    //         "AI Arbitrage has transformed my trading game. My account manager was always available for guidance and support. Highly recommend it for anyone looking to profit.",
-    //     imageUrl: "./assets/images/arbitrage-winner/daniel.webp",
-    // },
-    // {
-    //     title: "William Thompson",
-    //     invested: 350,
-    //     profit: 7155,
-    //     description:
-    //         "Amazing! The AI Arbitrage method is the easiest way to earn substantial profits. The assistance from my account manager made a big difference.",
-    //     imageUrl: "./assets/images/arbitrage-winner/ralph-profile.webp",
-    // },
-    // {
-    //     title: "Andrew Young",
-    //     invested: 10000,
-    //     profit: 7562.5,
-    //     description:
-    //         "AI Arbitrage has been a game changer for me. The profits are incredible!",
-    //     imageUrl: "./assets/images/arbitrage-winner/andrew.webp",
-    // },
-    // {
-    //     title: "Catherine Miller",
-    //     invested: 35000,
-    //     profit: 10153,
-    //     description:
-    //         "This method is so efficient and profitable. My account manager was instrumental in my success. I’m very pleased with the results",
-    //     imageUrl: "./assets/images/arbitrage-winner/catherine.webp",
-    // },
-    // {
-    //     title: "Brian Scott",
-    //     invested: 350,
-    //     profit: 9728,
-    //     description:
-    //         "AI Arbitrage is simply the best. It’s helped me achieve fantastic returns on my investments.",
-    //     imageUrl: "./assets/images/arbitrage-winner/brian.webp",
-    // },
-    // {
-    //     title: "Nancy Walker",
-    //     invested: 4200,
-    //     profit: 2940,
-    //     description:
-    //         "I’ve never seen such quick and easy profits. AI Arbitrage is a must-try for any trader.",
-    //     imageUrl: "./assets/images/arbitrage-winner/nancy.webp",
-    // },
-    // {
-    //     title: "Stephen White",
-    //     invested: 70000,
-    //     profit: 25378,
-    //     description:
-    //         "Absolutely love AI Arbitrage! It’s efficient, effective, and highly profitable.",
-    //     imageUrl: "./assets/images/arbitrage-winner/esther-profile.webp",
-    // },
-    // {
-    //     title: "Rebecca Hall",
-    //     invested: 350,
-    //     profit: 1589,
-    //     description:
-    //         "This method has made trading so much easier and more profitable for me. The support from my account manager was invaluable..",
-    //     imageUrl: "./assets/images/arbitrage-winner/rabecca.webp",
-    // },
-    // {
-    //     title: "Matthew King",
-    //     invested: 7800,
-    //     profit: 5460,
-    //     description:
-    //         "AI Arbitrage is fantastic! I’ve seen significant returns in a very short time.",
-    //     imageUrl: "./assets/images/arbitrage-winner/mathew.webp",
-    // },
-    // {
-    //     title: "Sophia Lee",
-    //     invested: 45000,
-    //     profit: 16659.4,
-    //     description:
-    //         "Profits have been rolling in thanks to AI Arbitrage. The help from my account manager was crucial in making the most out of my trades. It’s a brilliant method.",
-    //     imageUrl: "./assets/images/arbitrage-winner/sophia.webp",
-    // },
     {
         title: "Paul Moore",
         invested: 350,
