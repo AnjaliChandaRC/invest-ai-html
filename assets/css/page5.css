@@ -713,7 +713,7 @@ input:focus-visible {
 }
 
 .form_box {
-    padding: 0px 76px 73px 76px;
+    padding: 0px 88px 73px 88px;
     border-radius: 24px;
 }
 
@@ -722,7 +722,7 @@ input:focus-visible {
 }
 
 .form_content_spacing {
-    padding-top: 135px;
+    padding-top: 105px;
 }
 
 .form_max_w {
@@ -1233,6 +1233,9 @@ input::-webkit-inner-spin-button {
 
 .pt-42 {
     padding-top: 42px;
+}
+.footer_container{
+    max-width: 1440px;
 }
 
 .pb-95 {
