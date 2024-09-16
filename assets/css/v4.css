@@ -12,18 +12,23 @@
         0px 0px 0px #37FF00,
         0px 1px 0px #62FF00DE,
         0px 1px 0px #FF9900;
+
 }
 
 .mb_115 {
     margin-bottom: 115px;
 }
-.thank_you_sec_spacing{
+
+.thank_you_sec_spacing {
+    margin-bottom: -3px;
+}
+
+.comment_sec_spacing {
+    padding-top: 160px;
     padding-bottom: 160px;
 }
-.comment_sec_spacing{
-    padding-bottom: 160px;
-}
-.live_sec_py_150 {
+
+.live_sec_spacing {
     padding-top: 106px;
     padding-bottom: 106px;
     margin-bottom: -3px;
@@ -67,9 +72,14 @@
 
 }
 
-/* .opacity{
-    opacity: 91%;
-} */
+.opacity_13 {
+    opacity: 10%;
+}
+
+.opacity {
+    opacity: 90%;
+}
+
 /* .live_card:hover {
     background: linear-gradient(203.5deg, #39CFD9 -11.71%, #EFC525 95.32%);
     border-radius: 10px;
@@ -308,6 +318,20 @@ input:focus-visible {
     max-width: 948px;
 }
 
+.rounded_full {
+    border-radius: 100px;
+}
+
+.comment_top {
+    padding: 2px;
+    background: var(--light-green);
+    border-radius: 100px;
+}
+
+.bg_form_sec {
+    background-color: #0C0C0C !important;
+}
+
 .form_box {
     padding: 62px;
     border-radius: 20px;
@@ -320,7 +344,8 @@ input:focus-visible {
 .form_content_spacing {
     padding-top: 135px;
 }
-.opacity_slider{
+
+.opacity_slider {
     opacity: 85%;
 }
 
@@ -502,6 +527,7 @@ input::-webkit-inner-spin-button {
 .story_video {
     border-radius: 9px;
     aspect-ratio: 16/9;
+    height: 330px;
 }
 
 .story_play {
@@ -605,10 +631,6 @@ input::-webkit-inner-spin-button {
     text-shadow: 0px 0px 20px #a2e33a;
 }
 
-.story_video {
-    border-radius: 6px;
-    aspect-ratio: 16/9;
-}
 
 .story_video_parent {
     margin-left: -12px;
@@ -981,8 +1003,12 @@ input::-webkit-inner-spin-button {
     background-color: #d8e700;
 }
 
+.opacity_15 {
+    opacity: 10%;
+}
+
 .opacity_20 {
-    opacity: 20%;
+    opacity: 10%;
 }
 
 .live_result_line_1 {
@@ -1030,8 +1056,9 @@ input::-webkit-inner-spin-button {
 
 /* common spacing  */
 .common-section-spacing {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    margin-bottom: -3px;
 }
 
 /* ========= VIDEO SECTION ====== */
@@ -1104,11 +1131,76 @@ input::-webkit-inner-spin-button {
 .accordion_gradient_border {
     background-color: #181818;
     padding: 1px;
+    border-radius: 15px;
 }
-.hero_sec_spacing{
+
+.hero_sec_spacing {
     padding-bottom: 94px;
     padding-top: 21px;
+    margin-bottom: -3px;
 }
+
+.header_center_ellipse {
+    position: absolute;
+    top: 30%;
+    left: -21%;
+}
+
+.header_bottom_ellipse {
+    position: absolute;
+    bottom: -5%;
+    right: -21%;
+}
+
+.videos_ellipse {
+    position: absolute;
+    top: 30%;
+    left: -21%;
+}
+
+.live_results_ellipse {
+    position: absolute;
+    top: 30%;
+    right: -28%;
+}
+
+.faq_ellipse {
+    position: absolute;
+    left: -20%;
+    top: 30%;
+    height: 300px;
+}
+
+.comments_left_ellipse {
+    position: absolute;
+    left: -28%;
+    top: 60%;
+}
+
+.comments_right_ellipse {
+    position: absolute;
+    right: -28%;
+    top: 10%;
+}
+
+.slider_ellipse {
+    position: absolute;
+    right: 46%;
+    top: 30%;
+    height: 181px;
+    width: 181px;
+}
+
+.form_ellipse_position {
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: blur(260px);
+    width: 400px;
+    height: 400px;
+}
+
 .form_border {
     background: linear-gradient(203.5deg, #39cfd9 -11.71%, #efc525 95.32%);
     padding: 1px;
@@ -1139,6 +1231,17 @@ input::-webkit-inner-spin-button {
     filter: blur(150px);
 }
 
+.footer_ellipse_1 {
+    height: 125px;
+    width: 1384px;
+    border-radius: 100%;
+    background: linear-gradient(203.5deg, #39cfd9 -11.71%, #efc525 95.32%);
+    filter: blur(350px);
+    bottom: -124px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .footer_ellipse {
     height: 125px;
     width: 1384px;
@@ -1147,6 +1250,7 @@ input::-webkit-inner-spin-button {
     filter: blur(350px);
     bottom: -124px;
     left: 50%;
+    bottom: 20%;
     transform: translateX(-50%);
 }
 
@@ -1354,6 +1458,11 @@ input::-webkit-inner-spin-button {
     padding-right: 12px;
 }
 
+.text-ceo {
+    color: #4d4d4d;
+    opacity: 50%;
+}
+
 /* ============ BACK TO TOP CSS =========== */
 
 /* BACK-TO-TOP */
@@ -1378,133 +1487,21 @@ input::-webkit-inner-spin-button {
     }
 }
 
-@media (max-width: 1199.98px) {
-    .swiper-slide.swiper-slide-active .slider_box {
-        padding-right: 20px !important;
-    }
-
-    .swiper-pagination {
-        bottom: 80px !important;
-    }
-
-    .sponsor_slide {
-        display: flex;
-    }
-
-    .sponsor_slide_img {
-        column-gap: 25px;
-    }
-
-    .success_story_slider {
-        padding-bottom: 160px;
-    }
-}
-
-@media (max-width: 767.9px) {
-    .slider_box {
-        padding: 16px !important;
-    }
-
-    .back_top_top {
-        width: 35px;
-        height: 35px;
-    }
-
-    .success_story_slider {
-        padding-bottom: 110px;
-    }
-
-    .back_top_top img {
-        width: 45px;
-    }
-
-    .sponsor_slide {
-        padding-bottom: 32px;
-    }
-
-    .swiper-pagination {
-        bottom: 60px !important;
-    }
-}
-
-@media (max-width: 639.98px) {
-    .reviewSwiper {
-        padding: 100px 40px;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .reviewSwiper {
-        padding: 80px 12px;
-    }
-
-    .success_story_slider {
-        padding-bottom: 80px;
-    }
-
-    .coutdown_digit_box {
-        height: 50px;
-        width: 50px;
-        border-radius: 10px;
-    }
-
-    .accordion-button::after {
-        width: 15px;
-        height: 15px;
-    }
-
-    .swiper-pagination {
-        bottom: 40px !important;
-    }
-}
-
-@media (max-width: 375px) {
-    .flex_xsm_col {
-        flex-direction: column !important;
-    }
-
-    .review_slider_parent {
-        margin-top: 8px;
-    }
-
-    .slider_box {
-        min-height: 260px;
-    }
-}
-
-@media (max-width: 576px) {
-    .slider_box {
-        padding: 20px;
-    }
-}
-
-.text-ceo {
-    color: #4d4d4d;
-    opacity: 50%;
-}
-
-/* ========== MEDIA QURIES ====== */
-@media (min-width: 1210px) {
-    .form_data_width {
-        width: 554px !important;
-    }
-}
-
-@media (min-width: 1024px) {
-    .pt_41 {
-        padding-top: 41px !important;
-    }
-}
-
 @media (max-width: 1440px) {
     .common_ellipse {
         height: 344px;
         width: 344px;
         filter: blur(150px);
     }
-}
 
-@media (max-width: 1399.99px) {
+    .text_norwap {
+        white-space: nowrap;
+    }
+
+    .accordion {
+        min-width: auto;
+    }
+
     .logo_slider_img1 {
         width: 270px;
     }
@@ -1526,13 +1523,186 @@ input::-webkit-inner-spin-button {
     }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1200px) {
+    .swiper-slide.swiper-slide-active .slider_box {
+        padding-right: 20px !important;
+    }
+
+    .swiper-pagination {
+        bottom: 80px !important;
+    }
+
+    .sponsor_slide {
+        display: flex;
+    }
+
+    .sponsor_slide_img {
+        column-gap: 25px;
+    }
+
+    .success_story_slider {
+        padding-bottom: 160px;
+    }
+
+    .pt_123 {
+        padding-top: 50px;
+    }
+
+    .footer_ellipse {
+        display: none;
+    }
+
+    .faq_questionmark_img {
+        max-width: 307px;
+    }
+
+    .form_box {
+        padding: 32px;
+    }
+
+    .form_spacing {
+        padding-top: 32px;
+    }
+
+    .form_content_spacing {
+        padding-top: 75px;
+    }
+
+    .goggle {
+        max-width: 90px;
+    }
+
+    .investing {
+        max-width: 120px;
+    }
+
+    .forbes {
+        max-width: 96px;
+        filter: invert(1);
+    }
+
+    .forbes_section_padding {
+        padding: 120px 0;
+    }
+
+    .logo_card {
+        min-width: 305px;
+        height: 127px;
+    }
+
+    .form_data_width {
+        width: 554px !important;
+    }
+
+    .common-section-spacing {
+        padding-top: 160px;
+        padding-bottom: 160px;
+        margin-bottom: -2px;
+    }
+
     .ai_success_story_spacing {
         padding-top: 100px;
     }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1024px) {
+    .pt_123 {
+        padding-top: 80px;
+    }
+
+    .form_box {
+        padding: 60px;
+    }
+
+    .bg_form {
+        background-size: cover;
+    }
+
+    .form_spacing {
+        padding-top: 48px;
+    }
+
+    .form_content_spacing {
+        padding-top: 0px;
+    }
+
+    .forbes_section_padding {
+        padding: 100px 0;
+    }
+
+    .mb_150_lg {
+        margin-bottom: 100px;
+    }
+
+    .logo_card {
+        min-width: 270px;
+        height: 137px;
+    }
+
+    .pt_41 {
+        padding-top: 41px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .max_w_1440 {
+        max-width: 768px;
+    }
+
+    .faq_questionmark_img {
+        max-width: 257px;
+    }
+
+    .faq_answers {
+        padding-left: 20px;
+    }
+
+    .form_box {
+        padding: 48px;
+    }
+
+    .forbes_image {
+        width: 106px;
+        height: 100px;
+    }
+
+    .nbc_image {
+        width: 94px;
+        height: 100px;
+    }
+
+    .fox_news_image {
+        width: 130px;
+        height: 100px;
+    }
+
+    .wall_street_journal_image {
+        width: 169px;
+        height: 80px;
+    }
+
+    .the_new_york_times_image {
+        width: 374px;
+        height: 100px;
+    }
+
+    .forbes_section_padding {
+        padding: 80px 0;
+    }
+
+    .logo_card {
+        min-width: 240px;
+        height: 97px;
+    }
+
+    .result_border1 {
+        border-right: 1px solid #65b57f;
+    }
+
+    .grey_box_padding {
+        margin-top: 40px;
+    }
+
     .mt_button_icon {
         margin-top: -3px;
     }
@@ -1586,9 +1756,29 @@ input::-webkit-inner-spin-button {
     .logo_slider {
         gap: 37px;
     }
+
+    .user_profile {
+        max-width: 65px;
+    }
+
+    .add_comment_input_parent {
+        padding: 15px 20px;
+    }
+
+    .send_message_arrow {
+        max-width: 35px;
+    }
+
+    .fs_footer_btn {
+        font-size: 32px;
+    }
+
+    .mw_1440 {
+        max-width: 768px;
+    }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
     .live_dot {
         width: 16px;
         height: 16px;
@@ -1612,15 +1802,269 @@ input::-webkit-inner-spin-button {
     }
 
     .ai_success_story_spacing {
-        padding-top: 80px;
+        padding-top: 0px;
     }
 
     .form_border {
         padding: 2px;
     }
+
+    .common-section-spacing {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .gap_40 {
+        gap: 40px !important;
+    }
+
+    .hero_sec_spacing {
+        padding-bottom: 48px;
+        padding-top: 21px;
+    }
+
+    .pt_123 {
+        padding-top: 60px;
+    }
+
+    .form_input {
+        padding: 20px;
+    }
+
+    .pt_80 {
+        padding-top: 80px;
+    }
+
+    .form_input input {
+        min-height: 40px;
+    }
+
+    .form_box {
+        padding: 64px;
+    }
+
+    .accordion .accordion-button::after {
+        transform: scale(2);
+    }
+
+    .accordion .accordion-button:not(.collapsed)::after {
+        transform: scale(2);
+    }
+
+    .gap_12 {
+        gap: 12px;
+    }
+
+    .only_step {
+        max-width: 109px;
+    }
+
+    .sign_up_btn {
+        margin-top: 20px;
+    }
+
+    .mb_100_md {
+        margin-bottom: 64px;
+    }
+
+    .forbes_image {
+        width: 96px;
+        height: 80px;
+    }
+
+    .nbc_image {
+        width: 84px;
+        height: 80px;
+    }
+
+    .fox_news_image {
+        width: 120px;
+        height: 80px;
+    }
+
+    .wall_street_journal_image {
+        width: 159px;
+        height: 80px;
+    }
+
+    .the_new_york_times_image {
+        width: 344px;
+        height: 80px;
+    }
+
+    .forbes_section_padding {
+        padding: 60px 0;
+    }
+
+    .user_profile {
+        max-width: 60px;
+    }
+
+    .send_message_arrow {
+        max-width: 30px;
+    }
+
+    .replay_user_profile {
+        max-width: 50px;
+    }
+
+    .fs_footer_btn {
+        font-size: 24px;
+    }
+
+    .slider_box {
+        padding: 16px !important;
+    }
+
+    .back_top_top {
+        width: 35px;
+        height: 35px;
+    }
+
+    .success_story_slider {
+        padding-bottom: 110px;
+        padding-top: 60px;
+    }
+
+    .live_sec_spacing {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+
+    .pt-4 {
+        padding-top: 0 !important;
+    }
+
+    .back_top_top img {
+        width: 45px;
+    }
+
+    .sponsor_slide {
+        padding-bottom: 32px;
+    }
+
+    .swiper-pagination {
+        bottom: 60px !important;
+    }
+
+    .hero_sec_spacing {
+        padding-top: 21px;
+        padding-bottom: 0;
+    }
+        .comment_sec_spacing {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+}
+
+@media (max-width: 639.98px) {
+    .reviewSwiper {
+        padding: 100px 40px;
+    }
 }
 
 @media (max-width: 575.98px) {
+    .reviewSwiper {
+        padding: 80px 12px;
+    }
+
+    .success_story_slider {
+        padding-bottom: 80px;
+    }
+
+    .coutdown_digit_box {
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+    }
+
+    .accordion-button::after {
+        width: 15px;
+        height: 15px;
+    }
+
+
+    .swiper-pagination {
+        bottom: 40px !important;
+    }
+
+    .slider_box {
+        padding: 20px;
+    }
+
+    .footer_logo {
+        max-width: 230px;
+    }
+
+    .user_profile {
+        max-width: 40px;
+    }
+
+    .add_comment_input_parent {
+        padding: 8.5px 15px;
+    }
+
+    .send_message_arrow {
+        max-width: 20px;
+    }
+
+    .replay_user_profile {
+        max-width: 30px;
+    }
+
+    .toastify {
+        margin-left: 20px;
+    }
+
+    .fs_footer_btn {
+        font-size: 18px;
+    }
+
+    .faq_questionmark_img {
+        max-width: 200px;
+    }
+
+    .pt_50 {
+        padding-top: 50px;
+    }
+
+    .form_box {
+        padding: 32px 14px;
+    }
+
+    .form_spacing {
+        padding-top: 24px;
+    }
+
+    .forbes_image {
+        width: 86px;
+        height: 60px;
+    }
+
+    .nbc_image {
+        width: 74px;
+        height: 60px;
+    }
+
+    .fox_news_image {
+        width: 110px;
+        height: 60px;
+    }
+
+    .wall_street_journal_image {
+        width: 149px;
+        height: 60px;
+    }
+
+    .the_new_york_times_image {
+        width: 304px;
+        height: 60px;
+    }
+
+    .mb_100_md {
+        margin-bottom: 48px;
+    }
+
     .live_result_section {
         padding: 48px 0;
     }
@@ -1711,9 +2155,7 @@ input::-webkit-inner-spin-button {
     .form_border {
         padding: 2px 14px;
     }
-}
 
-@media (min-width: 576px) {
     .common-section-spacing {
         padding-top: 56px;
         padding-bottom: 56px;
@@ -1728,370 +2170,41 @@ input::-webkit-inner-spin-button {
     }
 }
 
-@media (min-width: 768px) {
-    .common-section-spacing {
-        padding-top: 64px;
-        padding-bottom: 64px;
+@media (max-width: 375px) {
+    .flex_xsm_col {
+        flex-direction: column !important;
     }
 
-    .gap_40 {
-        gap: 40px !important;
+    .review_slider_parent {
+        margin-top: 8px;
     }
-}
 
-@media (min-width: 992px) {
-    .result_border1 {
-        border-right: 1px solid #65b57f;
+    .slider_box {
+        min-height: 260px;
     }
 
-    .grey_box_padding {
-        margin-top: 40px;
+    .hero_sec_spacing {
+        padding-top: 21px;
+        padding-bottom: 0;
     }
-}
 
-@media (min-width: 1280px) {
-    .common-section-spacing {
-        padding-top: 160px;
-        padding-bottom: 160px;
-        margin-bottom: -2px;
+    .story_video {
+        height: 210px;
     }
-}
 
-@media (min-width: 1536px) {
-    .text_norwap {
-        white-space: nowrap;
+    .dots {
+        margin-left: 25px;
+        margin-right: 25px;
     }
-}
-
-@media (max-width: 991.98px) {
-    .user_profile {
-        max-width: 65px;
-    }
-
-    .add_comment_input_parent {
-        padding: 15px 20px;
-    }
-
-    .send_message_arrow {
-        max-width: 35px;
-    }
-
-    .fs_footer_btn {
-        font-size: 32px;
-    }
-
-    .mw_1440 {
-        max-width: 768px;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .user_profile {
-        max-width: 60px;
-    }
-
-    .send_message_arrow {
-        max-width: 30px;
-    }
-
-    .replay_user_profile {
-        max-width: 50px;
-    }
-
-    .fs_footer_btn {
-        font-size: 24px;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .footer_logo {
-        max-width: 230px;
-    }
-
-    .user_profile {
-        max-width: 40px;
-    }
-
-    .add_comment_input_parent {
-        padding: 8.5px 15px;
-    }
-
-    .send_message_arrow {
-        max-width: 20px;
-    }
-
-    .replay_user_profile {
-        max-width: 30px;
-    }
-
-    .toastify {
-        margin-left: 20px;
-    }
-
-    .fs_footer_btn {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 1439.98px) {
-    .accordion {
-        min-width: auto;
-    }
-}
-
-@media (max-width: 1280px) {
-    .pt_123 {
-        padding-top: 50px;
-    }
-
-    .footer_ellipse {
-        display: none;
-    }
-
-    .faq_questionmark_img {
-        max-width: 307px;
-    }
-
-    .form_box {
-        padding: 32px;
-    }
-
-    .form_spacing {
-        padding-top: 32px;
-    }
-
-    .form_content_spacing {
-        padding-top: 75px;
-    }
-
-    .goggle {
-        max-width: 90px;
-    }
-
-    .investing {
-        max-width: 120px;
-    }
-
-    .forbes {
-        max-width: 96px;
-        filter: invert(1);
-    }
-
-    .forbes_section_padding {
-        padding: 120px 0;
-    }
-
-    .logo_card {
-        min-width: 305px;
-        height: 127px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .pt_123 {
-        padding-top: 80px;
-    }
-
-    .form_box {
-        padding: 60px;
-    }
-
-    .bg_form {
-        background-size: cover;
-    }
-
-    .form_spacing {
-        padding-top: 48px;
-    }
-
-    .form_content_spacing {
-        padding-top: 0px;
-    }
-
-    .forbes_section_padding {
-        padding: 100px 0;
-    }
-
-    .mb_150_lg {
-        margin-bottom: 100px;
-    }
-
-    .logo_card {
-        min-width: 270px;
-        height: 137px;
-    }
-}
-
-@media (max-width: 992px) {
-    .max_w_1440 {
-        max-width: 768px;
-    }
-
-    .faq_questionmark_img {
-        max-width: 257px;
-    }
-
-    .faq_answers {
-        padding-left: 20px;
-    }
-
-    .form_box {
-        padding: 48px;
-    }
-
-    .forbes_image {
-        width: 106px;
-        height: 100px;
-    }
-
-    .nbc_image {
-        width: 94px;
-        height: 100px;
-    }
-
-    .fox_news_image {
-        width: 130px;
-        height: 100px;
-    }
-
-    .wall_street_journal_image {
-        width: 169px;
-        height: 80px;
-    }
-
-    .the_new_york_times_image {
-        width: 374px;
-        height: 100px;
-    }
-
-    .forbes_section_padding {
-        padding: 80px 0;
-    }
-
-    .logo_card {
-        min-width: 240px;
-        height: 97px;
-    }
-}
-
-@media (max-width: 768px) {
-    .pt_123 {
-        padding-top: 60px;
-    }
-
-    .form_input {
-        padding: 20px;
-    }
-
-    .pt_80 {
-        padding-top: 80px;
-    }
-
-    .form_input input {
-        min-height: 40px;
-    }
-
-    .form_box {
-        padding: 40px;
-    }
-
-    .accordion .accordion-button::after {
-        transform: scale(2);
-    }
-
-    .accordion .accordion-button:not(.collapsed)::after {
-        transform: scale(2);
-    }
-
-    .gap_12 {
-        gap: 12px;
-    }
-
-    .only_step {
-        max-width: 109px;
-    }
-
-    .sign_up_btn {
-        margin-top: 20px;
-    }
-
-    .mb_100_md {
-        margin-bottom: 64px;
-    }
-
-    .forbes_image {
-        width: 96px;
-        height: 80px;
-    }
-
-    .nbc_image {
-        width: 84px;
-        height: 80px;
-    }
-
-    .fox_news_image {
-        width: 120px;
-        height: 80px;
-    }
-
-    .wall_street_journal_image {
-        width: 159px;
-        height: 80px;
-    }
-
-    .the_new_york_times_image {
-        width: 344px;
-        height: 80px;
-    }
-
-    .forbes_section_padding {
-        padding: 60px 0;
-    }
-}
-
-@media (max-width: 575.58px) {
-    .faq_questionmark_img {
-        max-width: 200px;
-    }
-
-    .pt_50 {
-        padding-top: 50px;
-    }
-
-    .form_box {
-        padding: 32px 14px;
-    }
-
-    .form_spacing {
-        padding-top: 24px;
-    }
-
-    .forbes_image {
-        width: 86px;
-        height: 60px;
-    }
-
-    .nbc_image {
-        width: 74px;
-        height: 60px;
-    }
-
-    .fox_news_image {
-        width: 110px;
-        height: 60px;
-    }
-
-    .wall_street_journal_image {
-        width: 149px;
-        height: 60px;
-    }
-
-    .the_new_york_times_image {
-        width: 304px;
-        height: 60px;
-    }
-
-    .mb_100_md {
-        margin-bottom: 48px;
-    }
+         .common-section-spacing {
+             padding-top: 48px;
+             padding-bottom: 48px;
+         }
+                  .ai_success_story_spacing {
+                      padding-top: 0;
+                  }
+                  .comment_sec_spacing{
+                    padding-top: 48px;
+                    padding-bottom: 48px;
+                  }
 }
