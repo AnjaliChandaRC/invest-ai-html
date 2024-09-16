@@ -66,10 +66,9 @@
 
 .live_card {
     position: relative;
-    width: 354px;
-    height: 240px;
+    width: 339px;
+    height: 184px;
     padding: 24px;
-
 }
 
 .opacity_13 {
@@ -80,11 +79,6 @@
     opacity: 90%;
 }
 
-/* .live_card:hover {
-    background: linear-gradient(203.5deg, #39CFD9 -11.71%, #EFC525 95.32%);
-    border-radius: 10px;
-
-} */
 .live_card::before {
     content: "";
     position: absolute;
@@ -382,7 +376,9 @@ input:focus-visible {
     width: 150px;
     height: 112px;
 }
-
+.input_spacing{
+    padding-bottom: 68px;
+}
 .wall_street_journal_image {
     width: 189px;
     height: 80px;
@@ -710,7 +706,13 @@ input::-webkit-inner-spin-button {
     .video-container {
         border-radius: 18px;
     }
-
+.tele_img{
+    max-width: 40px;
+    height: 40px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
     .tick_space {
         margin-top: 2px;
     }
@@ -773,6 +775,10 @@ input::-webkit-inner-spin-button {
     background-color: #3b393f;
     border-radius: 50%;
     left: 47%;
+}
+.px-20{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
 
 .success_play_button_pos {
@@ -908,6 +914,7 @@ input::-webkit-inner-spin-button {
 
 .access_button {
     padding: 18.5px 28px;
+    margin-bottom: 21px;
 }
 
 .access_button:hover {
@@ -1133,13 +1140,19 @@ input::-webkit-inner-spin-button {
     padding: 1px;
     border-radius: 15px;
 }
-
+.mt_67{
+    margin-top: 67px !important;
+}
 .hero_sec_spacing {
     padding-bottom: 94px;
     padding-top: 21px;
     margin-bottom: -3px;
 }
-
+.success_spacing{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    margin-bottom: -3px;
+}
 .header_center_ellipse {
     position: absolute;
     top: 30%;
@@ -1429,7 +1442,11 @@ input::-webkit-inner-spin-button {
 .success_story_slider {
     padding-bottom: 280px;
 }
-
+.faq_sec_spacing {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    margin-bottom: -3px;
+}
 .swiper-pagination-bullet-active {
     width: 24px !important;
     height: 12px;
@@ -1589,10 +1606,10 @@ input::-webkit-inner-spin-button {
         min-width: 305px;
         height: 127px;
     }
-
+/* 
     .form_data_width {
         width: 554px !important;
-    }
+    } */
 
     .common-section-spacing {
         padding-top: 160px;
@@ -1613,7 +1630,16 @@ input::-webkit-inner-spin-button {
     .form_box {
         padding: 60px;
     }
-
+          .hero_sec_spacing {
+              padding-bottom: 90px;
+              padding-top: 21px;
+          }
+                  .success_spacing {
+                      padding-top: 0px;
+                  }
+ .story_video {
+     height: 220px;
+ }
     .bg_form {
         background-size: cover;
     }
@@ -1784,7 +1810,10 @@ input::-webkit-inner-spin-button {
         height: 16px;
         background-color: #ffd900;
     }
-
+.faq_sec_spacing {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
     .blue_box_padding3 {
         margin-top: 0px;
     }
@@ -1796,7 +1825,9 @@ input::-webkit-inner-spin-button {
     .result_tick_box {
         height: 145px;
     }
-
+.story_video {
+    height: 200px;
+}
     .page_logo_size {
         max-width: 80px;
     }
@@ -2174,11 +2205,19 @@ input::-webkit-inner-spin-button {
     .flex_xsm_col {
         flex-direction: column !important;
     }
-
+ .faq_sec_spacing {
+     padding-bottom: 48px;
+     padding-top: 48px;
+ }
     .review_slider_parent {
         margin-top: 8px;
     }
-
+        .show_more_comments_parent {
+           margin-bottom: 25px;
+        }
+.input_spacing {
+    padding-bottom: 40px;
+}
     .slider_box {
         min-height: 260px;
     }
