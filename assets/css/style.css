@@ -301,8 +301,8 @@ form .iti__selected-flag {
 
   .form_container {
     max-width: 1316px !important;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+    /* padding-left: 16px !important;
+    padding-right: 16px !important; */
   }
 
   .forbes_slider_container {
