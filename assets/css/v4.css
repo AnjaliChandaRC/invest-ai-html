@@ -1635,7 +1635,7 @@ input::-webkit-inner-spin-button {
               padding-top: 21px;
           }
                   .success_spacing {
-                      padding-top: 0px;
+                      padding-top: 30px;
                   }
  .story_video {
      height: 220px;
@@ -2081,7 +2081,9 @@ input::-webkit-inner-spin-button {
         width: 110px;
         height: 60px;
     }
-
+  .success_spacing {
+      padding-top: 30px;
+  }
     .wall_street_journal_image {
         width: 149px;
         height: 60px;

@@ -97,7 +97,7 @@
 .story_video_parent {
   margin-left: -12px;
   margin-right: -12px;
-  row-gap: 24px;
+  row-gap: 8px;
 }
 
 .story_play {
@@ -426,7 +426,7 @@
 }
 
 .reviewSwiper {
-  padding: 69px 20px 0px 20px;
+  padding: 69px 20px 160px 20px;
 }
 
 /* slider section  */
@@ -439,7 +439,7 @@
   height: 191px;
 }
 
-.slider_box {
+.slider_box{
   max-width: 891px !important;
   height: 325px;
   border-radius: 20px;
@@ -461,7 +461,7 @@
   row-gap: 30px;
 }
 
-.sponsor_slide .slick-track {
+.sponsor_slide .slick-track{
   display: flex !important;
   align-items: center !important;
 
@@ -472,7 +472,7 @@
   gap: 20px !important;
 }
 
-.slider_box:hover {
+.slider_box .active {
   border: 1px solid transparent;
   box-shadow: 0px 25px 39px -9px #00000017;
 }
@@ -846,7 +846,13 @@ input::-webkit-inner-spin-button {
   max-width: 91px;
   border: 1px solid #00000052;
 }
-
+.hero_sec_text{
+  margin-top: 40px;
+  margin-bottom: 56px !important;
+}
+.hero_sec_line{
+  margin-bottom: 20px;
+}
 .add_comment_input_parent {
   border: 1px solid #00000075;
   border-radius: 114px;
@@ -1074,6 +1080,7 @@ input::-webkit-inner-spin-button {
 
 .swiper-slide {
   width: 821px !important;
+  height: 325px !important;
 }
 
 .live_card::before {
@@ -1436,9 +1443,7 @@ input::-webkit-inner-spin-button {
     padding: 40px;
   }
 
-  /* .reviewSwiper {
-  padding: 40px 20px 0px 20px !important;
-} */
+
   .accordion .accordion-button::after {
     transform: scale(2);
     margin-top: 17px;
@@ -1538,10 +1543,6 @@ input::-webkit-inner-spin-button {
     max-width: 60px;
     object-fit: cover;
   }
-
-  /* .story_video_parent {
-    padding-bottom: 48px;
-  } */
 
   .video-container {
     border-radius: 24px;
