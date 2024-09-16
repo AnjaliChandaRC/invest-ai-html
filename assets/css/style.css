@@ -227,7 +227,9 @@ body {
 .bg_white {
   background-color: var(--white);
 }
-
+.text_white {
+  color: var(--white);
+}
 .text_bright_gray {
   color: var(--gradient);
 }
