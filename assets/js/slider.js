@@ -38,7 +38,7 @@ var swiper = new Swiper(".reviewSwiper", {
       spaceBetween: 24,
     },
     2200: {
-      slidesPerView: 3,
+      slidesPerView: 2.3,
       spaceBetween: 24,
     },
     2500: {
@@ -55,5 +55,3 @@ swiper.on("init", function () {
 
 // INITIALIZE SWIPER
 swiper.init();
-
-//

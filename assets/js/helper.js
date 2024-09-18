@@ -135,30 +135,6 @@ const reviews = [
   //     "AI Arbitrage is fantastic! I’ve seen significant returns in a very short time.",
   //   imageUrl: "./assets/images/arbitrage-winner/mathew.webp",
   // },
-  // {
-  //   title: "Sophia Lee",
-  //   invested: 45000,
-  //   profit: 16659.4,
-  //   description:
-  //     "Profits have been rolling in thanks to AI Arbitrage. The help from my account manager was crucial in making the most out of my trades. It’s a brilliant method.",
-  //   imageUrl: "./assets/images/arbitrage-winner/sophia.webp",
-  // },
-  // {
-  //   title: "Paul Moore",
-  //   invested: 350,
-  //   profit: 8327,
-  //   description:
-  //     "This method is superb. It’s easy to use and delivers consistent profits.",
-  //   imageUrl: "./assets/images/arbitrage-winner/paul.webp",
-  // },
-  // {
-  //   title: "Lisa Campbell",
-  //   invested: 6000,
-  //   profit: 3846,
-  //   description:
-  //     "AI Arbitrage has revolutionized my trading strategy. The support from my account manager was exceptional. Highly recommend it.",
-  //   imageUrl: "./assets/images/arbitrage-winner/lisa.webp",
-  // },
 ];
 // Function to generate a review card
 function generateReviewCard(review) {
