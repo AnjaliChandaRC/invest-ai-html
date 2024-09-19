@@ -56,6 +56,22 @@ const reviews = [
             "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly..... ",
         imageUrl: "./assets/images/arbitrage-winner/lisa.webp",
     },
+    {
+        title: "Paul Moore",
+        invested: 350,
+        profit: 8327,
+        description:
+            "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”</a>",
+        imageUrl: "./assets/images/arbitrage-winner/paul.webp",
+    },
+    {
+        title: "Paul Moore",
+        invested: 350,
+        profit: 8327,
+        description:
+            "“The AI Arbitrage method is incredible! It helped me make significant profits quickly and effortlessly.”</a>",
+        imageUrl: "./assets/images/arbitrage-winner/paul.webp",
+    },
 ];
 // Function to generate a review card
 function generateReviewCard(review) {

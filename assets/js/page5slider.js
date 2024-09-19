@@ -16,7 +16,7 @@ var swiper = new Swiper(".reviewSwiper", {
   breakpoints: {
     576: {
       slidesPerView: 1,
-      spaceBetween: 8,
+      spaceBetween: 16,
     },
     640: {
       slidesPerView: 1.5,
@@ -39,16 +39,16 @@ var swiper = new Swiper(".reviewSwiper", {
       spaceBetween: 30,
     },
     1600: {
-      slidesPerView: 4,
-      spaceBetween: 30,
+      slidesPerView: 5,
+      spaceBetween: 28,
     },
     2200: {
       slidesPerView: 5,
-      spaceBetween: 30,
+      spaceBetween: 26,
     },
     2500: {
-      slidesPerView: 4,
-      spaceBetween: 30,
+      slidesPerView: 8,
+      spaceBetween: 24,
     },
   },
 });

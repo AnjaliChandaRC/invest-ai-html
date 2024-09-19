@@ -64,6 +64,8 @@ body {
   --blue: #00a4ff;
   --yellow: #FFD900;
   --red: #D80621;
+  --dark-red:#ad051a;
+  --light-red:#c1192f;
 }
 
 .text_gradient {
@@ -175,7 +177,12 @@ body {
 .bg_dark_gray {
   background: var(--dark-gray);
 }
-
+.bg_dark_red{
+  background:var(--dark-red) ;
+}
+.bg_light_red {
+background:var(--light-red);
+}
 .text_yellow {
   color: var(--yellow);
 }
@@ -336,6 +343,7 @@ form .iti__selected-flag {
   :root {
     --fs-base: 14px;
     --fs-md: 15px;
+    --fs-lg:15px;
     --fs-2lg: 15px;
     --fs-3lg: 15px;
     --fs-xl: 20px;

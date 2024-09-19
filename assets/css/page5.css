@@ -151,7 +151,7 @@
 }
 
 .radius_xl {
-    border-radius: 24px !important;
+    border-radius: 27px !important;
 }
 
 .opacity_05 {
@@ -310,6 +310,9 @@
     transition: all 300ms linear;
     box-shadow: 0px 0px 20px #FFFFFF;
 }
+.hero_button:hover{
+   box-shadow: none;
+}
 
 .max_w_heading {
     max-width: 875px;
@@ -322,7 +325,12 @@
 }
 
 .get_start_button:hover {
-    background-color: var(--blue);
+    background-color: var(--red);
+    color: white;
+    border: 2px solid white;
+}
+.get_start_button:hover svg path{
+    fill: white;
 }
 
 /* ======== LIVE RESULT ======== */
@@ -343,6 +351,17 @@
     background-color: var(--yellow);
     transition: all 300ms linear;
     box-shadow: 0px 4px 25px 0px var(--yellow);
+}
+.get_start_live_button:hover {
+    background: red;
+    color: white;
+    border: 2px solid white;
+    box-shadow: none;
+
+}
+
+.get_start_live_button:hover svg path {
+    fill: white;
 }
 
 .live_result_line {
@@ -532,7 +551,7 @@
     position: relative;
     right: 16px;
     bottom: 12px;
-    margin-top: 11px;
+    margin-top: 21px;
     z-index: 2;
 }
 
@@ -754,6 +773,10 @@ input:focus-visible {
 .mb_150_lg {
     margin-bottom: 123px;
 }
+.z_2{
+    z-index: 2;
+    opacity: 13%;
+}
 
 /* REMOVE ARROW INPUT TYPE NUMBER */
 .remove_input_number_arrow::-webkit-outer-spin-button,
@@ -794,6 +817,8 @@ input::-webkit-inner-spin-button {
     transition: all 300ms linear;
     background: #D80621;
 }
+
+
 
 .method_pro_comment_sort_by::before {
     content: "";
@@ -894,12 +919,12 @@ input::-webkit-inner-spin-button {
     height: 72px;
 }
 
-.pt-43 {
-    padding-top: 43px;
+.pb-43 {
+    padding-bottom: 43px;
 }
 
-.mt-59 {
-    margin-top: 59px;
+.mt-49 {
+    margin-top: 49px;
 }
 
 .max_w_261 {
@@ -966,7 +991,7 @@ input::-webkit-inner-spin-button {
 .slider_card {
     position: relative;
     max-width: 394px;
-    height: 300px;
+    /* height: 300px; */
     padding: 24px;
     box-shadow: 0px 25px 39px -9px #00000017;
     border-radius: 20px;
@@ -1081,7 +1106,7 @@ input::-webkit-inner-spin-button {
 
 .py-98 {
     padding-top: 90px;
-    padding-bottom: 98px;
+    padding-bottom: 94px;
 }
 
 .pt-109 {
@@ -1234,6 +1259,9 @@ input::-webkit-inner-spin-button {
     padding-left: 20px !important;
     padding-right: 20px !important;
 }
+ .telegram_svg{
+    cursor: pointer;
+ }
 
 .comment_container {
     max-width: 1157px;
@@ -1359,7 +1387,7 @@ input::-webkit-inner-spin-button {
     }
 
     .form_box {
-        padding: 60px;
+        padding: 40px;
     }
 
     .bg_form {
@@ -1395,7 +1423,7 @@ input::-webkit-inner-spin-button {
 
     .py-lg-70 {
         padding-top: 70px;
-        padding-bottom: 70px;
+        padding-bottom: 20px;
     }
 
     .pb-lg-70 {
@@ -1438,6 +1466,11 @@ input::-webkit-inner-spin-button {
         max-width: 651px;
         padding-top: 30px;
     }
+        .md-text-center {
+            text-align: center !important;
+            max-width: 948px;
+            margin: auto;
+        }
 }
 
 @media (max-width: 767.98px) {
@@ -1600,15 +1633,30 @@ input::-webkit-inner-spin-button {
     .form_input {
         padding: 20px;
     }
+        .mb-50 {
+            margin-bottom: 20px;
+        }
+                 .accordion .accordion-button {                   
+                     padding: 12px !important;                
+                 }
 }
 
 @media (max-width: 639.98px) {
     .reviewSwiper {
         padding: 50px 40px;
     }
+        .sm-text-center{
+            text-align: center !important;
+            max-width: 261px;
+            margin: auto;
+        }
+                .sm-mt-14{
+                    margin-top: 14px !important;
+                }
 }
 
 @media (max-width: 575.98px) {
+    
     .video-box {
         height: 297px;
     }
@@ -1632,7 +1680,7 @@ input::-webkit-inner-spin-button {
     }
 
     .mt-160 {
-        margin-top: 25px !important;
+        margin-top: 55px !important;
     }
 
     .telegram_svg {
@@ -1670,27 +1718,27 @@ input::-webkit-inner-spin-button {
     }
 
     .marketsco_img {
-        width: 182.75px;
+        width: 162.75px;
         height: 40.18px;
     }
 
     .cg_wise_img {
-        width: 154.29px;
-        height: 74.07px;
+        width: 104.29px;
+        height: 64.07px;
     }
 
     .fargo_investor_img {
-        width: 201.71px;
-        height: 75px;
+        width: 151.71px;
+        height: 55px;
     }
 
     .financial_img {
-        width: 155.87px;
-        height: 57.12px;
+        width: 105.87px;
+        height: 47.12px;
     }
 
     .reserve_img {
-        width: 202.47px;
+        width: 152.47px;
         height: 57.12px;
     }
 
