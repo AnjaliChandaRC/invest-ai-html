@@ -44,9 +44,9 @@
     gap: 80px;
 }
 
-.mb-80 {
+/* .mb-80 {
     margin-bottom: 80px;
-}
+} */
 
 .mt-160 {
     margin-top: 150px;
@@ -158,9 +158,9 @@
     opacity: 50%;
 }
 
-.opacity_06 {
+/* .opacity_06 {
     opacity: 60%;
-}
+} */
 
 .pointer_event_none {
     pointer-events: none;
