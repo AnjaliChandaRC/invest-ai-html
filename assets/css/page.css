@@ -148,7 +148,9 @@
     padding: 16.5px 28px;
     margin-top: 30px;
 }
-
+.hero_btn:hover {
+    background-color: var(-dark-gray);
+}
 .slider_green_box {
     min-height: 200px;
     border-radius: 20px;
@@ -699,7 +701,7 @@
 }
 
 .get_start_button:hover {
-    background-color: var(--blue);
+    background-color: var(--yellow);
 }
 
 /* ======== LIVE RESULT ======== */
@@ -1695,6 +1697,7 @@ input::-webkit-inner-spin-button {
 
     .add_comment_input_parent {
         padding: 15px 20px;
+        height: 70px;
     }
 
     .send_message_arrow {
@@ -1770,13 +1773,14 @@ input::-webkit-inner-spin-button {
 
     .accordion .accordion-button::after {
         transform: scale(2);
-        margin-top: 17px;
-        margin-right: -15px;
+        margin-top: 0;
+        margin-right: -25px;
+        bottom: -3px;
     }
 
     .accordion .accordion-button:not(.collapsed)::after {
         transform: scale(2);
-        margin-right: -15px;
+        margin-right: -25px;
     }
 
     .gap_12 {
@@ -1995,9 +1999,6 @@ input::-webkit-inner-spin-button {
 
     .add_comment_input_parent {
         padding: 8.5px 15px;
-    }
-
-    .add_comment_input_parent {
         height: 60px;
     }
 
