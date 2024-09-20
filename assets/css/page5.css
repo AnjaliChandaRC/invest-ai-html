@@ -1188,6 +1188,9 @@ input::-webkit-inner-spin-button {
     border: 1px solid #FFFFFF !important;
     border-radius: 20px;
 }
+.pt-48{
+    padding-top: 48px;
+}
 
 .pb-52 {
     padding-bottom: 52px;
@@ -1873,6 +1876,9 @@ input::-webkit-inner-spin-button {
     .fs_footer_btn {
         font-size: 18px;
     }
+        .pt-48 {
+            padding-top: 28px;
+        }
 }
 
 @media (max-width: 375.98px) {
