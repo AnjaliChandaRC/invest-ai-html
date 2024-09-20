@@ -144,7 +144,7 @@
 .story_video_parent {
     margin-left: -12px;
     margin-right: -12px;
-    row-gap: 24px;
+    row-gap: 20px;
 }
 
 .story_play {
@@ -178,6 +178,11 @@
     max-width: 2500px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.swiper-slide.swiper-slide-active .slider_card {
+    border: 1px solid #FFD900;
+    border-radius: 20px;
 }
 
 #soundIcon1,
@@ -376,6 +381,10 @@
     box-shadow: 0px 12px 30px 0px #706AF34D;
 }
 
+.hero_btn:hover {
+    background-color: white;
+}
+
 .border_white {
     border-right: 2px solid white;
     border-top: 0px solid white;
@@ -386,7 +395,7 @@
 
 .access_button {
     padding: 17px 29px 16px;
-    margin-top: 35px;
+    margin-top: 31px;
 }
 
 .mt-20 {
@@ -485,6 +494,10 @@
     mask-composite: exclude;
 }
 
+.opacity_10 {
+    opacity: 10%;
+}
+
 .slider_card:hover::after {
     background: #4CC9731A;
     content: "";
@@ -500,11 +513,6 @@
     mask-composite: exclude;
 }
 
-.slider_card:hover {
-    border: 1px solid #FFD900;
-    border-radius: 20px;
-}
-
 .get_start_live_button {
     padding: 14px 26px;
     border: 2px solid white;
@@ -512,6 +520,10 @@
     background-color: var(--dark-yellow);
     transition: all 300ms linear;
     box-shadow: 0px 4px 25px 0px var(--dark-yellow);
+}
+
+.get_start_live_button:hover {
+    background-color: white;
 }
 
 .live_result_line {
@@ -722,7 +734,7 @@
     position: relative;
     right: 16px;
     bottom: 12px;
-    margin-top: 11px;
+    margin-top: 21px;
     z-index: 2;
 }
 
@@ -804,7 +816,7 @@
 }
 
 .form_input label {
-    margin: 8px 0;
+    margin-bottom: 8px;
 }
 
 .form_input input {
@@ -886,16 +898,8 @@ input:focus-visible {
 }
 
 .form_box {
-    padding: 0px 76px 75px 76px;
+    padding: 105px 88px 73px 88px;
     border-radius: 24px;
-}
-
-.form_spacing {
-    padding-top: 105px;
-}
-
-.form_content_spacing {
-    padding-top: 135px;
 }
 
 .form_max_w {
@@ -1178,6 +1182,10 @@ input::-webkit-inner-spin-button {
     mask-composite: exclude;
 }
 
+.pl-12 {
+    margin-left: -12px;
+}
+
 .swiper_card:hover::after {
     background: #00f3b91a;
     background: linear-gradient(103.58deg, #0078ff 6.83%, #37eebc 109.09%);
@@ -1228,13 +1236,16 @@ input::-webkit-inner-spin-button {
     border: 1px solid #FFFFFF !important;
     border-radius: 20px;
 }
-.add_comment_input_spacing{
+
+.add_comment_input_spacing {
     padding-bottom: 68px !important;
 }
+
 .success_story_sec_spacing {
     padding-bottom: 160px;
     padding-top: 160px;
 }
+
 .live_card_1 {
     position: relative;
     width: 339px !important;
@@ -1343,14 +1354,6 @@ input::-webkit-inner-spin-button {
         padding: 20px;
     }
 
-    .form_spacing {
-        padding-top: 32px;
-    }
-
-    .form_content_spacing {
-        padding-top: 75px;
-    }
-
     .goggle {
         max-width: 90px;
     }
@@ -1370,23 +1373,46 @@ input::-webkit-inner-spin-button {
 
 @media (max-width: 1024.98px) {
     .form_box {
-        padding: 60px;
+        padding: 40px;
     }
 
+    .success_story_sec_spacing {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+.add_comment_input_parent{
+    height: 80px !important;
+}
     .bg_form {
         background-size: cover;
+    }
+
+    .py-160 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .slider_spacing {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .live_sec_spacing {
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .form_box {
         border-radius: 16px;
     }
 
-    .form_spacing {
-        padding-top: 48px;
+    .pt-109 {
+        padding-top: 100px;
     }
 
-    .form_content_spacing {
-        padding-top: 0px;
+    .faq_sec_spacing {
+        padding-bottom: 100px;
+        padding-top: 100px;
     }
 
     .forbes_section_padding {
@@ -1442,6 +1468,12 @@ input::-webkit-inner-spin-button {
     .py-160 {
         padding-top: 70px;
         padding-bottom: 70px;
+    }
+
+    .footer_para {
+        max-width: 1138px;
+        text-align: center;
+        margin: auto;
     }
 }
 
@@ -1510,7 +1542,7 @@ input::-webkit-inner-spin-button {
     }
 
     .arbitrage_padding {
-        padding-bottom: 15px;
+        padding-bottom: 0;
     }
 
     .accordion .accordion-header::before {
@@ -1554,7 +1586,9 @@ input::-webkit-inner-spin-button {
         top: 10px;
         right: 10px;
     }
-
+.add_comment_input_parent {
+    height: 60px !important;
+}
     .live_position img {
         max-width: 60px;
         object-fit: cover;
@@ -1646,7 +1680,7 @@ input::-webkit-inner-spin-button {
     }
 
     .blue_tick {
-        width: 16px;
+        width: 25px;
     }
 
     .play_icon {
@@ -1691,11 +1725,7 @@ input::-webkit-inner-spin-button {
 
     .form_box {
         padding: 48px 12px;
-        border-radius: 0px;
-    }
-
-    .form_spacing {
-        padding-top: 24px;
+        border-radius: 24px;
     }
 
     .py-sm-48 {
@@ -1707,6 +1737,20 @@ input::-webkit-inner-spin-button {
         max-width: 230px;
     }
 
+    .pb-67 {
+        padding-bottom: 48px;
+    }
+
+    .faq_sec_spacing {
+        padding-bottom: 48px;
+        padding-top: 48px;
+    }
+
+    .live_sec_spacing {
+        padding-bottom: 48px;
+        padding-top: 48px;
+    }
+
     .user_profile {
         max-width: 40px;
     }
@@ -1714,9 +1758,11 @@ input::-webkit-inner-spin-button {
     .add_comment_input_parent {
         padding: 8.5px 15px;
     }
- .add_comment_input_parent {
-     height: 60px;
- }
+
+    .add_comment_input_parent {
+        height: 60px;
+    }
+
     .send_message_arrow {
         max-width: 20px;
     }
@@ -1745,6 +1791,24 @@ input::-webkit-inner-spin-button {
         height: 68px;
         top: -14%;
     }
+        .accordion .accordion-button::after {
+            transform: scale(2);
+            margin-top: 17px;
+            margin-right: -15px;
+        }
+    
+        .accordion .accordion-button:not(.collapsed)::after {
+            transform: scale(2);
+            margin-right: -15px;
+        }
+    .dots {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .gap-40 {
+        gap: 20px;
+    }
 
     .text_padding {
         padding-bottom: 10px !important;
@@ -1767,6 +1831,15 @@ input::-webkit-inner-spin-button {
 
     .pb-67 {
         padding-bottom: 35px;
+    }
+
+    .pl-5 {
+        padding-left: 5px;
+    }
+
+    .size {
+        width: 29px;
+
     }
 
     .review_slider_parent {
@@ -1802,6 +1875,10 @@ input::-webkit-inner-spin-button {
         height: 300px !important;
     }
 
+    .pt-sm-48 {
+        padding-top: 48px !important;
+    }
+
     .white_box {
         max-width: 325px !important;
         max-height: 125px;
@@ -1835,5 +1912,9 @@ input::-webkit-inner-spin-button {
         width: 250px;
         height: 60px;
         margin: 45px 35px;
+    }
+
+    .financial_text {
+        text-align: center;
     }
 }

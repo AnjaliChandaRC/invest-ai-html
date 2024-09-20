@@ -132,8 +132,7 @@
                     AI Arbitrage Method Pro
                 </h2>
                 <span class="text_bottom_line d-block mx-auto bg-white mb_53"></span>
-                <h2
-                    class="mix_text_shadow text-center text-white ff_oxygen fw-bold fs_xxll leading_124  mb-0">
+                <h2 class="mix_text_shadow text-center text-white ff_oxygen fw-bold fs_xxll leading_124  mb-0">
                     AI POWERED Arbitrage Method Pro
                 </h2>
                 <p class="mt-3 pt-1 text-center text-white ff_roboto fw-bold mix_text_shadow fs_xl leading_114">
@@ -282,7 +281,7 @@
                 <p
                     class="ff_roboto text-white font-normal text-center pt-lg-5 pt-4 mb-lg-5 mb-4 pb-xl-1 fs_lg leading_140">
                     Just apply this simple AI Method, and you'll instantly see where to
-                    buy, sell, and take profit within seconds. With up to <span class="text_yellow">93.2%</span> daily
+                    buy, sell, and take profit within seconds. With up to 93.2% daily
                     accuracy, our AI system simplifies your decisions and helps you
                     achieve consistent gains with minimal effort. Start today and
                     experience how effortless and profitable your account will grow
@@ -494,8 +493,13 @@
     </section>
     <!-- ========== LIVE RESULT ======= -->
     <section class="position-relative z-3 live_sec_spacing bg_purple px-20">
+        <video playsinline muted loop autoplay
+            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none opacity_10">
+            <source src="./assets/video/background-particle.webm" />
+            Your browser does not support the video tag.
+        </video>
         <div
-            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center  opacity_05 z-1 pointer_event_none sec_5_bg">
+            class="w-100 d-block position-absolute top-0 start-0 h-100 object-fit-cover bg-center z-n1 pointer_event_none">
         </div>
         <div class="container custom_container  position-relative z-3">
             <img class=" mx-auto d-flex group_people_icon mt-xl-2 mb-80" src="./assets/images/symbol-img.png"
@@ -910,7 +914,7 @@
                             <span class="mb-0">Quit a demanding job</span>
                         </li>
                         <li class="fw-normal ff_oxygen text-black fs_lg d-flex align-items-center gap-1">
-                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                            <svg class="size" width="22" height="22" viewBox="0 0 22 22" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_d_7314_5477)">
                                     <path
@@ -936,7 +940,7 @@
                                 </defs>
                             </svg>
 
-                            <span class="mb-0 ">
+                            <span class="mb-0 pl-5">
                                 Provide financial support to their family and friends
                             </span>
                         </li>
@@ -989,15 +993,14 @@
                                             id="tradingLastNameError"></p>
                                     </div>
                                 </div>
-                                <label for="email3"
-                                    class="text-black fw-normal fs_base ff_roboto pt_10 mt-1">Email</label>
+                                <label for="email3" class="text-black fw-normal fs_base ff_roboto pt_10">Email</label>
                                 <div class="rounded-pill mb-2">
                                     <input required
                                         class="rounded-pill bg-white w-100 px-3 text-black fw-normal fs_base ff_roboto"
                                         type="email" name="email" id="email" />
                                 </div>
                                 <p class="mb-0 error bg-white text-danger fw-normal fs_xs" id="tradingEmailError"></p>
-                                <label for="Number3" class="text-black fw-normal fs_base ff_roboto pt_10 mt-1">Phone
+                                <label for="Number3" class="text-black fw-normal fs_base ff_roboto pt_10">Phone
                                     Number</label>
                                 <input required
                                     class="rounded-pill bg-white max_h_37 trading_input w-100 pe-3 fs_sm ff_roboto"
@@ -1082,7 +1085,8 @@
                         <input id="commentInput" aria-label="comment"
                             class="w-100 bg-transparent border-0 add_comment_input fw-normal fs_base leading_145"
                             type="text" placeholder="Add a comment.." />
-                        <button id="submitButton" type="submit" class="bg-transparent border-0 p-0" disabled>
+                        <button style="cursor: pointer;" id="submitButton" type="submit"
+                            class="bg-transparent border-0 p-0" disabled>
                             <svg class="send_message_arrow" width="57" height="57" viewBox="0 0 57 57" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_7314_5594)">
@@ -1391,23 +1395,23 @@
     <footer>
         <div style="background: linear-gradient(0deg, #160724, #160724);">
             <div class="custom_container container">
-                <div class=" row   justify-content-between  pt-60 pb-52 px-20">
-                    <div class=" col-lg-3 col-12  pb-3 pb-md-4 pb-lg-4">
-                        <a href="/" class="">
+                <div class=" row justify-content-between pt-sm-48 pt-60 pb-52 px-20">
+                    <div class=" col-lg-3 col-12 pb-3 pb-md-4 pb-lg-4 pl-12">
+                        <a href="/" class="d-flex justify-content-center justify-content-lg-start">
                             <img class="method_pro_footer_logo" src="./assets/images/yellow_icon.png"
                                 alt="footer-logo" />
                         </a>
                         <p
-                            class="mx-auto text-left text-white ff_oxanium fs_2lg fw-semibold mb-0 mt-1 pt-2 mix_text_shadow">
+                            class="mx-auto text-left text-white ff_oxanium fs_2lg fw-semibold mb-0 mt-1 pt-2 mix_text_shadow d-flex justify-content-center justify-content-lg-start">
                             AI Arbitrage Method Pro
                         </p>
                         <p
-                            class="pt-2 mt-1 text-white text-left ff_inter fs_base mb-0 leading_160 opacity_08 ff_oxygen ">
+                            class="pt-2 mt-1 text-white text-left ff_inter fs_base mb-0 financial_text leading_160 opacity_08 ff_oxygen d-flex justify-content-center justify-content-lg-start">
                             Empowering Your Financial Future with Intelligent Investments
                         </p>
                     </div>
                     <div class="col-lg-8 col-12">
-                        <p class="fs_lg text-white text-left fw-bold mb-2 mb-sm-3 ff_oxygen">
+                        <p class="fs_lg text-white text-left fw-bold mb-2 mb-sm-3 ff_oxygen d-flex justify-content-center justify-content-lg-start">
                             Disclaimer
                         </p>
                         <p

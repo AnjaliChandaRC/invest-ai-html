@@ -56,6 +56,14 @@ const reviews = [
             "The AI Arbitrage system is fantastic. It’s helped me achieve impressive profits effortlessly.",
         imageUrl: "./assets/images/arbitrage-winner/devon-lane-profile.webp",
     },
+    {
+        title: "Paul Moore",
+        invested: 350,
+        profit: 8327,
+        description:
+            "This method is superb. It’s easy to use and delivers consistent profits.",
+        imageUrl: "./assets/images/arbitrage-winner/paul.webp",
+    },
 ];
 // Function to generate a review card
 function generateReviewCard(review) {

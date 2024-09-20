@@ -92,6 +92,7 @@
 .slider_card {
     position: relative;
     box-shadow: 0px 25px 39px -9px #00000017;
+    height: 228px !important;
 }
 
 .slider_card::before {
@@ -142,34 +143,25 @@
     border-radius: 32px;
     transition: all 300ms linear;
     border: 4px solid #45B568;
-    box-shadow: 0px 1.33px 33.3px 0px #FFFFFF;
     box-shadow: 0px 4px 4px 0px #00000030;
     box-shadow: 0px 0px 20px 0px #A2E33A;
     padding: 16.5px 28px;
     margin-top: 30px;
+    box-shadow: 0px 1.33px 33.3px 0px rgba(255, 255, 255, 1), 0px 4px 4px 0px rgba(0, 0, 0, 0.19), 0px 0px 20px 0px rgba(162, 227, 58, 1);
 }
+
 .hero_btn:hover {
-    background-color: var(-dark-gray);
-}
-.slider_green_box {
-    min-height: 200px;
-    border-radius: 20px;
-    padding: 21px 14px;
-    transition: all 0.3s ease-in-out;
-    border: 1px solid white;
-    box-shadow: 0px 25px 39px -9px #00000017;
-    margin-bottom: 48px;
+    box-shadow: none;
 }
 
 .slider_green_box {
-    min-height: 240px;
+    height: 200px;
     border-radius: 20px;
     padding: 21px 14px;
     transition: all 0.3s ease-in-out;
     border: 1px solid white;
     box-shadow: 0px 25px 39px -9px #00000017;
     margin-bottom: 48px;
-    margin-top: 10px;
 }
 
 .logo-container {
@@ -334,11 +326,12 @@
     background-color: #d8e700;
 }
 
+/* 
 .get_btn_live {
     max-width: 272px;
     gap: 19px;
     width: 100%;
-}
+} */
 
 .result_ul {
     max-width: 945px;
@@ -683,27 +676,31 @@
     background-color: var(--blue);
 }
 
-.hero_button {
+/* .hero_button {
     border: 4px solid #FFFFFF;
     border-radius: 32px;
     transition: all 300ms linear;
     background: #36CEF0;
-}
+} */
 
 .max_w_heading {
     max-width: 875px;
 }
 
-.get_start_button {
-    padding: 10.6px 24px;
-    margin-top: 20px;
-    border: 2px solid #FFFFFF;
+.get_btn {
+    margin-top: 30px;
+    padding: 12px 24px 12px 17px;
+    border-radius: 32px;
+    border: 2px solid var(--green);
+    transition: all 300ms linear;
+    background-color: white;
+    line-height: 115%;
+    box-shadow: 0px 1.33px 33.3px 0px rgba(255, 255, 255, 1), 0px 4px 4px 0px rgba(0, 0, 0, 0.19), 0px 0px 20px 0px rgba(162, 227, 58, 1);
 }
 
-.get_start_button:hover {
-    background-color: var(--yellow);
+.get_btn:hover {
+    box-shadow: none;
 }
-
 /* ======== LIVE RESULT ======== */
 .live_dot {
     width: 22px;
@@ -714,16 +711,6 @@
     padding-left: 12px;
     padding-right: 12px;
 }
-
-.get_start_live_button {
-    padding: 14px 26px;
-    border: 2px solid white;
-    border-radius: 32px;
-    background-color: #36cef0;
-    transition: all 300ms linear;
-    box-shadow: 0px 4px 25px 0px var(--bluish-cyan);
-}
-
 
 .live_result_line_1 {
     max-width: 550px;
@@ -933,7 +920,7 @@
 }
 
 .form_input label {
-    margin: 8px 0;
+    margin-bottom: 8px;
 }
 
 .form_input input {
@@ -951,10 +938,6 @@ input:focus-visible {
     margin-top: 35px;
     transition: all ease-in-out 300ms;
 
-}
-
-.sign_up_btn:hover {
-    color: var(--rich-black);
 }
 
 #first-counter {
@@ -997,7 +980,7 @@ input:focus-visible {
 }
 
 .form_box {
-    padding: 0px 76px 75px 76px;
+    padding: 105px 88px 73px 88px;
     border-radius: 24px;
 }
 
@@ -1384,15 +1367,6 @@ input::-webkit-inner-spin-button {
     margin-top: 10px;
 }
 
-.get_btn {
-    margin-top: 30px;
-    padding: 12px 24px 12px 17px;
-    border-radius: 32px;
-    border: 2px solid var(--green);
-    background-color: white;
-    line-height: 115%;
-    box-shadow: 0px 1.33px 33.3px 0px #FFFFFF;
-}
 
 .live_circle {
     width: 38px !important;
@@ -1465,14 +1439,6 @@ input::-webkit-inner-spin-button {
 }
 
 /* THANKS CSS START HERE */
-.form_spacing {
-    padding-top: 105px;
-}
-
-.form_content_spacing {
-    padding-top: 135px;
-}
-
 .form_max_w {
     max-width: 528px;
 }
@@ -1585,10 +1551,6 @@ input::-webkit-inner-spin-button {
         padding: 20px;
     }
 
-    .form_spacing {
-        padding-top: 32px;
-    }
-
     .form_content_spacing {
         padding-top: 75px;
     }
@@ -1640,10 +1602,6 @@ input::-webkit-inner-spin-button {
 
     .green_story_video {
         max-height: 230px !important;
-    }
-
-    .form_spacing {
-        padding-top: 48px;
     }
 
     .form_content_spacing {
@@ -1837,6 +1795,10 @@ input::-webkit-inner-spin-button {
         font-size: 24px;
     }
 
+    .forbes_img_spacing {
+        padding-bottom: 20px;
+    }
+
     .live_position {
         top: 10px;
         right: 10px;
@@ -1891,7 +1853,6 @@ input::-webkit-inner-spin-button {
 
 @media (max-width: 575.98px) {
     .hero_btn {
-
         margin-top: 15px;
     }
 
@@ -1983,10 +1944,6 @@ input::-webkit-inner-spin-button {
     .form_box {
         padding: 40px 12px !important;
         border-radius: 0px;
-    }
-
-    .form_spacing {
-        padding-top: 24px;
     }
 
     .footer_logo {
@@ -2104,33 +2061,33 @@ input::-webkit-inner-spin-button {
     }
 
     .marketsco_img {
-        width: 200.69px;
+        width: 270.69px;
         height: 51.97px;
         margin-top: 48px !important;
         margin: auto;
     }
 
     .cg_wise_img {
-        width: 110.74px;
+        width: 190.74px;
         height: 95.8px;
-        margin-top: 45px !important;
+        margin-top: 55px !important;
     }
 
     .fargo_investor_img {
-        width: 189.86px;
+        width: 270.86px;
         height: 97px;
-        margin-top: 45px !important;
+        margin-top: 55px !important;
     }
 
     .financial_img {
-        width: 130.59px;
+        width: 250.59px;
         height: 73.88px;
-        margin-top: 45px !important;
+        margin-top: 55px !important;
     }
 
     .reserve_img {
-        width: 220.87px;
+        width: 270.87px;
         height: 73.88px;
-        margin-top: 45px !important;
+        margin-top: 55px !important;
     }
 }
