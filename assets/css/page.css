@@ -701,6 +701,7 @@
 .get_btn:hover {
     box-shadow: none;
 }
+
 /* ======== LIVE RESULT ======== */
 .live_dot {
     width: 22px;
@@ -1612,9 +1613,38 @@ input::-webkit-inner-spin-button {
         padding: 100px 0;
     }
 
+    .success_story_sec_spacing {
+        padding-bottom: 68px !important;
+        padding-top: 100px;
+    }
+
     .slider_box {
         height: 365px;
     }
+
+    .live_sec_spacing {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .faq_spacing {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .thank-you_sec_spacing {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .comment_sec_spacing {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+         .add_comment_input_parent {
+             padding: 15px 20px;
+             height: 80px;
+         }
 
     .slider_col {
         flex-direction: column;
@@ -1822,6 +1852,10 @@ input::-webkit-inner-spin-button {
         height: 16px;
     }
 
+    .ml-22 {
+        margin-left: 0;
+    }
+
     .px-md-12 {
         padding-left: 12px;
         padding-right: 12px;
@@ -1926,10 +1960,6 @@ input::-webkit-inner-spin-button {
         border-radius: 16px !important;
     }
 
-    .reviewSwiper {
-        padding: 40px 12px 0px 12px;
-    }
-
     .countdown_digit_box {
         height: 50px;
         width: 50px;
@@ -2018,6 +2048,10 @@ input::-webkit-inner-spin-button {
 
     .ml-22 {
         margin-left: 0;
+    }
+
+    .reviewSwiper {
+        padding: 40px 12px 0px;
     }
 
     .logo_spacing {
