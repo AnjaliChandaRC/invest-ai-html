@@ -49,6 +49,10 @@
 
 }
 
+.get_start_live_button:hover {
+    background: white;
+}
+
 .faq_questionmark_img {
     max-width: 337px;
 }
@@ -376,9 +380,11 @@ input:focus-visible {
     width: 150px;
     height: 112px;
 }
-.input_spacing{
+
+.input_spacing {
     padding-bottom: 68px;
 }
+
 .wall_street_journal_image {
     width: 189px;
     height: 80px;
@@ -706,13 +712,16 @@ input::-webkit-inner-spin-button {
     .video-container {
         border-radius: 18px;
     }
-.tele_img{
-    max-width: 40px;
-    height: 40px;
-}
-.mb-24{
-    margin-bottom: 24px;
-}
+
+    .tele_img {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .mb-24 {
+        margin-bottom: 24px;
+    }
+
     .tick_space {
         margin-top: 2px;
     }
@@ -776,7 +785,8 @@ input::-webkit-inner-spin-button {
     border-radius: 50%;
     left: 47%;
 }
-.px-20{
+
+.px-20 {
     padding-left: 20px !important;
     padding-right: 20px !important;
 }
@@ -930,7 +940,6 @@ input::-webkit-inner-spin-button {
     box-shadow: 0px 12px 30px 0px #706af34d;
 }
 
-
 .max_w_heading {
     max-width: 875px;
 }
@@ -939,6 +948,9 @@ input::-webkit-inner-spin-button {
     padding: 8.7px 29.3px;
 }
 
+.get_start_button:hover {
+    background: white;
+}
 
 /* =========================================================== logo slider code  ===================================================== */
 
@@ -1140,19 +1152,23 @@ input::-webkit-inner-spin-button {
     padding: 1px;
     border-radius: 15px;
 }
-.mt_67{
+
+.mt_67 {
     margin-top: 67px !important;
 }
+
 .hero_sec_spacing {
     padding-bottom: 94px;
     padding-top: 21px;
     margin-bottom: -3px;
 }
-.success_spacing{
+
+.success_spacing {
     padding-top: 160px;
     padding-bottom: 160px;
     margin-bottom: -3px;
 }
+
 .header_center_ellipse {
     position: absolute;
     top: 30%;
@@ -1442,11 +1458,13 @@ input::-webkit-inner-spin-button {
 .success_story_slider {
     padding-bottom: 280px;
 }
+
 .faq_sec_spacing {
     padding-top: 160px;
     padding-bottom: 160px;
     margin-bottom: -3px;
 }
+
 .swiper-pagination-bullet-active {
     width: 24px !important;
     height: 12px;
@@ -1606,7 +1624,8 @@ input::-webkit-inner-spin-button {
         min-width: 305px;
         height: 127px;
     }
-/* 
+
+    /* 
     .form_data_width {
         width: 554px !important;
     } */
@@ -1630,16 +1649,36 @@ input::-webkit-inner-spin-button {
     .form_box {
         padding: 60px;
     }
-          .hero_sec_spacing {
-              padding-bottom: 90px;
-              padding-top: 21px;
-          }
-                  .success_spacing {
-                      padding-top: 30px;
-                  }
- .story_video {
-     height: 220px;
- }
+
+    .hero_sec_spacing {
+        padding-bottom: 0;
+        padding-top: 21px;
+    }
+
+    .success_spacing {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .live_sec_spacing {
+        padding-top: 50px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .faq_sec_spacing {
+        padding-top: 0 !important;
+        padding-bottom: 74px !important;
+    }
+
+    .comment_sec_spacing {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .story_video {
+        height: 220px;
+    }
+
     .bg_form {
         background-size: cover;
     }
@@ -1654,6 +1693,10 @@ input::-webkit-inner-spin-button {
 
     .forbes_section_padding {
         padding: 100px 0;
+    }
+
+    .ai_success_story_spacing {
+        padding-top: 0px;
     }
 
     .mb_150_lg {
@@ -1810,10 +1853,12 @@ input::-webkit-inner-spin-button {
         height: 16px;
         background-color: #ffd900;
     }
-.faq_sec_spacing {
-    padding-bottom: 80px;
-    padding-top: 80px;
-}
+
+    .faq_sec_spacing {
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+
     .blue_box_padding3 {
         margin-top: 0px;
     }
@@ -1825,9 +1870,11 @@ input::-webkit-inner-spin-button {
     .result_tick_box {
         height: 145px;
     }
-.story_video {
-    height: 200px;
-}
+
+    .story_video {
+        height: 200px;
+    }
+
     .page_logo_size {
         max-width: 80px;
     }
@@ -1845,8 +1892,17 @@ input::-webkit-inner-spin-button {
         padding-bottom: 80px;
     }
 
+    .mt_67 {
+        margin-top: 50px !important;
+    }
+
     .gap_40 {
         gap: 40px !important;
+    }
+
+    .success_spacing {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
     }
 
     .hero_sec_spacing {
@@ -1958,7 +2014,7 @@ input::-webkit-inner-spin-button {
     }
 
     .live_sec_spacing {
-        padding-top: 60px;
+        padding-top: 80px;
         padding-bottom: 0;
     }
 
@@ -1982,10 +2038,11 @@ input::-webkit-inner-spin-button {
         padding-top: 21px;
         padding-bottom: 0;
     }
-        .comment_sec_spacing {
-            padding-top: 80px;
-            padding-bottom: 80px;
-        }
+
+    .comment_sec_spacing {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
 }
 
 @media (max-width: 639.98px) {
@@ -2081,12 +2138,20 @@ input::-webkit-inner-spin-button {
         width: 110px;
         height: 60px;
     }
-  .success_spacing {
-      padding-top: 30px;
-  }
+
+    .success_spacing {
+        padding-top: 48px !important;
+        padding-bottom: 48px !important;
+    }
+
     .wall_street_journal_image {
         width: 149px;
         height: 60px;
+    }
+
+    .live_sec_spacing {
+        padding-top: 48px !important;
+        padding-bottom: 0 !important;
     }
 
     .the_new_york_times_image {
@@ -2207,19 +2272,24 @@ input::-webkit-inner-spin-button {
     .flex_xsm_col {
         flex-direction: column !important;
     }
- .faq_sec_spacing {
-     padding-bottom: 48px;
-     padding-top: 48px;
- }
+
+    .faq_sec_spacing {
+        padding-bottom: 48px;
+        padding-top: 48px;
+    }
+
     .review_slider_parent {
         margin-top: 8px;
     }
-        .show_more_comments_parent {
-           margin-bottom: 25px;
-        }
-.input_spacing {
-    padding-bottom: 40px;
-}
+
+    .show_more_comments_parent {
+        margin-bottom: 25px;
+    }
+
+    .input_spacing {
+        padding-bottom: 40px;
+    }
+
     .slider_box {
         min-height: 260px;
     }
@@ -2237,15 +2307,18 @@ input::-webkit-inner-spin-button {
         margin-left: 25px;
         margin-right: 25px;
     }
-         .common-section-spacing {
-             padding-top: 48px;
-             padding-bottom: 48px;
-         }
-                  .ai_success_story_spacing {
-                      padding-top: 0;
-                  }
-                  .comment_sec_spacing{
-                    padding-top: 48px;
-                    padding-bottom: 48px;
-                  }
+
+    .common-section-spacing {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .ai_success_story_spacing {
+        padding-top: 0;
+    }
+
+    .comment_sec_spacing {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
 }
