@@ -1641,10 +1641,11 @@ input::-webkit-inner-spin-button {
         padding-top: 100px !important;
         padding-bottom: 100px !important;
     }
-         .add_comment_input_parent {
-             padding: 15px 20px;
-             height: 80px;
-         }
+
+    .add_comment_input_parent {
+        padding: 15px 20px;
+        height: 80px;
+    }
 
     .slider_col {
         flex-direction: column;
