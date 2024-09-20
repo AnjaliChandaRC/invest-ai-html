@@ -442,6 +442,7 @@ input::-webkit-inner-spin-button {
     border: 1px solid #747474;
     border-radius: 114px;
     padding: 23px 34px;
+    height: 91px;
 }
 
 .add_comment_input:focus {
@@ -449,7 +450,7 @@ input::-webkit-inner-spin-button {
 }
 
 .add_comment_input::placeholder {
-    color: var(--light-white);
+    color: white !important;
 }
 
 .send_message_arrow {
@@ -688,59 +689,7 @@ input::-webkit-inner-spin-button {
     position: relative;
 }
 
-@media (max-width: 767.9px) {
-    .live_position {
-        top: 10px;
-        right: 10px;
-    }
 
-    .live_position img {
-        max-width: 60px;
-        object-fit: cover;
-    }
-
-    .video-container {
-        border-radius: 24px;
-    }
-
-    .counter {
-        bottom: 20px;
-    }
-}
-
-@media (max-width: 575.9px) {
-    .video-container {
-        border-radius: 18px;
-    }
-
-    .tele_img {
-        max-width: 40px;
-        height: 40px;
-    }
-
-    .mb-24 {
-        margin-bottom: 24px;
-    }
-
-    .tick_space {
-        margin-top: 2px;
-    }
-
-    #soundIcon1,
-    #soundIcon2,
-    #soundIcon3,
-    #soundIcon5,
-    #soundIcon6,
-    #soundIcon7 {
-        width: 20px;
-    }
-}
-
-@media (max-width: 1200px) and (min-width: 992px) {
-    .tick_space {
-        margin-top: 4px;
-    }
-}
 
 .bg_gradient_blue {
     background: linear-gradient(133.83deg, #00b9ff 3.77%, #6f69f2 81.07%);
@@ -755,6 +704,10 @@ input::-webkit-inner-spin-button {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+.text_light_white {
+    color: white;
 }
 
 .common-gradient {
@@ -1522,6 +1475,12 @@ input::-webkit-inner-spin-button {
     }
 }
 
+@media (max-width: 1200px) and (min-width: 992px) {
+    .tick_space {
+        margin-top: 4px;
+    }
+}
+
 @media (max-width: 1440px) {
     .common_ellipse {
         height: 344px;
@@ -1854,9 +1813,26 @@ input::-webkit-inner-spin-button {
         background-color: #ffd900;
     }
 
+    .live_position {
+        top: 10px;
+        right: 10px;
+    }
+
+    .live_position img {
+        max-width: 60px;
+        object-fit: cover;
+    }
+
+    .video-container {
+        border-radius: 24px;
+    }
+
+    .counter {
+        bottom: 20px;
+    }
+
     .faq_sec_spacing {
-        padding-bottom: 80px;
-        padding-top: 80px;
+        padding-bottom: 80px !important;
     }
 
     .blue_box_padding3 {
@@ -1932,6 +1908,7 @@ input::-webkit-inner-spin-button {
 
     .accordion .accordion-button::after {
         transform: scale(2);
+        margin-top: 5px;
     }
 
     .accordion .accordion-button:not(.collapsed)::after {
@@ -2014,8 +1991,8 @@ input::-webkit-inner-spin-button {
     }
 
     .live_sec_spacing {
-        padding-top: 80px;
-        padding-bottom: 0;
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
     }
 
     .pt-4 {
@@ -2040,8 +2017,13 @@ input::-webkit-inner-spin-button {
     }
 
     .comment_sec_spacing {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    .add_comment_input_parent {
+        /* padding: 8.5px 15px; */
+        height: 70px;
     }
 }
 
@@ -2052,10 +2034,37 @@ input::-webkit-inner-spin-button {
 }
 
 @media (max-width: 575.98px) {
-    .reviewSwiper {
-        padding: 80px 12px;
+    .mt-14{
+        margin-top: 14px !important;
     }
+    .reviewSwiper {
+        padding: 61px 12px;
+    }
+  .video-container {
+      border-radius: 18px;
+  }
 
+  .tele_img {
+      max-width: 40px;
+      height: 40px;
+  }
+
+  .mb-24 {
+      margin-bottom: 24px;
+  }
+
+  .tick_space {
+      margin-top: 2px;
+  }
+
+  #soundIcon1,
+  #soundIcon2,
+  #soundIcon3,
+  #soundIcon5,
+  #soundIcon6,
+  #soundIcon7 {
+      width: 20px;
+  }
     .success_story_slider {
         padding-bottom: 80px;
     }
@@ -2090,6 +2099,7 @@ input::-webkit-inner-spin-button {
 
     .add_comment_input_parent {
         padding: 8.5px 15px;
+        height: 60px;
     }
 
     .send_message_arrow {
@@ -2274,8 +2284,8 @@ input::-webkit-inner-spin-button {
     }
 
     .faq_sec_spacing {
-        padding-bottom: 48px;
-        padding-top: 48px;
+        padding-bottom: 48px !important;
+        padding-top: 48px !important;
     }
 
     .review_slider_parent {
@@ -2318,7 +2328,7 @@ input::-webkit-inner-spin-button {
     }
 
     .comment_sec_spacing {
-        padding-top: 48px;
-        padding-bottom: 48px;
+        padding-top: 48px !important;
+        padding-bottom: 48px !important;
     }
 }

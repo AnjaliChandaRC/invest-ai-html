@@ -839,7 +839,7 @@
     position: relative;
     right: 16px;
     bottom: 12px;
-    margin-top: 11px;
+    margin-top: 21px;
     z-index: 2;
 }
 
@@ -1392,6 +1392,10 @@ input::-webkit-inner-spin-button {
     padding-bottom: 113px;
 }
 
+.white-space {
+    width: 251px;
+}
+
 .pt-42 {
     padding-top: 42px;
 }
@@ -1578,6 +1582,10 @@ input::-webkit-inner-spin-button {
         min-height: 215px;
     }
 
+    .white-space {
+        width: 180px;
+    }
+
     .sponsor_slide {
         display: flex;
     }
@@ -1621,6 +1629,7 @@ input::-webkit-inner-spin-button {
     .slider_box {
         height: 365px;
     }
+
 
     .live_sec_spacing {
         padding-top: 100px !important;
@@ -1713,6 +1722,12 @@ input::-webkit-inner-spin-button {
 }
 
 @media (max-width: 768px) {
+    .footer_para {
+        text-align: center;
+    }
+    .text-md-center{
+        text-align: center;
+    }
 
     .form_input input {
         min-height: 40px;
@@ -2034,8 +2049,8 @@ input::-webkit-inner-spin-button {
     }
 
     .thank-you_sec_spacing {
-        padding-top: 48px;
-        padding-bottom: 48px;
+        padding-top: 48px !important;
+        padding-bottom: 48px !important;
     }
 
     .success_story_sec_spacing {

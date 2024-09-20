@@ -398,6 +398,7 @@ form .iti__selected-flag {
   :root {
     --fs-base: 14px;
     --fs-md: 15px;
+    --fs-lg:14px;
     --fs-2lg: 15px;
     --fs-3lg: 15px;
     --fs-xl: 20px;
