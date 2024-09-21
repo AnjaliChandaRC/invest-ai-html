@@ -1345,8 +1345,6 @@ input::-webkit-inner-spin-button {
     }
 }
 
-@media(max-width:1439.98px) {}
-
 @media (max-width: 1024.98px) {
     .mb-50 {
         margin-bottom: 50px;
